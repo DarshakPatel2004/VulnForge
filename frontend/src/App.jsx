@@ -168,7 +168,7 @@ export default function App() {
             </div>
             <div className="topbar-right">
               <div className="topbar-pill">
-                <span className="pill-label">Last sync</span>
+                <span className="pill-label">Last successful sync</span>
                 <span className="pill-value">{latestSync ? new Date(latestSync).toLocaleString() : 'Unavailable'}</span>
               </div>
               <button id="btn-logout" className="btn btn-ghost" onClick={handleLogout}>Sign out</button>

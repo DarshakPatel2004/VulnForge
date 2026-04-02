@@ -158,7 +158,7 @@ export default function Dashboard({ onToast, onStatusRefresh }) {
           <div className="eyebrow">Operations summary</div>
           <h1 className="hero-title">Threat posture at a glance</h1>
           <p className="hero-copy">
-            Review your most important exposure counts, monitor feed health, and launch a fresh sync without leaving the dashboard.
+            Review the risk that matters most, check source health at a glance, and kick off a fresh sync without leaving the dashboard.
           </p>
         </div>
         <div className="hero-actions">
@@ -184,7 +184,7 @@ export default function Dashboard({ onToast, onStatusRefresh }) {
               <div className="eyebrow">Distribution</div>
               <h2>Severity mix</h2>
             </div>
-            <p className="section-note">A quick read on where the risk is concentrated right now.</p>
+            <p className="section-note">A quick read on where exposure is clustering right now.</p>
           </div>
           <div className="card-body chart-body split-chart">
             <div className="chart-container tall-chart">
@@ -202,7 +202,7 @@ export default function Dashboard({ onToast, onStatusRefresh }) {
               <div className="eyebrow">Feed health</div>
               <h2>Source status</h2>
             </div>
-            <p className="section-note">Last successful fetch and any source-specific errors.</p>
+            <p className="section-note">Latest fetch timestamps with source-specific health notes.</p>
           </div>
           <div className="card-body source-status-grid">
             {['nvd', 'cisa_kev', 'otx'].map((source) => (
@@ -218,7 +218,7 @@ export default function Dashboard({ onToast, onStatusRefresh }) {
             <div className="eyebrow">Priority queue</div>
             <h2>Recent high-severity CVEs</h2>
           </div>
-          <p className="section-note">Click a row for full detail and IoCs.</p>
+          <p className="section-note">Open any row to inspect the record and attached indicators.</p>
         </div>
         <div className="table-shell">
           {recentCves.length === 0 ? (

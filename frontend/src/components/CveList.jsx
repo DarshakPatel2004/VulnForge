@@ -72,7 +72,7 @@ export default function CveList({ onToast }) {
         <div>
           <div className="eyebrow">Search and triage</div>
           <h1 className="hero-title">CVE database</h1>
-          <p className="hero-copy">Filter the vulnerability inventory, sort for review, and drill into the records that need action first.</p>
+          <p className="hero-copy">Filter the inventory, sort for review, and move quickly from broad search to detailed triage.</p>
         </div>
         <div className="hero-metrics">
           <div className="metric-chip"><span className="metric-value">{skip / LIMIT + 1}</span><span className="metric-label">Page</span></div>
@@ -116,8 +116,8 @@ export default function CveList({ onToast }) {
               <input type="checkbox" checked={kevOnly} onChange={(e) => { setKevOnly(e.target.checked); setSkip(0); }} />
               Known exploited only
             </label>
-            <button id="btn-search" type="submit" className="btn btn-primary">Apply</button>
-            <button type="button" className="btn btn-ghost" onClick={clearFilters}>Clear</button>
+            <button id="btn-search" type="submit" className="btn btn-primary">Apply filters</button>
+            <button type="button" className="btn btn-ghost" onClick={clearFilters}>Clear all</button>
           </form>
 
           {activeFilters.length > 0 ? (

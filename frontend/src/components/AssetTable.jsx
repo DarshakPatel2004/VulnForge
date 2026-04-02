@@ -65,7 +65,7 @@ export default function AssetTable({ onToast }) {
         <div>
           <div className="eyebrow">Coverage management</div>
           <h1 className="hero-title">Asset inventory</h1>
-          <p className="hero-copy">Track infrastructure, attach CPEs, and inspect which known vulnerabilities map back to your environment.</p>
+          <p className="hero-copy">Track systems, attach CPEs, and see which known vulnerabilities map back to your environment.</p>
         </div>
         <div className="hero-metrics">
           <div className="metric-chip"><span className="metric-value">{assets.length}</span><span className="metric-label">Assets</span></div>
@@ -88,7 +88,7 @@ export default function AssetTable({ onToast }) {
               <div className="eyebrow">New asset</div>
               <h2>Capture a tracked system</h2>
             </div>
-            <p className="section-note">CPE is optional, but it unlocks direct CVE matching.</p>
+            <p className="section-note">CPE is optional, but adding it unlocks direct CVE matching.</p>
           </div>
           <div className="card-body">
             <form onSubmit={handleAdd} className="asset-form-grid">

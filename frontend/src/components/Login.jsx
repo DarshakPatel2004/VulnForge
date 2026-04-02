@@ -35,7 +35,7 @@ export default function Login({ onLogin }) {
           <div className="eyebrow">Threat visibility</div>
           <h1>Operate your local vulnerability command center.</h1>
           <p>
-            Track high-risk CVEs, monitor feed health, map assets to exposures, and export fresh detection rules from one focused workspace.
+            Track high-risk CVEs, monitor feed health, map assets to exposure, and export fresh detection rules from one focused workspace.
           </p>
           <div className="login-feature-list">
             <div className="login-feature-card">
@@ -56,7 +56,7 @@ export default function Login({ onLogin }) {
         <div className="login-box">
           <div className="login-kicker">Secure access</div>
           <h2>Sign in to VulnTracker</h2>
-          <p className="login-sub">Use the credentials configured in your local environment.</p>
+          <p className="login-sub">Use the credentials configured in your local environment to enter the workspace.</p>
 
           <form onSubmit={handleSubmit}>
             <div className="form-group">

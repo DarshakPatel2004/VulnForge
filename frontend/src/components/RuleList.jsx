@@ -61,7 +61,7 @@ export default function RuleList({ onToast }) {
         <div>
           <div className="eyebrow">Detection outputs</div>
           <h1 className="hero-title">Security rules</h1>
-          <p className="hero-copy">Review generated detections, reload them on demand, and export the rule set needed by your stack.</p>
+          <p className="hero-copy">Inspect generated detections, refresh them on demand, and export the format your tooling needs.</p>
         </div>
         <div className="hero-actions">
           <button id="btn-regenerate-rules" className="btn btn-primary" onClick={regenerateAll} disabled={generating}>
