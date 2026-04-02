@@ -11,7 +11,7 @@
   <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/></a>
   <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/></a>
   <a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/SQLite-Local_DB-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/></a>
-  <a href="./key"><img src="https://img.shields.io/badge/License-Proprietary-FF4444?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License"/></a>
+
 </p>
 
 <p align="center">
