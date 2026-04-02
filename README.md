@@ -1,68 +1,111 @@
-# Vulnerability Tracker
+<div align="center">
 
-Vulnerability Tracker is a local threat intelligence and rule generation app. It pulls vulnerability data from multiple sources, stores it in SQLite, exposes it through a FastAPI API, and provides a React dashboard for browsing CVEs, managing assets, and exporting detection rules.
+# 🛡️ Vulnerability Tracker
 
-## What it does
+**A local threat intelligence platform for aggregating CVEs, managing assets, and auto-generating detection rules.**
 
-- Aggregates vulnerability data from NVD, CISA KEV, and AlienVault OTX
-- Stores CVEs, IoCs, fetch logs, and assets in a local SQLite database
-- Generates Snort/Suricata, Sigma, and JSON rule outputs
-- Exposes authenticated API endpoints for CVEs, assets, fetch jobs, and rules
-- Runs scheduled sync jobs in the background while the backend is running
-- Includes a frontend dashboard for login, stats, CVE browsing, rules, and asset tracking
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![SQLite](https://img.shields.io/badge/SQLite-Local_DB-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](./key)
 
-## Tech stack
+</div>
 
-- Backend: Python, FastAPI, SQLModel, SQLite, APScheduler, httpx
-- Frontend: React 18, Vite, Chart.js, Axios
-- Auth: HTTP Basic auth backed by environment variables
+---
 
-## Project structure
+## ✨ Overview
 
-```text
-backend/
-  app/
-    routers/      API routes for CVEs, assets, fetch jobs, and rules
-    services/     Integrations for NVD, CISA KEV, and OTX
-    main.py       FastAPI app entry point
-    scheduler.py  Daily and hourly background sync jobs
-frontend/
-  src/            React application source
-scripts/          Utility and maintenance scripts
-output_rules/     Generated rule files at the repo root
-public/           Static frontend assets
-requirements.txt  Python dependencies
+Vulnerability Tracker is a **self-hosted threat intelligence and detection-rule generation platform**. It pulls vulnerability data from multiple public feeds, enriches it with IoC data, stores everything locally in SQLite, and surfaces it through a FastAPI backend and a React dashboard.
+
+> **No cloud dependency. No data leaves your machine. Runs fully offline after the initial sync.**
+
+---
+
+## 🚀 Features
+
+| Feature | Description |
+|---|---|
+| 📡 **Multi-source Aggregation** | Pulls from NVD, CISA KEV, and AlienVault OTX automatically |
+| 🗄️ **Local Storage** | All CVEs, IoCs, fetch logs, and assets stored in a local SQLite database |
+| 🔁 **Scheduled Syncs** | Daily full sync + hourly incremental sync running in the background |
+| 🧠 **Asset Intelligence** | Map assets to CPE strings and auto-discover matching CVEs |
+| 📜 **Rule Generation** | One-click export of Snort/Suricata, Sigma, and JSON alert rules |
+| 🔐 **Auth Protected** | HTTP Basic auth on all sensitive API routes |
+| 📊 **React Dashboard** | Login, CVE browsing, stats charts, asset management, rule exports |
+
+---
+
+## 🏗️ Tech Stack
+
+```
+Backend   │  Python 3.11 · FastAPI · SQLModel · APScheduler · httpx
+Frontend  │  React 18 · Vite · Chart.js · Axios
+Database  │  SQLite (local, zero-config)
+Auth      │  HTTP Basic auth via environment variables
+Rules     │  Snort / Suricata · Sigma · JSON
 ```
 
-## Prerequisites
+---
 
-- Python 3.11+
-- Node.js 18+ with npm
+## 📁 Project Structure
 
-## Environment variables
+```
+vulnerability-tracker/
+├── backend/
+│   └── app/
+│       ├── routers/        # API routes: CVEs, assets, fetch jobs, rules
+│       ├── services/       # Source integrations: NVD, CISA KEV, OTX
+│       ├── main.py         # FastAPI app entry point
+│       └── scheduler.py    # Background sync job definitions
+├── frontend/
+│   └── src/                # React 18 application source
+├── scripts/                # Maintenance & utility scripts
+├── output_rules/           # Generated rule files (snort.rules, sigma.yml, alerts.json)
+├── public/                 # Static frontend assets
+├── requirements.txt        # Python dependencies
+└── .env                    # Local config (not committed)
+```
 
-Create a `.env` file in the project root. The app reads configuration from there at startup.
+---
+
+## ⚙️ Prerequisites
+
+- **Python** `3.11+`
+- **Node.js** `18+` with `npm`
+
+---
+
+## 🔑 Environment Setup
+
+Create a `.env` file at the **project root** before running anything:
 
 ```env
-NVD_API_KEY=your_nvd_api_key
-OTX_API_KEY=your_otx_api_key
+# --- Data Sources ---
+NVD_API_KEY=your_nvd_api_key          # Strongly recommended for higher rate limits
+OTX_API_KEY=your_otx_api_key          # Required for OTX enrichment & rule coverage
+
+# --- Auth ---
 BASIC_AUTH_USERNAME=admin
-BASIC_AUTH_PASSWORD=changeme
-DATABASE_URL=sqlite:///./vuln_tracker.db
+BASIC_AUTH_PASSWORD=changeme           # Change this!
+
+# --- Database ---
+DATABASE_URL=sqlite:///./vuln_tracker.db   # Defaults to this if omitted
+
+# --- Server ---
 APP_HOST=0.0.0.0
 APP_PORT=8000
 DEBUG=true
 ```
 
-Notes:
+> [!TIP]
+> Get your free NVD API key at [nvd.nist.gov/developers/request-an-api-key](https://nvd.nist.gov/developers/request-an-api-key). Without it, requests are rate-limited to 5 req/30s.
 
-- `NVD_API_KEY` is strongly recommended for better rate limits.
-- `OTX_API_KEY` is needed for OTX enrichment and rule generation coverage.
-- If `DATABASE_URL` is omitted, the backend defaults to `sqlite:///./vuln_tracker.db`.
+---
 
-## Installation
+## 🛠️ Installation
 
-### Backend
+### 1 · Backend
 
 ```powershell
 cd D:\sideproject\vulnerability-tracker
@@ -70,99 +113,152 @@ python -m venv venv
 .\venv\Scripts\pip install -r requirements.txt
 ```
 
-### Frontend
+### 2 · Frontend
 
 ```powershell
 cd D:\sideproject\vulnerability-tracker\frontend
 npm install
 ```
 
-## Running locally
+---
 
-Start the backend in one terminal:
+## ▶️ Running Locally
 
+Open **two terminals** side by side:
+
+**Terminal 1 — Backend**
 ```powershell
 cd D:\sideproject\vulnerability-tracker
 .\venv\Scripts\python -m uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-Start the frontend in a second terminal:
-
+**Terminal 2 — Frontend**
 ```powershell
 cd D:\sideproject\vulnerability-tracker\frontend
 npm run dev
 ```
 
-Open:
+Then open your browser:
 
-- Frontend: `http://localhost:5173`
-- API: `http://localhost:8000`
-- Swagger docs: `http://localhost:8000/docs`
+| Service | URL |
+|---|---|
+| 🖥️ Dashboard | http://localhost:5173 |
+| ⚡ API | http://localhost:8000 |
+| 📖 Swagger Docs | http://localhost:8000/docs |
 
-Log in with `BASIC_AUTH_USERNAME` and `BASIC_AUTH_PASSWORD` from your `.env` file.
+Log in with the `BASIC_AUTH_USERNAME` / `BASIC_AUTH_PASSWORD` values from your `.env` file.
 
-## Scheduled jobs
+---
 
-The backend scheduler starts automatically with the FastAPI app.
+## ⏰ Scheduled Jobs
 
-- Daily full sync at `02:00 UTC`
-- Hourly incremental sync at the top of each hour
+The scheduler starts automatically with FastAPI. No extra configuration needed.
 
-## Main API routes
+| Job | Schedule | Description |
+|---|---|---|
+| Full Sync | Daily at `02:00 UTC` | Fetches all data from NVD, CISA KEV, and OTX |
+| Incremental Sync | Every hour (`:00`) | Pulls only recent changes since last sync |
 
-All routes except the health check require HTTP Basic auth.
+---
 
-### Health and auth
+## 🔌 API Reference
 
-- `GET /` - service status
-- `GET /auth/verify` - validate credentials
+> All routes except `GET /` require **HTTP Basic auth**.
 
-### CVEs
+<details>
+<summary><strong>🩺 Health &amp; Auth</strong></summary>
 
-- `GET /cves/` - list CVEs with filtering and pagination
-- `GET /cves/stats` - dashboard summary stats
-- `GET /cves/{cve_id}` - CVE details with IoCs
+| Method | Route | Description |
+|---|---|---|
+| `GET` | `/` | Service status / health check |
+| `GET` | `/auth/verify` | Validate credentials |
 
-### Fetch jobs
+</details>
 
-- `GET /fetch/all` - start a full sync
-- `GET /fetch/nvd` - start an NVD fetch
-- `GET /fetch/cisa-kev` - sync the KEV catalog
-- `GET /fetch/otx` - fetch OTX data for recent CVEs
-- `GET /fetch/status` - inspect last fetch status by source
+<details>
+<summary><strong>🐛 CVEs</strong></summary>
 
-### Assets
+| Method | Route | Description |
+|---|---|---|
+| `GET` | `/cves/` | List CVEs with filtering & pagination |
+| `GET` | `/cves/stats` | Dashboard summary statistics |
+| `GET` | `/cves/{cve_id}` | CVE detail with associated IoCs |
 
-- `GET /assets/` - list assets
-- `POST /assets/` - create an asset
-- `GET /assets/{asset_id}` - get one asset
-- `DELETE /assets/{asset_id}` - delete an asset
-- `GET /assets/{asset_id}/cves` - find CVEs matching an asset CPE
+</details>
 
-### Rules
+<details>
+<summary><strong>🔄 Fetch Jobs</strong></summary>
 
-- `GET /rules/snort` - generate or return Snort rules
-- `GET /rules/snort/download` - download `snort.rules`
-- `GET /rules/sigma` - generate or return Sigma rules
-- `GET /rules/sigma/download` - download `sigma.yml`
-- `GET /rules/json` - generate or return JSON alerts
-- `GET /rules/json/download` - download `alerts.json`
+| Method | Route | Description |
+|---|---|---|
+| `GET` | `/fetch/all` | Trigger a full sync from all sources |
+| `GET` | `/fetch/nvd` | Trigger NVD fetch only |
+| `GET` | `/fetch/cisa-kev` | Sync the CISA KEV catalog |
+| `GET` | `/fetch/otx` | Fetch OTX data for recent CVEs |
+| `GET` | `/fetch/status` | Inspect last fetch status per source |
 
-## Generated outputs
+</details>
 
-Generated rule files are written to `output_rules/` by default, relative to the directory where you start the backend process:
+<details>
+<summary><strong>🖥️ Assets</strong></summary>
 
-- `snort.rules`
-- `sigma.yml`
-- `alerts.json`
+| Method | Route | Description |
+|---|---|---|
+| `GET` | `/assets/` | List all tracked assets |
+| `POST` | `/assets/` | Create a new asset |
+| `GET` | `/assets/{asset_id}` | Get a single asset |
+| `DELETE` | `/assets/{asset_id}` | Delete an asset |
+| `GET` | `/assets/{asset_id}/cves` | Find CVEs matching the asset's CPE |
 
-## Data sources
+</details>
 
-- [NVD API](https://nvd.nist.gov/developers/vulnerabilities)
-- [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-- [AlienVault OTX](https://otx.alienvault.com/)
+<details>
+<summary><strong>📜 Rules</strong></summary>
 
-## Helpful scripts
+| Method | Route | Description |
+|---|---|---|
+| `GET` | `/rules/snort` | Generate / return Snort rules |
+| `GET` | `/rules/snort/download` | Download `snort.rules` |
+| `GET` | `/rules/sigma` | Generate / return Sigma rules |
+| `GET` | `/rules/sigma/download` | Download `sigma.yml` |
+| `GET` | `/rules/json` | Generate / return JSON alerts |
+| `GET` | `/rules/json/download` | Download `alerts.json` |
 
-The `scripts/` folder contains utility scripts for syncing, diagnostics, data inspection, and CPE correction work. These are useful for maintenance but are not required to run the main app.
+</details>
 
+---
+
+## 📤 Generated Outputs
+
+Rule files are written to `output_rules/` (relative to where you launch the backend):
+
+```
+output_rules/
+├── snort.rules      # Snort / Suricata IDS rules
+├── sigma.yml        # Sigma SIEM detection rules
+└── alerts.json      # JSON-formatted alert payloads
+```
+
+---
+
+## 🌐 Data Sources
+
+| Source | Description | Link |
+|---|---|---|
+| **NVD** | National Vulnerability Database (NIST) | [nvd.nist.gov](https://nvd.nist.gov/developers/vulnerabilities) |
+| **CISA KEV** | Known Exploited Vulnerabilities Catalog | [cisa.gov/kev](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) |
+| **AlienVault OTX** | Open Threat Exchange IoC feeds | [otx.alienvault.com](https://otx.alienvault.com/) |
+
+---
+
+## 🧰 Utility Scripts
+
+The `scripts/` directory contains maintenance tools for syncing, diagnostics, data inspection, and CPE correction. These are **not required** to run the main app but are helpful for day-to-day operations.
+
+---
+
+<div align="center">
+
+Made with 🔐 for defenders who prefer their data local.
+
+</div>
