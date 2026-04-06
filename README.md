@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=%F0%9F%9B%A1%EF%B8%8F+VulnForge;Local+Threat+Intelligence;CVE+%7C+IoC+%7C+Detection+Rules" alt="VulnForge" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=%F0%9F%9B%A1%EF%B8%8F+VulnGuard;Local+Threat+Intelligence;CVE+%7C+IoC+%7C+Detection+Rules" alt="VulnGuard" />
 
 <p align="center">
   <strong>A self-hosted threat intelligence platform — aggregate CVEs, manage assets, and auto-generate detection rules. Fully local. Zero cloud dependency.</strong>
@@ -87,6 +87,11 @@ cd frontend && npm install && cd ..
     <td>HTTP Basic auth guards all sensitive routes via environment variables</td>
   </tr>
   <tr>
+    <td>🛡️</td>
+    <td><strong>Automated Obfuscation</strong></td>
+    <td>Built-in security layer that automatically encodes plain-text API keys in .env on startup</td>
+  </tr>
+  <tr>
     <td>📊</td>
     <td><strong>React Dashboard</strong></td>
     <td>CVE browsing, severity charts, asset tracking, rule exports — all in one UI</td>
@@ -157,7 +162,7 @@ flowchart TD
 ## 📁 Project Structure
 
 ```
-vulnforge/  (vulnerability-tracker/)
+vulnguard/  (vulnerability-tracker/)
 │
 ├── backend/
 │   └── app/
@@ -180,11 +185,7 @@ vulnforge/  (vulnerability-tracker/)
 
 ## 🔑 Environment Setup
 
-1. **Copy the template**:
-   ```bash
-   cp .env.example .env
-   ```
-2. **Configure your keys**: Open `.env` and add your plain-text API keys. 
+To get started, create a `.env` file in the project root (you can use `.env.example` as a template) and add your plain-text API keys. 
 
 > [!TIP]
 > **Automatic Obfuscation**: The project features a built-in security layer. The first time you start the backend, it will automatically detect any plain-text keys in your `.env` file and encode them to Base64 (prefixed with `b64:`) to prevent accidental "over-the-shoulder" exposure.
@@ -195,8 +196,6 @@ vulnforge/  (vulnerability-tracker/)
 |:---:|---|---|
 | **NVD (NIST)** | [Request at nvd.nist.gov](https://nvd.nist.gov/developers/request-an-api-key) | Increases rate limits (50 req/30s vs 5 req/30s) |
 | **AlienVault OTX** | [Sign up at otx.alienvault.com](https://otx.alienvault.com/) | **Required** for IoC enrichment and threat intelligence pulse data |
-
----
 
 ---
 
@@ -380,7 +379,7 @@ The `scripts/` directory contains maintenance tools for manual syncing, diagnost
 
 ---
 
-**VulnForge — built for blue teamers who believe their threat data belongs to them.**
+**VulnGuard — built for blue teamers who believe their threat data belongs to them.**
 
 *No telemetry. No SaaS. No subscriptions. Just your data, your rules, your machine.*
 
