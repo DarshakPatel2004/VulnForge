@@ -68,40 +68,35 @@ export default function CveList({ onToast }) {
 
   return (
     <div className="page-stack fade-in">
-      <section className="hero-panel compact-hero">
+      <section className="horizontal-between">
         <div>
           <div className="eyebrow">Search and triage</div>
           <h1 className="hero-title">CVE database</h1>
           <p className="hero-copy">Filter the inventory, sort for review, and move quickly from broad search to detailed triage.</p>
         </div>
-        <div className="hero-metrics">
-          <div className="metric-chip"><span className="metric-value">{skip / LIMIT + 1}</span><span className="metric-label">Page</span></div>
-          <div className="metric-chip"><span className="metric-value">{cves.length}</span><span className="metric-label">Shown</span></div>
-          <div className="metric-chip"><span className="metric-value">{activeFilters.length}</span><span className="metric-label">Filters</span></div>
-        </div>
       </section>
 
       <div className="card">
         <div className="card-header card-header-stack">
-          <div>
-            <div className="eyebrow">Query controls</div>
-            <h2>Refine results</h2>
-          </div>
+          <h2>Refine results</h2>
           <p className="section-note">Combine severity, KEV, and free-text search to narrow the list.</p>
         </div>
         <div className="card-body">
           <form className="filter-bar" onSubmit={handleSearch}>
-            <input
-              id="cve-search"
-              className="input-search"
-              type="text"
-              placeholder="Search by CVE ID or description"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-            />
+            <div style={{ flex: '1 1 300px' }}>
+              <input
+                id="cve-search"
+                className="input-search"
+                type="text"
+                placeholder="Search by CVE ID or description"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+              />
+            </div>
             <select
               id="severity-filter"
               className="select-filter"
+              style={{ width: 'auto' }}
               value={severity}
               onChange={(e) => { setSeverity(e.target.value); setSkip(0); }}
             >
@@ -109,7 +104,7 @@ export default function CveList({ onToast }) {
                 <option key={item} value={item}>{item || 'All severities'}</option>
               ))}
             </select>
-            <select className="select-filter" value={sortMode} onChange={(e) => setSortMode(e.target.value)}>
+            <select className="select-filter" style={{ width: 'auto' }} value={sortMode} onChange={(e) => setSortMode(e.target.value)}>
               {SORTS.map((item) => <option key={item} value={item}>{item}</option>)}
             </select>
             <label className="checkbox-filter">
@@ -131,10 +126,10 @@ export default function CveList({ onToast }) {
       <div className="card">
         <div className="card-header horizontal-between">
           <div>
-            <div className="eyebrow">Results</div>
-            <h2>{sortedCves.length ? `${sortedCves.length} records on this page` : 'No records found'}</h2>
+            <h2>{sortedCves.length ? `${activeFilters.length ? 'Filtered results' : 'Database entries'}` : 'No records found'}</h2>
+            <p className="section-note">Showing page {Math.floor(skip / LIMIT) + 1}</p>
           </div>
-          <button className="btn btn-ghost" onClick={() => load(skip)}>Refresh</button>
+          <button className="btn btn-secondary btn-small" onClick={() => load(skip)}>Refresh</button>
         </div>
         <div className="table-shell">
           {loading ? <div className="spinner" /> : null}
@@ -158,12 +153,12 @@ export default function CveList({ onToast }) {
               </thead>
               <tbody>
                 {sortedCves.map((cve) => (
-                  <tr key={cve.cve_id} onClick={() => setSelected(cve)}>
+                  <tr key={cve.cve_id} onClick={() => setSelected(cve)} style={{ cursor: 'pointer' }}>
                     <td><span className="mono cve-id">{cve.cve_id}</span></td>
-                    <td>{cve.cvss_v3_severity ? <span className={`badge badge-${cve.cvss_v3_severity}`}>{cve.cvss_v3_severity}</span> : <span className="muted-cell">--</span>}</td>
-                    <td className="score-cell" style={{ color: scoreColor(cve.cvss_v3_score) }}>{cve.cvss_v3_score ?? '--'}</td>
+                    <td>{cve.cvss_v3_severity ? <span className={`badge badge-${cve.cvss_v3_severity}`}>{cve.cvss_v3_severity}</span> : <span style={{ color: 'var(--text-muted)' }}>--</span>}</td>
+                    <td className="score-cell">{cve.cvss_v3_score ?? '--'}</td>
                     <td>{cve.is_kev ? <span className="badge badge-kev">KEV</span> : '--'}</td>
-                    <td className="muted-cell">{cve.published ? new Date(cve.published).toLocaleDateString() : '--'}</td>
+                    <td className="mono" style={{ color: 'var(--text-secondary)' }}>{cve.published ? new Date(cve.published).toLocaleDateString() : '--'}</td>
                     <td className="description-cell">{cve.description || '--'}</td>
                   </tr>
                 ))}
@@ -174,7 +169,7 @@ export default function CveList({ onToast }) {
 
         <div className="card-footer pagination-bar">
           <button
-            className="btn btn-ghost"
+            className="btn btn-secondary"
             disabled={skip === 0}
             onClick={() => {
               const next = Math.max(0, skip - LIMIT);
@@ -182,11 +177,11 @@ export default function CveList({ onToast }) {
               load(next);
             }}
           >
-            Previous
+            ← Previous
           </button>
           <span className="pagination-label">Page {Math.floor(skip / LIMIT) + 1}</span>
           <button
-            className="btn btn-ghost"
+            className="btn btn-secondary"
             disabled={cves.length < LIMIT}
             onClick={() => {
               const next = skip + LIMIT;
@@ -194,7 +189,7 @@ export default function CveList({ onToast }) {
               load(next);
             }}
           >
-            Next
+            Next →
           </button>
         </div>
       </div>
@@ -204,20 +199,16 @@ export default function CveList({ onToast }) {
   );
 }
 
-function scoreColor(score) {
-  if (!score) return 'var(--text-muted)';
-  if (score >= 9) return 'var(--critical)';
-  if (score >= 7) return 'var(--high)';
-  if (score >= 4) return 'var(--medium)';
-  return 'var(--low)';
-}
-
 function CveDrawerInline({ cve, onClose }) {
   const [detail, setDetail] = useState(null);
 
   useEffect(() => {
     api.get(`/cves/${cve.cve_id}`).then(setDetail).catch(() => {});
   }, [cve.cve_id]);
+
+  function formatDateTime(value) {
+    return value ? new Date(value).toLocaleString() : 'Not available';
+  }
 
   return (
     <>
@@ -232,11 +223,11 @@ function CveDrawerInline({ cve, onClose }) {
               {cve.is_kev ? <span className="badge badge-kev">CISA KEV</span> : null}
             </div>
           </div>
-          <button className="drawer-close" onClick={onClose}>Close</button>
+          <button className="drawer-close" onClick={onClose}>×</button>
         </div>
         <div className="drawer-section">
           <h3>Description</h3>
-          <p>{cve.description || 'No description available.'}</p>
+          <p style={{ color: 'var(--text-secondary)' }}>{cve.description || 'No description available.'}</p>
         </div>
         <div className="drawer-section">
           <h3>Indicators of compromise ({detail?.iocs?.length ?? 0})</h3>
@@ -249,11 +240,13 @@ function CveDrawerInline({ cve, onClose }) {
                 </div>
               ))}
             </div>
-          ) : <p className="muted-copy">No IoCs found for this CVE.</p>}
+          ) : <p style={{ color: 'var(--text-muted)' }}>No IoCs found for this CVE.</p>}
         </div>
-        <a href={`https://nvd.nist.gov/vuln/detail/${cve.cve_id}`} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
-          Open in NVD
-        </a>
+        <div className="drawer-section" style={{ marginTop: '32px' }}>
+            <a href={`https://nvd.nist.gov/vuln/detail/${cve.cve_id}`} target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ width: '100%' }}>
+            Open in NVD →
+            </a>
+        </div>
       </div>
     </>
   );

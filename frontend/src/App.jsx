@@ -14,10 +14,10 @@ import AssetTable from './components/AssetTable.jsx';
 import './styles/design.css';
 
 const PAGES = [
-  { id: 'dashboard', label: 'Dashboard', meta: 'Ops overview' },
-  { id: 'cves', label: 'CVE Database', meta: 'Search and triage' },
-  { id: 'rules', label: 'Detection Rules', meta: 'Generated outputs' },
-  { id: 'assets', label: 'Asset Inventory', meta: 'Coverage and matches' },
+  { id: 'dashboard', label: 'Dashboard', meta: 'Ops overview', icon: '📊' },
+  { id: 'cves', label: 'CVE Database', meta: 'Search and triage', icon: '🔍' },
+  { id: 'assets', label: 'Asset Inventory', meta: 'Coverage and matches', icon: '💻' },
+  { id: 'rules', label: 'Security Rules', meta: 'Generated outputs', icon: '🛡️' },
 ];
 
 function formatRelative(iso) {
@@ -34,11 +34,12 @@ function formatRelative(iso) {
 }
 
 function Toast({ toasts }) {
+  if (toasts.length === 0) return null;
   return (
     <div className="toast-container" aria-live="polite" aria-atomic="true">
       {toasts.map((t) => (
-        <div key={t.id} className={`toast ${t.type}`}>
-          <div className="toast-title">{t.type === 'success' ? 'Success' : 'Notice'}</div>
+        <div key={t.id} className={`toast ${t.type} fade-in`}>
+          <div className="toast-title">{t.type === 'success' ? 'Success' : t.type === 'error' ? 'Error' : 'Notice'}</div>
           <div>{t.message}</div>
         </div>
       ))}
@@ -112,44 +113,27 @@ export default function App() {
       <div className="app-shell">
         <aside className="sidebar">
           <div className="sidebar-brand-block">
-            <div className="eyebrow">Security operations</div>
             <div className="brand-title">VulnForge</div>
-            <p className="brand-copy">Threat visibility, asset coverage, and rule generation in one local workspace.</p>
-          </div>
-
-          <div className="sidebar-section-label">Workspace</div>
-          <div className="status-panel">
-            <div>
-              <div className="status-kicker">Sync posture</div>
-              <div className="status-headline">{formatRelative(latestSync)}</div>
-            </div>
-            <div className="status-indicator ok">
-              <span className="status-dot" />
-              Connected
-            </div>
           </div>
 
           <div className="sidebar-section-label">Navigation</div>
           <nav className="sidebar-nav">
-            {PAGES.map((item, index) => (
+            {PAGES.map((item) => (
               <button
                 key={item.id}
                 type="button"
                 className={`sidebar-item ${page === item.id ? 'active' : ''}`}
                 onClick={() => setPage(item.id)}
               >
-                <span className="nav-index">0{index + 1}</span>
-                <span>
-                  <span className="nav-label">{item.label}</span>
-                  <span className="nav-meta">{item.meta}</span>
-                </span>
+                <span className="icon" role="img" aria-label={item.label}>{item.icon}</span>
+                <span className="nav-label">{item.label}</span>
               </button>
             ))}
           </nav>
 
-          <div className="sidebar-section-label">Sources</div>
+          <div className="sidebar-section-label" style={{ marginTop: '24px' }}>Sources</div>
           <div className="source-list">
-            <a className="source-link" href="https://nvd.nist.gov" target="_blank" rel="noopener noreferrer">NVD</a>
+            <a className="source-link" href="https://nvd.nist.gov" target="_blank" rel="noopener noreferrer">NVD (Updates)</a>
             <a className="source-link" href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">CISA KEV</a>
             <a className="source-link" href="https://otx.alienvault.com" target="_blank" rel="noopener noreferrer">AlienVault OTX</a>
           </div>
@@ -171,7 +155,7 @@ export default function App() {
                 <span className="pill-label">Last successful sync</span>
                 <span className="pill-value">{latestSync ? new Date(latestSync).toLocaleString() : 'Unavailable'}</span>
               </div>
-              <button id="btn-logout" className="btn btn-ghost" onClick={handleLogout}>Sign out</button>
+              <button id="btn-logout" className="btn btn-secondary" onClick={handleLogout}>Sign out</button>
             </div>
           </header>
 
@@ -185,6 +169,7 @@ export default function App() {
                 className={`mobile-nav-item ${page === item.id ? 'active' : ''}`}
                 onClick={() => setPage(item.id)}
               >
+                <span className="icon">{item.icon}</span>
                 <span className="mobile-nav-label">{item.label}</span>
               </button>
             ))}

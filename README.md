@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/images/logo.png" alt="VulnForge Logo" width="120" />
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=%F0%9F%9B%A1%EF%B8%8F+VulnForge;Local+Threat+Intelligence;CVE+%7C+IoC+%7C+Detection+Rules" alt="VulnForge" />
 
 <p align="center">
@@ -21,6 +23,18 @@
   <a href="#-api-reference">API Reference</a> •
   <a href="#-data-sources">Data Sources</a>
 </p>
+
+</div>
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+| Dashboard | CVE Browser |
+|:---:|:---:|
+| <img src="docs/images/dashboard.png" alt="Dashboard" width="480" /> | <img src="docs/images/cve-browser.png" alt="CVE Browser" width="480" /> |
 
 </div>
 
@@ -92,6 +106,11 @@ cd frontend && npm install && cd ..
     <td>Built-in security layer that automatically encodes plain-text API keys in .env on startup</td>
   </tr>
   <tr>
+    <td>🎨</td>
+    <td><strong>Dark-First Design System</strong></td>
+    <td>Amber-accented cybersecurity dashboard with Inter + JetBrains Mono typography, glassmorphism, and micro-animations</td>
+  </tr>
+  <tr>
     <td>📊</td>
     <td><strong>React Dashboard</strong></td>
     <td>CVE browsing, severity charts, asset tracking, rule exports — all in one UI</td>
@@ -150,9 +169,10 @@ flowchart TD
 | Layer | Technology |
 |:---:|:---|
 | **Backend** | Python 3.11 · FastAPI · SQLModel · APScheduler · httpx |
-| **Frontend** | React 18 · Vite · Chart.js · Axios |
-| **Database** | SQLite — local, zero-config, no server needed |
+| **Frontend** | React 18 · Vite · Chart.js · react-chartjs-2 |
+| **Database** | SQLite — local, zero-config, WAL mode for concurrency |
 | **Auth** | HTTP Basic auth — credentials from `.env` |
+| **Design** | Inter + JetBrains Mono · CSS Variables · Dark-first amber accent system |
 | **Rule Formats** | Snort / Suricata · Sigma YAML · JSON Alerts |
 
 </div>
@@ -166,17 +186,41 @@ vulnforge/  (vulnerability-tracker/)
 │
 ├── backend/
 │   └── app/
-│       ├── routers/        ← API routes: CVEs, assets, fetch jobs, rules
-│       ├── services/       ← Source integrations: NVD, CISA KEV, OTX
-│       ├── main.py         ← FastAPI app entry point
-│       └── scheduler.py    ← Background sync job definitions
+│       ├── main.py              ← FastAPI app entry point
+│       ├── models.py            ← SQLModel schemas (CVE, IoC, Asset, FetchLog, GeneratedRule)
+│       ├── database.py          ← SQLite engine with WAL mode
+│       ├── auth.py              ← HTTP Basic Auth
+│       ├── config.py            ← Environment config + auto-obfuscation
+│       ├── scheduler.py         ← Background sync job definitions
+│       ├── rule_generator.py    ← Snort, Sigma, JSON rule generation
+│       ├── routers/
+│       │   ├── cves.py          ← /cves, /cves/{id}, /cves/stats
+│       │   ├── fetcher.py       ← /fetch/{all|nvd|cisa-kev|otx|status}
+│       │   ├── rules.py         ← /rules/{snort|sigma|json}[/download]
+│       │   └── assets.py        ← CRUD + /assets/{id}/cves (CPE matching)
+│       └── services/
+│           ├── nvd_service.py       ← NVD API 2.0 fetcher
+│           ├── cisa_kev_service.py  ← CISA KEV catalog fetcher
+│           └── otx_service.py       ← AlienVault OTX IoC fetcher
 │
 ├── frontend/
-│   └── src/                ← React 18 application source
+│   └── src/
+│       ├── main.jsx             ← React entry point
+│       ├── App.jsx              ← App shell: sidebar, topbar, routing, toasts
+│       ├── api.js               ← HTTP client with Basic Auth
+│       ├── components/
+│       │   ├── Login.jsx        ← Split-layout auth with feature cards
+│       │   ├── Dashboard.jsx    ← Stat cards, severity charts, source health
+│       │   ├── CveList.jsx      ← CVE browser with search, filters, pagination
+│       │   ├── AssetTable.jsx   ← Asset CRUD with CPE input, match drawer
+│       │   └── RuleList.jsx     ← Tabbed view for Snort/Sigma/JSON rules
+│       └── styles/
+│           └── design.css       ← Design system (tokens, components, animations)
 │
 ├── scripts/                ← Maintenance & utility scripts
 ├── output_rules/           ← 📜 Generated: snort.rules · sigma.yml · alerts.json
-├── public/                 ← Static frontend assets
+├── docs/images/            ← README screenshots and logo
+├── design.md               ← Full design system specification
 ├── requirements.txt        ← Python dependencies
 └── .env                    ← 🔒 Local config (not committed)
 ```

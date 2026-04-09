@@ -57,17 +57,19 @@ export default function RuleList({ onToast }) {
 
   return (
     <div className="page-stack fade-in">
-      <section className="hero-panel compact-hero">
+      <section className="horizontal-between">
         <div>
           <div className="eyebrow">Detection outputs</div>
           <h1 className="hero-title">Security rules</h1>
           <p className="hero-copy">Inspect generated detections, refresh them on demand, and export the format your tooling needs.</p>
         </div>
-        <div className="hero-actions">
+        <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
           <button id="btn-regenerate-rules" className="btn btn-primary" onClick={regenerateAll} disabled={generating}>
             {generating ? 'Starting job...' : 'Regenerate all'}
           </button>
-          <button id="btn-download-rules" className="btn btn-ghost" onClick={downloadRules} disabled={!content}>Download current file</button>
+          <button id="btn-download-rules" className="btn btn-secondary" onClick={downloadRules} disabled={!content}>
+            Download file
+          </button>
         </div>
       </section>
 
@@ -88,34 +90,30 @@ export default function RuleList({ onToast }) {
       <div className="card">
         <div className="card-header horizontal-between">
           <div>
-            <div className="eyebrow">Active format</div>
-            <h2>{active.label}</h2>
+            <h2>{active.label} Preview</h2>
+            <p className="section-note">{active.description}</p>
           </div>
-          <button className="btn btn-ghost" onClick={() => loadRules(activeTab)}>Load output</button>
+          <button className="btn btn-secondary" onClick={() => loadRules(activeTab)}>
+            {content ? 'Refresh Output' : 'Load Output'}
+          </button>
         </div>
+        
         <div className="card-body">
-          <p className="section-note">{active.description}</p>
-        </div>
-      </div>
-
-      <div className="card">
-        <div className="card-header horizontal-between">
-          <div>
-            <div className="eyebrow">Preview</div>
-            <h2>Generated output</h2>
-          </div>
-          <span className="section-note">{content ? `${content.split('\n').length} lines` : 'Not loaded yet'}</span>
-        </div>
-        <div className="card-body rule-panel-body">
           {loading ? <div className="spinner" /> : null}
           {!loading && !content ? (
             <div className="empty-state">
-              <div className="empty-icon">Rule preview</div>
-              Load the active format to inspect the generated content.
+              <div className="empty-icon" style={{ fontSize: '24px', marginBottom: '16px' }}>📄</div>
+              <div style={{ fontWeight: 500, color: 'var(--text-primary)' }}>Rule preview</div>
+              <div style={{ marginTop: '4px' }}>Load the active format to inspect the generated content.</div>
             </div>
           ) : null}
           {!loading && content ? (
-            <div className="rule-output">
+            <div className="rule-output fade-in">
+              <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '8px' }}>
+                <span className="mono" style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
+                  {content.split('\n').length} lines
+                </span>
+              </div>
               <pre>{content}</pre>
             </div>
           ) : null}

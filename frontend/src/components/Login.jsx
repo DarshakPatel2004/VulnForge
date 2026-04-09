@@ -31,7 +31,7 @@ export default function Login({ onLogin }) {
   return (
     <div className="login-page">
       <div className="login-layout">
-        <section className="login-aside">
+        <section className="login-aside fade-in">
           <div className="eyebrow">Threat visibility</div>
           <h1>Operate your local vulnerability command center.</h1>
           <p>
@@ -53,7 +53,7 @@ export default function Login({ onLogin }) {
           </div>
         </section>
 
-        <div className="login-box">
+        <div className="login-box fade-in">
           <div className="login-kicker">Secure access</div>
           <h2>Sign in to VulnForge</h2>
           <p className="login-sub">Use the credentials configured in your local environment to enter the workspace.</p>
@@ -63,6 +63,7 @@ export default function Login({ onLogin }) {
               <label htmlFor="username">Username</label>
               <input
                 id="username"
+                className="input-search mono-num"
                 type="text"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
@@ -75,6 +76,7 @@ export default function Login({ onLogin }) {
               <label htmlFor="password">Password</label>
               <input
                 id="password"
+                className="input-search"
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -83,7 +85,7 @@ export default function Login({ onLogin }) {
               />
             </div>
 
-            {error ? <div className="login-error">{error}</div> : null}
+            {error ? <div className="login-error fade-in">{error}</div> : null}
 
             <button id="login-submit" type="submit" className="login-btn" disabled={loading}>
               {loading ? 'Signing in...' : 'Enter workspace'}

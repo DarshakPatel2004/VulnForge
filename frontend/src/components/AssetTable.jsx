@@ -61,33 +61,42 @@ export default function AssetTable({ onToast }) {
 
   return (
     <div className="page-stack fade-in">
-      <section className="hero-panel compact-hero">
+      <section className="horizontal-between">
         <div>
           <div className="eyebrow">Coverage management</div>
           <h1 className="hero-title">Asset inventory</h1>
           <p className="hero-copy">Track systems, attach CPEs, and see which known vulnerabilities map back to your environment.</p>
         </div>
-        <div className="hero-metrics">
-          <div className="metric-chip"><span className="metric-value">{assets.length}</span><span className="metric-label">Assets</span></div>
-          <div className="metric-chip"><span className="metric-value">{assetsWithCpe}</span><span className="metric-label">With CPE</span></div>
-          <div className="metric-chip"><span className="metric-value">{assetsWithIp}</span><span className="metric-label">With IP</span></div>
+        <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+          <button id="btn-add-asset" className="btn btn-primary" onClick={() => setShowForm((prev) => !prev)}>
+            {showForm ? 'Close form' : '+ Add asset'}
+          </button>
+          <button className="btn btn-secondary" onClick={loadAssets}>Refresh inventory</button>
         </div>
       </section>
 
-      <div className="section-actions">
-        <button id="btn-add-asset" className="btn btn-primary" onClick={() => setShowForm((prev) => !prev)}>
-          {showForm ? 'Close form' : 'Add asset'}
-        </button>
-        <button className="btn btn-ghost" onClick={loadAssets}>Refresh inventory</button>
+      <div className="stats-grid">
+        <div className="stat-card">
+          <div className="stat-card-header"><span className="stat-label">Total Assets</span></div>
+          <span className="stat-value mono-num">{assets.length}</span>
+          <span className="stat-detail">Tracked systems</span>
+        </div>
+        <div className="stat-card">
+          <div className="stat-card-header"><span className="stat-label">With CPE</span></div>
+          <span className="stat-value mono-num">{assetsWithCpe}</span>
+          <span className="stat-detail">Vulnerability mapped</span>
+        </div>
+        <div className="stat-card">
+          <div className="stat-card-header"><span className="stat-label">With IP</span></div>
+          <span className="stat-value mono-num">{assetsWithIp}</span>
+          <span className="stat-detail">Network visibility</span>
+        </div>
       </div>
 
       {showForm ? (
         <div className="card fade-in">
           <div className="card-header card-header-stack">
-            <div>
-              <div className="eyebrow">New asset</div>
-              <h2>Capture a tracked system</h2>
-            </div>
+            <h2>Capture a tracked system</h2>
             <p className="section-note">CPE is optional, but adding it unlocks direct CVE matching.</p>
           </div>
           <div className="card-body">
@@ -98,7 +107,7 @@ export default function AssetTable({ onToast }) {
               </div>
               <div className="form-group">
                 <label htmlFor="asset-ip">IP address</label>
-                <input id="asset-ip" className="input-search" type="text" placeholder="192.168.1.1" value={form.ip_address} onChange={(e) => setForm({ ...form, ip_address: e.target.value })} />
+                <input id="asset-ip" className="input-search mono" type="text" placeholder="192.168.1.1" value={form.ip_address} onChange={(e) => setForm({ ...form, ip_address: e.target.value })} />
               </div>
               <div className="form-group form-group-wide">
                 <label htmlFor="asset-cpe">CPE string</label>
@@ -108,7 +117,7 @@ export default function AssetTable({ onToast }) {
                 <label htmlFor="asset-desc">Description</label>
                 <input id="asset-desc" className="input-search" type="text" placeholder="Edge firewall for branch office traffic" value={form.description} onChange={(e) => setForm({ ...form, description: e.target.value })} />
               </div>
-              <div className="form-actions form-group-wide">
+              <div className="form-group-wide" style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '16px' }}>
                 <button id="btn-save-asset" type="submit" className="btn btn-primary" disabled={saving}>
                   {saving ? 'Saving...' : 'Save asset'}
                 </button>
@@ -118,15 +127,14 @@ export default function AssetTable({ onToast }) {
         </div>
       ) : null}
 
-      <div className="card asset-table-card">
+      <div className="card">
         <div className="card-header horizontal-between">
           <div>
-            <div className="eyebrow">Tracked systems</div>
-            <h2>{assets.length} assets in inventory</h2>
+            <h2>Tracked systems</h2>
+            <p className="section-note">View vulnerability matches from the right-side drawer.</p>
           </div>
-          <span className="section-note">View vulnerability matches from the right-side drawer.</span>
         </div>
-        <div className="table-shell asset-table-shell">
+        <div className="table-shell">
           {loading ? <div className="spinner" /> : null}
           {!loading && assets.length === 0 ? (
             <div className="empty-state">
@@ -149,14 +157,14 @@ export default function AssetTable({ onToast }) {
               <tbody>
                 {assets.map((asset) => (
                   <tr key={asset.id}>
-                    <td className="strong-cell">{asset.name}</td>
+                    <td style={{ fontWeight: 600 }}>{asset.name}</td>
                     <td><span className="mono">{asset.ip_address || '--'}</span></td>
-                    <td><span className="mono cpe-cell">{asset.cpe || '--'}</span></td>
+                    <td><span className="mono" style={{ color: 'var(--color-info)' }}>{asset.cpe || '--'}</span></td>
                     <td className="description-cell">{asset.description || '--'}</td>
-                    <td className="muted-cell">{asset.created_at ? new Date(asset.created_at).toLocaleDateString() : '--'}</td>
+                    <td className="mono" style={{ color: 'var(--text-muted)' }}>{asset.created_at ? new Date(asset.created_at).toLocaleDateString() : '--'}</td>
                     <td>
-                      <div className="action-group">
-                        <button className="btn btn-ghost btn-small" onClick={() => setSelectedAsset(asset)}>View matches</button>
+                      <div style={{ display: 'flex', gap: '8px' }}>
+                        <button className="btn btn-secondary btn-small" onClick={() => setSelectedAsset(asset)}>View matches</button>
                         <button className="btn btn-danger btn-small" onClick={() => handleDelete(asset.id, asset.name)}>Delete</button>
                       </div>
                     </td>
@@ -191,9 +199,9 @@ function AssetCveDrawer({ asset, onClose }) {
           <div>
             <div className="eyebrow">Asset match view</div>
             <h2>{asset.name}</h2>
-            <div className="muted-copy mono">{asset.cpe || 'No CPE string configured'}</div>
+            <div className="mono" style={{ color: 'var(--text-secondary)' }}>{asset.cpe || 'No CPE string configured'}</div>
           </div>
-          <button className="drawer-close" onClick={onClose}>Close</button>
+          <button className="drawer-close" onClick={onClose}>×</button>
         </div>
 
         <div className="drawer-section">
@@ -201,24 +209,25 @@ function AssetCveDrawer({ asset, onClose }) {
 
           {loading ? <div className="spinner" /> : null}
           {!loading && data?.cves?.length === 0 ? (
-            <div className="empty-state compact-empty-state">
-              <div className="empty-icon">No matches</div>
-              No known CVEs in the database currently match this asset CPE.
+            <div className="empty-state">
+              <div className="empty-icon" style={{ fontSize: '24px', marginBottom: '16px' }}>🛡️</div>
+              <div style={{ fontWeight: 500, color: 'var(--text-primary)' }}>No matches found</div>
+              <div style={{ marginTop: '4px' }}>No known CVEs in the database currently match this asset CPE.</div>
             </div>
           ) : null}
 
           {!loading && data?.cves?.length > 0 ? (
-            <div className="ioc-list asset-match-list">
+            <div className="ioc-list">
               {data.cves.map((cve) => (
-                <div key={cve.cve_id} className="ioc-item asset-match-item">
+                <div key={cve.cve_id} className="asset-match-item">
                   <div className="asset-match-top">
-                    <strong className="cve-id">{cve.cve_id}</strong>
+                    <strong className="cve-id mono">{cve.cve_id}</strong>
                     <div className="drawer-badges">
                       {cve.cvss_v3_severity ? <span className={`badge badge-${cve.cvss_v3_severity}`}>{cve.cvss_v3_severity} {cve.cvss_v3_score}</span> : null}
-                      {cve.is_kev ? <span className="badge badge-kev">CISA KEV</span> : null}
+                      {cve.is_kev ? <span className="badge badge-kev">KEV</span> : null}
                     </div>
                   </div>
-                  <span className="description-cell">{cve.description}</span>
+                  <span style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>{cve.description}</span>
                 </div>
               ))}
             </div>
