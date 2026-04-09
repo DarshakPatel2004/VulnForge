@@ -1,4 +1,10 @@
 {
+  "metadata": {
+    "title": "VulnForge Alert Feed",
+    "made_by": "Darshak Patel",
+    "watermark": "[dp-watermark-2026]",
+    "generated_at": "2026-04-09T07:11:37.935833+00:00"
+  },
   "alerts": [
     {
       "cve_id": "CVE-2021-44228",
@@ -7,7 +13,7 @@
       "is_kev": true,
       "description": "Log4Shell",
       "published": "2021-12-10T00:00:00",
-      "ioc_count": 312911,
+      "ioc_count": 329404,
       "iocs": [
         {
           "type": "domain",
@@ -51,7 +57,7 @@
         }
       ],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
-      "generated_at": "2026-03-31T15:30:12.279806+00:00"
+      "generated_at": "2026-04-09T07:11:36.801327+00:00"
     },
     {
       "cve_id": "CVE-2012-6069",
@@ -63,7 +69,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2012-6069",
-      "generated_at": "2026-03-31T15:30:13.105209+00:00"
+      "generated_at": "2026-04-09T07:11:37.841667+00:00"
     },
     {
       "cve_id": "CVE-2015-8104",
@@ -75,7 +81,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8104",
-      "generated_at": "2026-03-31T15:30:13.106002+00:00"
+      "generated_at": "2026-04-09T07:11:37.842607+00:00"
     },
     {
       "cve_id": "CVE-2015-7919",
@@ -87,7 +93,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7919",
-      "generated_at": "2026-03-31T15:30:13.106448+00:00"
+      "generated_at": "2026-04-09T07:11:37.843219+00:00"
     },
     {
       "cve_id": "CVE-2015-8267",
@@ -99,7 +105,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8267",
-      "generated_at": "2026-03-31T15:30:13.106758+00:00"
+      "generated_at": "2026-04-09T07:11:37.843870+00:00"
     },
     {
       "cve_id": "CVE-2015-7930",
@@ -111,7 +117,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7930",
-      "generated_at": "2026-03-31T15:30:13.107029+00:00"
+      "generated_at": "2026-04-09T07:11:37.844440+00:00"
     },
     {
       "cve_id": "CVE-2015-8459",
@@ -123,7 +129,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8459",
-      "generated_at": "2026-03-31T15:30:13.107283+00:00"
+      "generated_at": "2026-04-09T07:11:37.844983+00:00"
     },
     {
       "cve_id": "CVE-2015-7426",
@@ -135,7 +141,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7426",
-      "generated_at": "2026-03-31T15:30:13.107585+00:00"
+      "generated_at": "2026-04-09T07:11:37.845582+00:00"
     },
     {
       "cve_id": "CVE-2015-7541",
@@ -147,7 +153,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7541",
-      "generated_at": "2026-03-31T15:30:13.107845+00:00"
+      "generated_at": "2026-04-09T07:11:37.846165+00:00"
     },
     {
       "cve_id": "CVE-2015-8659",
@@ -159,7 +165,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8659",
-      "generated_at": "2026-03-31T15:30:13.108114+00:00"
+      "generated_at": "2026-04-09T07:11:37.846752+00:00"
     },
     {
       "cve_id": "CVE-2015-8396",
@@ -171,7 +177,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8396",
-      "generated_at": "2026-03-31T15:30:13.108400+00:00"
+      "generated_at": "2026-04-09T07:11:37.847276+00:00"
     },
     {
       "cve_id": "CVE-2016-1985",
@@ -183,7 +189,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1985",
-      "generated_at": "2026-03-31T15:30:13.108654+00:00"
+      "generated_at": "2026-04-09T07:11:37.847684+00:00"
     },
     {
       "cve_id": "CVE-2016-1931",
@@ -195,7 +201,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1931",
-      "generated_at": "2026-03-31T15:30:13.108892+00:00"
+      "generated_at": "2026-04-09T07:11:37.848119+00:00"
     },
     {
       "cve_id": "CVE-2015-8747",
@@ -207,7 +213,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8747",
-      "generated_at": "2026-03-31T15:30:13.109129+00:00"
+      "generated_at": "2026-04-09T07:11:37.848652+00:00"
     },
     {
       "cve_id": "CVE-2016-1505",
@@ -219,7 +225,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1505",
-      "generated_at": "2026-03-31T15:30:13.109395+00:00"
+      "generated_at": "2026-04-09T07:11:37.849077+00:00"
     },
     {
       "cve_id": "CVE-2015-7425",
@@ -231,7 +237,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7425",
-      "generated_at": "2026-03-31T15:30:13.109631+00:00"
+      "generated_at": "2026-04-09T07:11:37.849413+00:00"
     },
     {
       "cve_id": "CVE-2016-1343",
@@ -243,7 +249,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1343",
-      "generated_at": "2026-03-31T15:30:13.109862+00:00"
+      "generated_at": "2026-04-09T07:11:37.849743+00:00"
     },
     {
       "cve_id": "CVE-2016-1038",
@@ -255,7 +261,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1038",
-      "generated_at": "2026-03-31T15:30:13.110117+00:00"
+      "generated_at": "2026-04-09T07:11:37.850107+00:00"
     },
     {
       "cve_id": "CVE-2016-1041",
@@ -267,7 +273,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1041",
-      "generated_at": "2026-03-31T15:30:13.110391+00:00"
+      "generated_at": "2026-04-09T07:11:37.850679+00:00"
     },
     {
       "cve_id": "CVE-2016-1044",
@@ -279,7 +285,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1044",
-      "generated_at": "2026-03-31T15:30:13.110631+00:00"
+      "generated_at": "2026-04-09T07:11:37.851187+00:00"
     },
     {
       "cve_id": "CVE-2010-5326",
@@ -291,7 +297,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2010-5326",
-      "generated_at": "2026-03-31T15:30:13.110947+00:00"
+      "generated_at": "2026-04-09T07:11:37.851804+00:00"
     },
     {
       "cve_id": "CVE-2016-4787",
@@ -303,7 +309,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4787",
-      "generated_at": "2026-03-31T15:30:13.111211+00:00"
+      "generated_at": "2026-04-09T07:11:37.852377+00:00"
     },
     {
       "cve_id": "CVE-2016-5788",
@@ -315,7 +321,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-5788",
-      "generated_at": "2026-03-31T15:30:13.111484+00:00"
+      "generated_at": "2026-04-09T07:11:37.852952+00:00"
     },
     {
       "cve_id": "CVE-2016-7457",
@@ -327,7 +333,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-7457",
-      "generated_at": "2026-03-31T15:30:13.111716+00:00"
+      "generated_at": "2026-04-09T07:11:37.853532+00:00"
     },
     {
       "cve_id": "CVE-2017-3324",
@@ -339,7 +345,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3324",
-      "generated_at": "2026-03-31T15:30:13.111942+00:00"
+      "generated_at": "2026-04-09T07:11:37.854165+00:00"
     },
     {
       "cve_id": "CVE-2016-10043",
@@ -351,7 +357,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-10043",
-      "generated_at": "2026-03-31T15:30:13.112190+00:00"
+      "generated_at": "2026-04-09T07:11:37.855135+00:00"
     },
     {
       "cve_id": "CVE-2015-8974",
@@ -363,7 +369,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8974",
-      "generated_at": "2026-03-31T15:30:13.112483+00:00"
+      "generated_at": "2026-04-09T07:11:37.855917+00:00"
     },
     {
       "cve_id": "CVE-2017-3791",
@@ -375,7 +381,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3791",
-      "generated_at": "2026-03-31T15:30:13.112722+00:00"
+      "generated_at": "2026-04-09T07:11:37.856478+00:00"
     },
     {
       "cve_id": "CVE-2016-6082",
@@ -387,7 +393,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6082",
-      "generated_at": "2026-03-31T15:30:13.112951+00:00"
+      "generated_at": "2026-04-09T07:11:37.857101+00:00"
     },
     {
       "cve_id": "CVE-2016-8938",
@@ -399,7 +405,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8938",
-      "generated_at": "2026-03-31T15:30:13.113201+00:00"
+      "generated_at": "2026-04-09T07:11:37.857524+00:00"
     },
     {
       "cve_id": "CVE-2016-8352",
@@ -411,7 +417,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8352",
-      "generated_at": "2026-03-31T15:30:13.113715+00:00"
+      "generated_at": "2026-04-09T07:11:37.858075+00:00"
     },
     {
       "cve_id": "CVE-2016-8363",
@@ -423,7 +429,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8363",
-      "generated_at": "2026-03-31T15:30:13.114155+00:00"
+      "generated_at": "2026-04-09T07:11:37.858398+00:00"
     },
     {
       "cve_id": "CVE-2016-9343",
@@ -435,7 +441,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9343",
-      "generated_at": "2026-03-31T15:30:13.114537+00:00"
+      "generated_at": "2026-04-09T07:11:37.858727+00:00"
     },
     {
       "cve_id": "CVE-2017-5145",
@@ -447,7 +453,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5145",
-      "generated_at": "2026-03-31T15:30:13.114982+00:00"
+      "generated_at": "2026-04-09T07:11:37.859161+00:00"
     },
     {
       "cve_id": "CVE-2017-2785",
@@ -459,7 +465,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-2785",
-      "generated_at": "2026-03-31T15:30:13.115323+00:00"
+      "generated_at": "2026-04-09T07:11:37.859490+00:00"
     },
     {
       "cve_id": "CVE-2017-2788",
@@ -471,7 +477,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-2788",
-      "generated_at": "2026-03-31T15:30:13.115661+00:00"
+      "generated_at": "2026-04-09T07:11:37.859817+00:00"
     },
     {
       "cve_id": "CVE-2016-8027",
@@ -483,7 +489,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8027",
-      "generated_at": "2026-03-31T15:30:13.115938+00:00"
+      "generated_at": "2026-04-09T07:11:37.860372+00:00"
     },
     {
       "cve_id": "CVE-2015-8556",
@@ -495,7 +501,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8556",
-      "generated_at": "2026-03-31T15:30:13.116209+00:00"
+      "generated_at": "2026-04-09T07:11:37.860784+00:00"
     },
     {
       "cve_id": "CVE-2017-5226",
@@ -507,7 +513,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5226",
-      "generated_at": "2026-03-31T15:30:13.116497+00:00"
+      "generated_at": "2026-04-09T07:11:37.861272+00:00"
     },
     {
       "cve_id": "CVE-2017-7722",
@@ -519,7 +525,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7722",
-      "generated_at": "2026-03-31T15:30:13.116745+00:00"
+      "generated_at": "2026-04-09T07:11:37.861938+00:00"
     },
     {
       "cve_id": "CVE-2017-7964",
@@ -531,7 +537,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7964",
-      "generated_at": "2026-03-31T15:30:13.116989+00:00"
+      "generated_at": "2026-04-09T07:11:37.862530+00:00"
     },
     {
       "cve_id": "CVE-2017-2320",
@@ -543,7 +549,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-2320",
-      "generated_at": "2026-03-31T15:30:13.117263+00:00"
+      "generated_at": "2026-04-09T07:11:37.862847+00:00"
     },
     {
       "cve_id": "CVE-2017-3623",
@@ -555,7 +561,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3623",
-      "generated_at": "2026-03-31T15:30:13.117651+00:00"
+      "generated_at": "2026-04-09T07:11:37.863248+00:00"
     },
     {
       "cve_id": "CVE-2017-8110",
@@ -567,7 +573,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8110",
-      "generated_at": "2026-03-31T15:30:13.117908+00:00"
+      "generated_at": "2026-04-09T07:11:37.863707+00:00"
     },
     {
       "cve_id": "CVE-2017-8794",
@@ -579,7 +585,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8794",
-      "generated_at": "2026-03-31T15:30:13.118169+00:00"
+      "generated_at": "2026-04-09T07:11:37.864542+00:00"
     },
     {
       "cve_id": "CVE-2017-7213",
@@ -591,7 +597,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7213",
-      "generated_at": "2026-03-31T15:30:13.118450+00:00"
+      "generated_at": "2026-04-09T07:11:37.864950+00:00"
     },
     {
       "cve_id": "CVE-2015-2692",
@@ -603,7 +609,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-2692",
-      "generated_at": "2026-03-31T15:30:13.118762+00:00"
+      "generated_at": "2026-04-09T07:11:37.865317+00:00"
     },
     {
       "cve_id": "CVE-2017-7876",
@@ -615,7 +621,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7876",
-      "generated_at": "2026-03-31T15:30:13.119041+00:00"
+      "generated_at": "2026-04-09T07:11:37.865685+00:00"
     },
     {
       "cve_id": "CVE-2017-3088",
@@ -627,7 +633,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3088",
-      "generated_at": "2026-03-31T15:30:13.119281+00:00"
+      "generated_at": "2026-04-09T07:11:37.866193+00:00"
     },
     {
       "cve_id": "CVE-2017-6326",
@@ -639,7 +645,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-6326",
-      "generated_at": "2026-03-31T15:30:13.119562+00:00"
+      "generated_at": "2026-04-09T07:11:37.866709+00:00"
     },
     {
       "cve_id": "CVE-2017-10912",
@@ -651,7 +657,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10912",
-      "generated_at": "2026-03-31T15:30:13.119802+00:00"
+      "generated_at": "2026-04-09T07:11:37.867090+00:00"
     },
     {
       "cve_id": "CVE-2017-10918",
@@ -663,7 +669,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10918",
-      "generated_at": "2026-03-31T15:30:13.120040+00:00"
+      "generated_at": "2026-04-09T07:11:37.867568+00:00"
     },
     {
       "cve_id": "CVE-2017-10920",
@@ -675,7 +681,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10920",
-      "generated_at": "2026-03-31T15:30:13.120342+00:00"
+      "generated_at": "2026-04-09T07:11:37.868023+00:00"
     },
     {
       "cve_id": "CVE-2017-10921",
@@ -687,7 +693,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10921",
-      "generated_at": "2026-03-31T15:30:13.120635+00:00"
+      "generated_at": "2026-04-09T07:11:37.868656+00:00"
     },
     {
       "cve_id": "CVE-2017-2343",
@@ -699,7 +705,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-2343",
-      "generated_at": "2026-03-31T15:30:13.120879+00:00"
+      "generated_at": "2026-04-09T07:11:37.869344+00:00"
     },
     {
       "cve_id": "CVE-2017-7664",
@@ -711,7 +717,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7664",
-      "generated_at": "2026-03-31T15:30:13.121122+00:00"
+      "generated_at": "2026-04-09T07:11:37.869982+00:00"
     },
     {
       "cve_id": "CVE-2017-7928",
@@ -723,7 +729,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7928",
-      "generated_at": "2026-03-31T15:30:13.121365+00:00"
+      "generated_at": "2026-04-09T07:11:37.870586+00:00"
     },
     {
       "cve_id": "CVE-2017-10137",
@@ -735,7 +741,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10137",
-      "generated_at": "2026-03-31T15:30:13.121654+00:00"
+      "generated_at": "2026-04-09T07:11:37.870998+00:00"
     },
     {
       "cve_id": "CVE-2017-12905",
@@ -747,7 +753,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12905",
-      "generated_at": "2026-03-31T15:30:13.121902+00:00"
+      "generated_at": "2026-04-09T07:11:37.871310+00:00"
     },
     {
       "cve_id": "CVE-2017-13995",
@@ -759,7 +765,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-13995",
-      "generated_at": "2026-03-31T15:30:13.122171+00:00"
+      "generated_at": "2026-04-09T07:11:37.871663+00:00"
     },
     {
       "cve_id": "CVE-2017-10402",
@@ -771,7 +777,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10402",
-      "generated_at": "2026-03-31T15:30:13.122448+00:00"
+      "generated_at": "2026-04-09T07:11:37.872052+00:00"
     },
     {
       "cve_id": "CVE-2017-10405",
@@ -783,7 +789,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10405",
-      "generated_at": "2026-03-31T15:30:13.122696+00:00"
+      "generated_at": "2026-04-09T07:11:37.872595+00:00"
     },
     {
       "cve_id": "CVE-2017-10151",
@@ -795,7 +801,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10151",
-      "generated_at": "2026-03-31T15:30:13.122947+00:00"
+      "generated_at": "2026-04-09T07:11:37.873045+00:00"
     },
     {
       "cve_id": "CVE-2017-10269",
@@ -807,7 +813,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10269",
-      "generated_at": "2026-03-31T15:30:13.123180+00:00"
+      "generated_at": "2026-04-09T07:11:37.873375+00:00"
     },
     {
       "cve_id": "CVE-2017-16845",
@@ -819,7 +825,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16845",
-      "generated_at": "2026-03-31T15:30:13.123456+00:00"
+      "generated_at": "2026-04-09T07:11:37.873673+00:00"
     },
     {
       "cve_id": "CVE-2017-14378",
@@ -831,7 +837,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14378",
-      "generated_at": "2026-03-31T15:30:13.123703+00:00"
+      "generated_at": "2026-04-09T07:11:37.874003+00:00"
     },
     {
       "cve_id": "CVE-2017-11291",
@@ -843,7 +849,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-11291",
-      "generated_at": "2026-03-31T15:30:13.123930+00:00"
+      "generated_at": "2026-04-09T07:11:37.874298+00:00"
     },
     {
       "cve_id": "CVE-2017-16740",
@@ -855,7 +861,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16740",
-      "generated_at": "2026-03-31T15:30:13.124170+00:00"
+      "generated_at": "2026-04-09T07:11:37.874621+00:00"
     },
     {
       "cve_id": "CVE-2018-2611",
@@ -867,7 +873,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-2611",
-      "generated_at": "2026-03-31T15:30:13.124498+00:00"
+      "generated_at": "2026-04-09T07:11:37.875065+00:00"
     },
     {
       "cve_id": "CVE-2018-0101",
@@ -879,7 +885,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-0101",
-      "generated_at": "2026-03-31T15:30:13.124745+00:00"
+      "generated_at": "2026-04-09T07:11:37.875448+00:00"
     },
     {
       "cve_id": "CVE-2017-12542",
@@ -891,7 +897,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12542",
-      "generated_at": "2026-03-31T15:30:13.124974+00:00"
+      "generated_at": "2026-04-09T07:11:37.875903+00:00"
     },
     {
       "cve_id": "CVE-2018-4872",
@@ -903,7 +909,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-4872",
-      "generated_at": "2026-03-31T15:30:13.125203+00:00"
+      "generated_at": "2026-04-09T07:11:37.876393+00:00"
     },
     {
       "cve_id": "CVE-2018-1000124",
@@ -915,7 +921,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000124",
-      "generated_at": "2026-03-31T15:30:13.125471+00:00"
+      "generated_at": "2026-04-09T07:11:37.876786+00:00"
     },
     {
       "cve_id": "CVE-2017-12815",
@@ -927,7 +933,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12815",
-      "generated_at": "2026-03-31T15:30:13.125774+00:00"
+      "generated_at": "2026-04-09T07:11:37.877152+00:00"
     },
     {
       "cve_id": "CVE-2016-0898",
@@ -939,7 +945,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-0898",
-      "generated_at": "2026-03-31T15:30:13.126006+00:00"
+      "generated_at": "2026-04-09T07:11:37.877541+00:00"
     },
     {
       "cve_id": "CVE-2018-4091",
@@ -951,7 +957,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-4091",
-      "generated_at": "2026-03-31T15:30:13.126255+00:00"
+      "generated_at": "2026-04-09T07:11:37.878042+00:00"
     },
     {
       "cve_id": "CVE-2017-14469",
@@ -963,7 +969,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14469",
-      "generated_at": "2026-03-31T15:30:13.126536+00:00"
+      "generated_at": "2026-04-09T07:11:37.878464+00:00"
     },
     {
       "cve_id": "CVE-2017-14470",
@@ -975,7 +981,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14470",
-      "generated_at": "2026-03-31T15:30:13.126877+00:00"
+      "generated_at": "2026-04-09T07:11:37.878803+00:00"
     },
     {
       "cve_id": "CVE-2017-14471",
@@ -987,7 +993,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14471",
-      "generated_at": "2026-03-31T15:30:13.127119+00:00"
+      "generated_at": "2026-04-09T07:11:37.879268+00:00"
     },
     {
       "cve_id": "CVE-2017-14472",
@@ -999,7 +1005,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14472",
-      "generated_at": "2026-03-31T15:30:13.127388+00:00"
+      "generated_at": "2026-04-09T07:11:37.879823+00:00"
     },
     {
       "cve_id": "CVE-2017-14473",
@@ -1011,7 +1017,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14473",
-      "generated_at": "2026-03-31T15:30:13.127628+00:00"
+      "generated_at": "2026-04-09T07:11:37.880267+00:00"
     },
     {
       "cve_id": "CVE-2017-14459",
@@ -1023,7 +1029,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14459",
-      "generated_at": "2026-03-31T15:30:13.127856+00:00"
+      "generated_at": "2026-04-09T07:11:37.880810+00:00"
     },
     {
       "cve_id": "CVE-2017-12087",
@@ -1035,7 +1041,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12087",
-      "generated_at": "2026-03-31T15:30:13.128081+00:00"
+      "generated_at": "2026-04-09T07:11:37.881364+00:00"
     },
     {
       "cve_id": "CVE-2018-10718",
@@ -1047,7 +1053,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-10718",
-      "generated_at": "2026-03-31T15:30:13.128361+00:00"
+      "generated_at": "2026-04-09T07:11:37.882187+00:00"
     },
     {
       "cve_id": "CVE-2016-9335",
@@ -1059,7 +1065,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9335",
-      "generated_at": "2026-03-31T15:30:13.128600+00:00"
+      "generated_at": "2026-04-09T07:11:37.882731+00:00"
     },
     {
       "cve_id": "CVE-2018-0222",
@@ -1071,7 +1077,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-0222",
-      "generated_at": "2026-03-31T15:30:13.128827+00:00"
+      "generated_at": "2026-04-09T07:11:37.883064+00:00"
     },
     {
       "cve_id": "CVE-2018-0268",
@@ -1083,7 +1089,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-0268",
-      "generated_at": "2026-03-31T15:30:13.129050+00:00"
+      "generated_at": "2026-04-09T07:11:37.883708+00:00"
     },
     {
       "cve_id": "CVE-2017-16088",
@@ -1095,7 +1101,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16088",
-      "generated_at": "2026-03-31T15:30:13.129270+00:00"
+      "generated_at": "2026-04-09T07:11:37.884241+00:00"
     },
     {
       "cve_id": "CVE-2018-4229",
@@ -1107,7 +1113,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-4229",
-      "generated_at": "2026-03-31T15:30:13.129543+00:00"
+      "generated_at": "2026-04-09T07:11:37.884660+00:00"
     },
     {
       "cve_id": "CVE-2018-6968",
@@ -1119,7 +1125,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-6968",
-      "generated_at": "2026-03-31T15:30:13.129768+00:00"
+      "generated_at": "2026-04-09T07:11:37.885035+00:00"
     },
     {
       "cve_id": "CVE-2018-6667",
@@ -1131,7 +1137,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-6667",
-      "generated_at": "2026-03-31T15:30:13.130114+00:00"
+      "generated_at": "2026-04-09T07:11:37.885559+00:00"
     },
     {
       "cve_id": "CVE-2018-12464",
@@ -1143,7 +1149,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-12464",
-      "generated_at": "2026-03-31T15:30:13.130708+00:00"
+      "generated_at": "2026-04-09T07:11:37.886120+00:00"
     },
     {
       "cve_id": "CVE-2018-3774",
@@ -1155,7 +1161,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3774",
-      "generated_at": "2026-03-31T15:30:13.131173+00:00"
+      "generated_at": "2026-04-09T07:11:37.886812+00:00"
     },
     {
       "cve_id": "CVE-2018-10511",
@@ -1167,7 +1173,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-10511",
-      "generated_at": "2026-03-31T15:30:13.131559+00:00"
+      "generated_at": "2026-04-09T07:11:37.887143+00:00"
     },
     {
       "cve_id": "CVE-2018-1000644",
@@ -1179,7 +1185,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000644",
-      "generated_at": "2026-03-31T15:30:13.131906+00:00"
+      "generated_at": "2026-04-09T07:11:37.887613+00:00"
     },
     {
       "cve_id": "CVE-2018-1000651",
@@ -1191,7 +1197,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000651",
-      "generated_at": "2026-03-31T15:30:13.132191+00:00"
+      "generated_at": "2026-04-09T07:11:37.888239+00:00"
     },
     {
       "cve_id": "CVE-2018-1000652",
@@ -1203,7 +1209,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000652",
-      "generated_at": "2026-03-31T15:30:13.132494+00:00"
+      "generated_at": "2026-04-09T07:11:37.888956+00:00"
     },
     {
       "cve_id": "CVE-2018-6692",
@@ -1215,7 +1221,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-6692",
-      "generated_at": "2026-03-31T15:30:13.132750+00:00"
+      "generated_at": "2026-04-09T07:11:37.889384+00:00"
     },
     {
       "cve_id": "CVE-2018-3907",
@@ -1227,7 +1233,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3907",
-      "generated_at": "2026-03-31T15:30:13.132993+00:00"
+      "generated_at": "2026-04-09T07:11:37.889722+00:00"
     },
     {
       "cve_id": "CVE-2018-1722",
@@ -1239,7 +1245,1003 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1722",
-      "generated_at": "2026-03-31T15:30:13.133226+00:00"
+      "generated_at": "2026-04-09T07:11:37.890248+00:00"
+    },
+    {
+      "cve_id": "CVE-2025-60206",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Improper Control of Generation of Code ('Code Injection') vulnerability in Beplusthemes Alone alone allows Code Injection.This issue affects Alone: from n/a through <= 7.8.3.",
+      "published": "2025-10-22T15:15:57.720000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60206",
+      "generated_at": "2026-04-09T07:11:37.890677+00:00"
+    },
+    {
+      "cve_id": "CVE-2025-60235",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Unrestricted Upload of File with Dangerous Type vulnerability in Plugify Support Ticket System for WooCommerce (Premium) support-ticket-system-for-woocommerce allows Using Malicious Files.This issue affects Support Ticket System for WooCommerce (Premium): from n/a through <= 2.0.7.",
+      "published": "2025-11-06T16:16:06.310000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60235",
+      "generated_at": "2026-04-09T07:11:37.891065+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-2913",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Vulnerability in the Oracle GoldenGate component of Oracle GoldenGate (subcomponent: Monitoring Manager). Supported versions that are affected are 12.1.2.1.0, 12.2.0.2.0 and 12.3.0.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via TCP to compromise Oracle ",
+      "published": "2018-10-17T01:31:14.697000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-2913",
+      "generated_at": "2026-04-09T07:11:37.891423+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-18748",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Sandboxie 5.26 allows a Sandbox Escape via an \"import os\" statement, followed by os.system(\"cmd\") or os.system(\"powershell\"), within a .py file. NOTE: the vendor disputes this issue because the observed behavior is consistent with the product's intended functionality",
+      "published": "2018-10-29T12:29:09.413000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18748",
+      "generated_at": "2026-04-09T07:11:37.891824+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-16462",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A command injection vulnerability in the apex-publish-static-files npm module version <2.0.1 which allows arbitrary shell command execution through a maliciously crafted argument.",
+      "published": "2018-10-30T21:29:00.450000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-16462",
+      "generated_at": "2026-04-09T07:11:37.892222+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-19047",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "mPDF through 7.1.6, if deployed as a web application that accepts arbitrary HTML, allows SSRF, as demonstrated by a '<img src=\"http://192.168' substring that triggers a call to getImage in Image/ImageProcessor.php. NOTE: the software maintainer disputes this, stating \"If you allow users to pass HTML",
+      "published": "2018-11-07T05:29:00.297000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19047",
+      "generated_at": "2026-04-09T07:11:37.892605+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-19417",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An issue was discovered in the MQTT server in Contiki-NG before 4.2. The function parse_publish_vhdr() that parses MQTT PUBLISH messages with a variable length header uses memcpy to input data into a fixed size buffer. The allocated buffer can fit only MQTT_MAX_TOPIC_LENGTH (default 64) bytes, and a",
+      "published": "2018-11-21T20:29:00.307000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19417",
+      "generated_at": "2026-04-09T07:11:37.892977+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-17160",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "In FreeBSD before 11.2-STABLE(r341486) and 11.2-RELEASE-p6, insufficient bounds checking in one of the device models provided by bhyve can permit a guest operating system to overwrite memory in the bhyve host possibly permitting arbitrary code execution. A guest OS using a firmware image can cause t",
+      "published": "2018-12-04T21:29:00.270000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-17160",
+      "generated_at": "2026-04-09T07:11:37.893299+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-18843",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "The Kubernetes integration in GitLab Enterprise Edition 11.x before 11.2.8, 11.3.x before 11.3.9, and 11.4.x before 11.4.4 has SSRF.",
+      "published": "2018-12-04T23:29:00.833000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18843",
+      "generated_at": "2026-04-09T07:11:37.893925+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-13816",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A vulnerability has been identified in TIM 1531 IRC (All version < V2.0). The devices was missing proper authentication on port 102/tcp, although configured. Successful exploitation requires an attacker to be able to send packets to port 102/tcp of the affected device. No user interaction and no use",
+      "published": "2018-12-12T16:29:00.747000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-13816",
+      "generated_at": "2026-04-09T07:11:37.894565+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-1000820",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "neo4j-contrib neo4j-apoc-procedures version before commit 45bc09c contains a XML External Entity (XXE) vulnerability in XML Parser that can result in Disclosure of confidential data, denial of service, SSRF, port scanning. This vulnerability appears to have been fixed in after commit 45bc09c.",
+      "published": "2018-12-20T15:29:00.737000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000820",
+      "generated_at": "2026-04-09T07:11:37.895009+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-1000821",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "MicroMathematics version before commit 5c05ac8 contains a XML External Entity (XXE) vulnerability in SMathStudio files that can result in Disclosure of confidential data, denial of service, SSRF, port scanning. This attack appear to be exploitable via Specially crafted SMathStudio files. This vulner",
+      "published": "2018-12-20T15:29:00.797000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000821",
+      "generated_at": "2026-04-09T07:11:37.895375+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-1000822",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "codelibs fess version before commit faa265b contains a XML External Entity (XXE) vulnerability in GSA XML file parser that can result in Disclosure of confidential data, denial of service, SSRF, port scanning. This attack appear to be exploitable via specially crafted GSA XML files. This vulnerabili",
+      "published": "2018-12-20T15:29:00.860000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000822",
+      "generated_at": "2026-04-09T07:11:37.895732+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-1000823",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "exist version <= 5.0.0-RC4 contains a XML External Entity (XXE) vulnerability in XML Parser for REST Server that can result in Disclosure of confidential data, denial of service, SSRF, port scanning.",
+      "published": "2018-12-20T15:29:00.907000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000823",
+      "generated_at": "2026-04-09T07:11:37.896216+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-1000825",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "FreeCol version <= nightly-2018-08-22 contains a XML External Entity (XXE) vulnerability in FreeColXMLReader parser that can result in Disclosure of confidential data, denial of service, SSRF, port scanning. This attack appear to be exploitable via Freecol file.",
+      "published": "2018-12-20T15:29:01.017000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000825",
+      "generated_at": "2026-04-09T07:11:37.896549+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-1000830",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "XR3Player version <= V3.124 contains a XML External Entity (XXE) vulnerability in Playlist parser that can result in Disclosure of confidential data, denial of service, SSRF, port scanning.",
+      "published": "2018-12-20T15:29:01.313000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000830",
+      "generated_at": "2026-04-09T07:11:37.896988+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-1000831",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "K9Mail version <= v5.600 contains a XML External Entity (XXE) vulnerability in WebDAV response parser that can result in Disclosure of confidential data, denial of service, SSRF, port scanning. This attack appear to be exploitable via malicious WebDAV server or intercept the reponse of a valid WebDA",
+      "published": "2018-12-20T15:29:01.377000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000831",
+      "generated_at": "2026-04-09T07:11:37.897692+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-1000835",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "KeePassDX version <= 2.5.0.0beta17 contains a XML External Entity (XXE) vulnerability in kdbx file parser that can result in Disclosure of confidential data, denial of service, SSRF, port scanning.",
+      "published": "2018-12-20T15:29:01.610000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000835",
+      "generated_at": "2026-04-09T07:11:37.898250+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-1000837",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "UML Designer version <= 8.0.0 contains a XML External Entity (XXE) vulnerability in XML parser for plugins that can result in Disclosure of confidential data, denial of service, SSRF, port scanning. This attack appear to be exploitable via malicious plugins.xml file.",
+      "published": "2018-12-20T15:29:01.703000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000837",
+      "generated_at": "2026-04-09T07:11:37.898609+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-1000838",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "autopsy version <= 4.9.0 contains a XML External Entity (XXE) vulnerability in CaseMetadata XML Parser that can result in Disclosure of confidential data, denial of service, SSRF, port scanning. This attack appear to be exploitable via Specially crafted CaseMetadata.",
+      "published": "2018-12-20T15:29:01.767000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000838",
+      "generated_at": "2026-04-09T07:11:37.898901+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-14721",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "FasterXML jackson-databind 2.x before 2.9.7 might allow remote attackers to conduct server-side request forgery (SSRF) attacks by leveraging failure to block the axis2-jaxws class from polymorphic deserialization.",
+      "published": "2019-01-02T18:29:00.543000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-14721",
+      "generated_at": "2026-04-09T07:11:37.899235+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-3905",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Zoho ManageEngine ADSelfService Plus 5.x before build 5703 has SSRF.",
+      "published": "2019-01-03T19:29:01.757000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-3905",
+      "generated_at": "2026-04-09T07:11:37.899848+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-0020",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Juniper ATP ships with hard coded credentials in the Web Collector instance which gives an attacker the ability to take full control of any installation of the software. Affected releases are Juniper Networks Juniper ATP: 5.0 versions prior to 5.0.3.",
+      "published": "2019-01-15T21:29:01.587000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0020",
+      "generated_at": "2026-04-09T07:11:37.900190+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-0022",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Juniper ATP ships with hard coded credentials in the Cyphort Core instance which gives an attacker the ability to take full control of any installation of the software. Affected releases are Juniper Networks Juniper ATP: 5.0 versions prior to 5.0.3.",
+      "published": "2019-01-15T21:29:01.683000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0022",
+      "generated_at": "2026-04-09T07:11:37.900607+00:00"
+    },
+    {
+      "cve_id": "CVE-2015-9280",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "MailEnable before 8.60 allows XXE via an XML document in the request.aspx Options parameter.",
+      "published": "2019-01-16T16:29:00.447000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-9280",
+      "generated_at": "2026-04-09T07:11:37.901196+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-5560",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A reliance on a static, hard-coded credential in the design of the cloud-based storage system of Practecol's Guardzilla All-In-One Video Security System allows an attacker to view the private data of all users of the Guardzilla device.",
+      "published": "2019-01-31T21:29:00.270000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-5560",
+      "generated_at": "2026-04-09T07:11:37.901733+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-18505",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An earlier fix for an Inter-process Communication (IPC) vulnerability, CVE-2011-3079, added authentication to communication between IPC endpoints and server parents during IPC process creation. This authentication is insufficient for channels created after the IPC process is started, leading to the ",
+      "published": "2019-02-05T21:29:00.613000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18505",
+      "generated_at": "2026-04-09T07:11:37.902188+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-3991",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An exploitable heap overflow vulnerability exists in the WkbProgramLow function of WibuKey Network server management, version 6.40.2402.500. A specially crafted TCP packet can cause a heap overflow, potentially leading to remote code execution. An attacker can send a malformed TCP packet to trigger ",
+      "published": "2019-02-05T23:29:00.387000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3991",
+      "generated_at": "2026-04-09T07:11:37.902633+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-6235",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 12.1.3, macOS Mojave 10.14.3, tvOS 12.1.2, watchOS 5.1.3, iTunes 12.9.3 for Windows. A sandboxed process may be able to circumvent sandbox restrictions.",
+      "published": "2019-03-04T20:29:00.313000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-6235",
+      "generated_at": "2026-04-09T07:11:37.903238+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-18815",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "The REST API component of TIBCO Software Inc.'s TIBCO JasperReports Server, TIBCO JasperReports Server Community Edition, TIBCO JasperReports Server for ActiveMatrix BPM, TIBCO Jaspersoft for AWS with Multi-Tenancy, and TIBCO Jaspersoft Reporting and Analytics for AWS contains a vulnerability that t",
+      "published": "2019-03-07T22:29:00.383000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18815",
+      "generated_at": "2026-04-09T07:11:37.903637+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-7609",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw in the Timelion visualizer. An attacker with access to the Timelion application could send a request that will attempt to execute javascript code. This could possibly lead to an attacker executing arbitrary commands wit",
+      "published": "2019-03-25T19:29:02.147000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7609",
+      "generated_at": "2026-04-09T07:11:37.904033+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-10686",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An SSRF vulnerability was found in an API from Ctrip Apollo through 1.4.0-SNAPSHOT. An attacker may use it to do an intranet port scan or raise a GET request via /system-info/health because the %23 substring is mishandled.",
+      "published": "2019-04-01T17:29:00.353000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10686",
+      "generated_at": "2026-04-09T07:11:37.904561+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-4310",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An access issue was addressed with additional sandbox restrictions. This issue affected versions prior to iOS 12, macOS Mojave 10.14.",
+      "published": "2019-04-03T18:29:06.610000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-4310",
+      "generated_at": "2026-04-09T07:11:37.904923+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-4202",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "IBM API Connect 5.0.0.0 and 5.0.8.6 Developer Portal is vulnerable to command injection. An attacker with a specially crafted request can run arbitrary code on the server and gain complete access to the system. IBM X-Force ID: 159123.",
+      "published": "2019-04-15T15:29:00.797000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-4202",
+      "generated_at": "2026-04-09T07:11:37.905266+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-9174",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An issue was discovered in GitLab Community and Enterprise Edition before 11.6.10, 11.7.x before 11.7.6, and 11.8.x before 11.8.1. It allows SSRF.",
+      "published": "2019-04-17T17:29:00.740000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-9174",
+      "generated_at": "2026-04-09T07:11:37.905713+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-11510",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7.1, and 9.0 before 9.0R3.4, an unauthenticated remote attacker can send a specially crafted URI to perform an arbitrary file reading vulnerability .",
+      "published": "2019-05-08T17:29:00.630000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11510",
+      "generated_at": "2026-04-09T07:11:37.906230+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-1867",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A vulnerability in the REST API of Cisco Elastic Services Controller (ESC) could allow an unauthenticated, remote attacker to bypass authentication on the REST API. The vulnerability is due to improper validation of API requests. An attacker could exploit this vulnerability by sending a crafted requ",
+      "published": "2019-05-10T12:29:00.387000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1867",
+      "generated_at": "2026-04-09T07:11:37.906715+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-9548",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Citrix Application Delivery Management (ADM) 12.1.x before 12.1.50.33 has Incorrect Access Control.",
+      "published": "2019-06-05T17:29:00.757000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-9548",
+      "generated_at": "2026-04-09T07:11:37.907019+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-12153",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Lack of validation in the HTML parser in RealObjects PDFreactor before 10.1.10722 leads to SSRF, allowing attackers to access network or file resources on behalf of the server by supplying malicious HTML content.",
+      "published": "2019-06-11T21:29:01.223000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-12153",
+      "generated_at": "2026-04-09T07:11:37.907273+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-10959",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "BD Alaris Gateway Workstation Versions, 1.1.3 Build 10, 1.1.3 MR Build 11, 1.2 Build 15, 1.3.0 Build 14, 1.3.1 Build 13, This does not impact the latest firmware Versions 1.3.2 and 1.6.1, Additionally, the following products using software Version 2.3.6 and below, Alaris GS, Alaris GH, Alaris CC, Al",
+      "published": "2019-06-13T21:29:15.817000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10959",
+      "generated_at": "2026-04-09T07:11:37.907570+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-7268",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Linear eMerge 50P/5000P devices allow Unauthenticated File Upload.",
+      "published": "2019-07-02T17:15:12.257000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7268",
+      "generated_at": "2026-04-09T07:11:37.907777+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-7257",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Linear eMerge E3-Series devices allow Unrestricted File Upload.",
+      "published": "2019-07-02T19:15:11.227000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7257",
+      "generated_at": "2026-04-09T07:11:37.908015+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-7003",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A SQL injection vulnerability in the reporting component of Avaya Control Manager could allow an unauthenticated attacker to execute arbitrary SQL commands and retrieve sensitive data related to other users on the system. Affected versions of Avaya Control Manager include 7.x and 8.0.x versions prio",
+      "published": "2019-07-11T19:15:13.440000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7003",
+      "generated_at": "2026-04-09T07:11:37.908373+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-11708",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Insufficient vetting of parameters passed with the Prompt:Open IPC message between child and parent processes can result in the non-sandboxed parent process opening web content chosen by a compromised child process. When combined with additional vulnerabilities this could result in executing arbitra",
+      "published": "2019-07-23T14:15:15.327000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11708",
+      "generated_at": "2026-04-09T07:11:37.908680+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-5684",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "NVIDIA Windows GPU Display Driver (all versions) contains a vulnerability in DirectX drivers, in which a specially crafted shader can cause an out of bounds access of an input texture array, which may lead to denial of service or code execution.",
+      "published": "2019-08-06T20:15:12.563000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5684",
+      "generated_at": "2026-04-09T07:11:37.908887+00:00"
+    },
+    {
+      "cve_id": "CVE-2016-10926",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "The nelio-ab-testing plugin before 4.5.9 for WordPress has SSRF in ajax/iesupport.php.",
+      "published": "2019-08-22T14:15:11.820000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-10926",
+      "generated_at": "2026-04-09T07:11:37.909078+00:00"
+    },
+    {
+      "cve_id": "CVE-2016-10927",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "The nelio-ab-testing plugin before 4.5.11 for WordPress has SSRF in ajax/iesupport.php.",
+      "published": "2019-08-22T14:15:11.883000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-10927",
+      "generated_at": "2026-04-09T07:11:37.909380+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-13020",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "The fetch API in Tightrope Media Carousel before 7.1.3 has CarouselAPI/v0/fetch?url= SSRF. This has two potential areas for abuse. First, a specially crafted URL could be used in a phishing attack to hijack the trust the user and the browser have with the website and could serve malicious content fr",
+      "published": "2019-08-26T18:15:11.857000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-13020",
+      "generated_at": "2026-04-09T07:11:37.909991+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-12643",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A vulnerability in the Cisco REST API virtual service container for Cisco IOS XE Software could allow an unauthenticated, remote attacker to bypass authentication on the managed Cisco IOS XE device. The vulnerability is due to an improper check performed by the area of code that manages the REST API",
+      "published": "2019-08-28T19:15:10.757000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-12643",
+      "generated_at": "2026-04-09T07:11:37.910404+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-11061",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A broken access control vulnerability in HG100 firmware versions up to 4.00.06 allows an attacker in the same local area network to control IoT devices that connect with itself via http://[target]/smarthome/devicecontrol without any authentication. CVSS 3.0 base score 10 (Confidentiality, Integrity ",
+      "published": "2019-08-29T01:15:10.930000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11061",
+      "generated_at": "2026-04-09T07:11:37.910842+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-11063",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A broken access control vulnerability in SmartHome app (Android versions up to 3.0.42_190515, ios versions up to 2.0.22) allows an attacker in the same local area network to list user accounts and control IoT devices that connect with its gateway (HG100) via http://[target]/smarthome/devicecontrol w",
+      "published": "2019-08-29T01:15:10.990000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11063",
+      "generated_at": "2026-04-09T07:11:37.911214+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-5485",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "NPM package gitlabhook version 0.0.17 is vulnerable to a Command Injection vulnerability. Arbitrary commands can be injected through the repository name.",
+      "published": "2019-09-13T18:15:11.127000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5485",
+      "generated_at": "2026-04-09T07:11:37.911588+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-11210",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "The server component of TIBCO Software Inc.'s TIBCO Enterprise Runtime for R - Server Edition, and TIBCO Spotfire Analytics Platform for AWS Marketplace contains a vulnerability that theoretically allows an unauthenticated user to bypass access controls and remotely execute code using the operating ",
+      "published": "2019-09-18T23:15:10.860000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11210",
+      "generated_at": "2026-04-09T07:11:37.911896+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-16649",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "On Supermicro H11, H12, M11, X9, X10, and X11 products, a combination of encryption and authentication problems in the virtual media service allows capture of BMC credentials and data transferred over virtual media devices. Attackers can use captured credentials to connect virtual USB devices to the",
+      "published": "2019-09-21T02:15:11.523000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-16649",
+      "generated_at": "2026-04-09T07:11:37.912130+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-16650",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "On Supermicro X10 and X11 products, a client's access privileges may be transferred to a different client that later has the same socket file descriptor number. In opportunistic circumstances, an attacker can simply connect to the virtual media service, and then connect virtual USB devices to the se",
+      "published": "2019-09-21T02:15:11.587000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-16650",
+      "generated_at": "2026-04-09T07:11:37.912366+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-16932",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A blind SSRF vulnerability exists in the Visualizer plugin before 3.3.1 for WordPress via wp-json/visualizer/v1/upload-data.",
+      "published": "2019-09-30T16:15:11.290000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-16932",
+      "generated_at": "2026-04-09T07:11:37.912750+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-1372",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An remote code execution vulnerability exists when Azure App Service/ Antares on Azure Stack fails to check the length of a buffer prior to copying memory to it.An attacker who successfully exploited this vulnerability could allow an unprivileged function run by the user to execute code in the conte",
+      "published": "2019-10-10T14:15:18.690000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1372",
+      "generated_at": "2026-04-09T07:11:37.913436+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-13411",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An \u201cinvalid command\u201d handler issue was discovered in HiNet GPON firmware < I040GWR190731. It allows an attacker to execute arbitrary command through port 3097. CVSS 3.0 Base score 10.0. CVSS vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H).",
+      "published": "2019-10-17T18:15:12.237000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-13411",
+      "generated_at": "2026-04-09T07:11:37.913908+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-15066",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An \u201cinvalid command\u201d handler issue was discovered in HiNet GPON firmware < I040GWR190731. It allows an attacker to execute arbitrary command through port 6998. CVSS 3.0 Base score 10.0. CVSS vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H).",
+      "published": "2019-10-17T20:15:12.397000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-15066",
+      "generated_at": "2026-04-09T07:11:37.914206+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-5049",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An exploitable memory corruption vulnerability exists in AMD ATIDXX64.DLL driver, versions 25.20.15031.5004 and 25.20.15031.9002. A specially crafted pixel shader can cause an out-of-bounds memory write. An attacker can provide a specially crafted shader file to trigger this vulnerability. This vuln",
+      "published": "2019-10-31T20:15:11.257000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5049",
+      "generated_at": "2026-04-09T07:11:37.914461+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-5151",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An exploitable SQL injection vulnerability exist in YouPHPTube 7.7. A specially crafted unauthenticated HTTP request can cause a SQL injection, possibly leading to denial of service, exfiltration of the database and local file inclusion, which could potentially further lead to code execution. An att",
+      "published": "2019-10-31T20:15:11.460000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5151",
+      "generated_at": "2026-04-09T07:11:37.914714+00:00"
+    },
+    {
+      "cve_id": "CVE-2018-4031",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An exploitable vulnerability exists in the safe browsing function of the CUJO Smart Firewall, version 7003. The flaw lies in the way the safe browsing function parses HTTP requests. The server hostname is extracted from captured HTTP/HTTPS requests and inserted as part of a Lua statement without pri",
+      "published": "2019-10-31T21:15:12.357000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-4031",
+      "generated_at": "2026-04-09T07:11:37.914976+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-5617",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Computing For Good's Basic Laboratory Information System (also known as C4G BLIS) version 3.4 and earlier suffers from an instance of CWE-284, \"Improper Access Control.\" As a result, an unauthenticated user may change the password of any administrator-level user.",
+      "published": "2019-11-06T19:15:12.233000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5617",
+      "generated_at": "2026-04-09T07:11:37.915372+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-5644",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Computing For Good's Basic Laboratory Information System (also known as C4G BLIS) version 3.5 and earlier suffers from an instance of CWE-284, \"Improper Access Control.\" As a result, an unauthenticated user may alter several facets of a user account, including promoting any user to an administrator.",
+      "published": "2019-11-06T19:15:12.547000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5644",
+      "generated_at": "2026-04-09T07:11:37.916050+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-14678",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "SAS XML Mapper 9.45 has an XML External Entity (XXE) vulnerability that can be leveraged by malicious attackers in multiple ways. Examples are Local File Reading, Out Of Band File Exfiltration, Server Side Request Forgery, and/or Potential Denial of Service attacks. This vulnerability also affects t",
+      "published": "2019-11-14T21:15:11.357000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-14678",
+      "generated_at": "2026-04-09T07:11:37.916455+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-18580",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Dell EMC Storage Monitoring and Reporting version 4.3.1 contains a Java RMI Deserialization of Untrusted Data vulnerability. A remote unauthenticated attacker may potentially exploit this vulnerability by sending a crafted RMI request to execute arbitrary code on the target host.",
+      "published": "2019-11-26T17:15:12.750000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-18580",
+      "generated_at": "2026-04-09T07:11:37.916999+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-18253",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An attacker could use specially crafted paths in a specific request to read or delete files from Relion 670 Series (versions 1p1r26, 1.2.3.17, 2.0.0.10, RES670 2.0.0.4, 2.1.0.1, and prior) outside the intended directory.",
+      "published": "2019-11-27T23:15:10.867000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-18253",
+      "generated_at": "2026-04-09T07:11:37.917464+00:00"
+    },
+    {
+      "cve_id": "CVE-2013-3542",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Grandstream GXV3501, GXV3504, GXV3601, GXV3601HD/LL, GXV3611HD/LL, GXV3615W/P, GXV3651FHD, GXV3662HD, GXV3615WP_HD, GXV3500, and possibly other camera models with firmware 1.0.4.11, have a hardcoded account \"!#/\" with the same password, which makes it easier for remote attackers to obtain access via",
+      "published": "2019-12-11T19:15:11.407000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2013-3542",
+      "generated_at": "2026-04-09T07:11:37.917838+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-7290",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "An access issue was addressed with additional sandbox restrictions. This issue is fixed in Shortcuts 2.1.3 for iOS. A sandboxed process may be able to circumvent sandbox restrictions.",
+      "published": "2019-12-18T18:15:22.287000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7290",
+      "generated_at": "2026-04-09T07:11:37.918147+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-8779",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A logic issue applied the incorrect restrictions. This issue was addressed by updating the logic to apply the correct restrictions. This issue is fixed in iOS 13.1.1 and iPadOS 13.1.1. Third party app extensions may not receive the correct sandbox restrictions.",
+      "published": "2019-12-18T18:15:40.397000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-8779",
+      "generated_at": "2026-04-09T07:11:37.918542+00:00"
+    },
+    {
+      "cve_id": "CVE-2019-17440",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Improper restriction of communications to Log Forwarding Card (LFC) on PA-7000 Series devices with second-generation Switch Management Card (SMC) may allow an attacker with network access to the LFC to gain root access to PAN-OS. This issue affects PAN-OS 9.0 versions prior to 9.0.5-h3 on PA-7080 an",
+      "published": "2019-12-20T16:15:11.327000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-17440",
+      "generated_at": "2026-04-09T07:11:37.918875+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-6961",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "In ApexPro Telemetry Server, Versions 4.2 and prior, CARESCAPE Telemetry Server v4.2 & prior, Clinical Information Center (CIC) Versions 4.X and 5.X, CARESCAPE Telemetry Server Version 4.3, CARESCAPE Central Station (CSCS) Versions 1.X, a vulnerability exists in the affected products that could allo",
+      "published": "2020-01-24T17:15:13.030000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6961",
+      "generated_at": "2026-04-09T07:11:37.919151+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-6962",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "In ApexPro Telemetry Server, Versions 4.2 and prior, CARESCAPE Telemetry Server v4.2 & prior, Clinical Information Center (CIC) Versions 4.X and 5.X, CARESCAPE Telemetry Server Version 4.3, CARESCAPE Central Station (CSCS) Versions 1.X CARESCAPE Central Station (CSCS) Versions 2.X, B450 Version 2.X,",
+      "published": "2020-01-24T17:15:13.127000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6962",
+      "generated_at": "2026-04-09T07:11:37.919500+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-6963",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "In ApexPro Telemetry Server Versions 4.2 and prior, CARESCAPE Telemetry Server v4.2 & prior, Clinical Information Center (CIC) Versions 4.X and 5.X, CARESCAPE Central Station (CSCS) Versions 1.X, the affected products utilized hard coded SMB credentials, which may allow an attacker to remotely execu",
+      "published": "2020-01-24T17:15:13.220000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6963",
+      "generated_at": "2026-04-09T07:11:37.919866+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-6966",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "In ApexPro Telemetry Server Versions 4.2 and prior, CARESCAPE Telemetry Server v4.2 & prior, Clinical Information Center (CIC) Versions 4.X and 5.X, CARESCAPE Central Station (CSCS) Versions 1.X, the affected products utilize a weak encryption scheme for remote desktop control, which may allow an at",
+      "published": "2020-01-24T18:15:12.723000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6966",
+      "generated_at": "2026-04-09T07:11:37.920456+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-6769",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Missing Authentication for Critical Function in the Bosch Video Streaming Gateway (VSG) allows an unauthenticated remote attacker to retrieve and set arbitrary configuration data of the Video Streaming Gateway. A successful attack can impact the confidentiality and availability of live and recorded ",
+      "published": "2020-02-07T20:15:35.507000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6769",
+      "generated_at": "2026-04-09T07:11:37.920905+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-6770",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Deserialization of Untrusted Data in the BVMS Mobile Video Service (BVMS MVS) allows an unauthenticated remote attacker to execute arbitrary code on the system. This affects Bosch BVMS versions 10.0 <= 10.0.0.1225, 9.0 <= 9.0.0.827, 8.0 <= 8.0.0.329 and 7.5 and older. This affects Bosch DIVAR IP 300",
+      "published": "2020-02-07T21:15:10.760000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6770",
+      "generated_at": "2026-04-09T07:11:37.921348+00:00"
+    },
+    {
+      "cve_id": "CVE-2015-0565",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "NaCl in 2015 allowed the CLFLUSH instruction, making rowhammer attacks possible.",
+      "published": "2020-02-25T20:15:10.100000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-0565",
+      "generated_at": "2026-04-09T07:11:37.921823+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-0796",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.",
+      "published": "2020-03-12T16:15:15.627000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-0796",
+      "generated_at": "2026-04-09T07:11:37.922377+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-1953",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Apache Commons Configuration uses a third-party library to parse YAML files which by default allows the instantiation of classes if the YAML includes special statements. Apache Commons Configuration versions 2.2, 2.3, 2.4, 2.5, 2.6 did not change the default settings of this library. So if a YAML fi",
+      "published": "2020-03-13T15:15:11.373000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1953",
+      "generated_at": "2026-04-09T07:11:37.922825+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-3936",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "UltraLog Express device management interface does not properly filter user inputted string in some specific parameters, attackers can inject arbitrary SQL command.",
+      "published": "2020-03-27T04:15:10.913000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-3936",
+      "generated_at": "2026-04-09T07:11:37.923171+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-1614",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "A Use of Hard-coded Credentials vulnerability exists in the NFX250 Series for the vSRX Virtual Network Function (VNF) instance, which allows an attacker to take control of the vSRX VNF instance if they have the ability to access an administrative service (e.g. SSH) on the VNF, either locally, or thr",
+      "published": "2020-04-08T20:15:13.120000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1614",
+      "generated_at": "2026-04-09T07:11:37.923557+00:00"
+    },
+    {
+      "cve_id": "CVE-2020-12079",
+      "severity": "CRITICAL",
+      "cvss_score": 10.0,
+      "is_kev": false,
+      "description": "Beaker before 0.8.9 allows a sandbox escape, enabling system access and code execution. This occurs because Electron context isolation is not used, and therefore an attacker can conduct a prototype-pollution attack against the Electron internal messaging API.",
+      "published": "2020-04-23T04:15:13.343000",
+      "ioc_count": 0,
+      "iocs": [],
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-12079",
+      "generated_at": "2026-04-09T07:11:37.924267+00:00"
     },
     {
       "cve_id": "CVE-2009-3616",
@@ -1251,7 +2253,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2009-3616",
-      "generated_at": "2026-03-31T15:30:13.133583+00:00"
+      "generated_at": "2026-04-09T07:11:37.924770+00:00"
     },
     {
       "cve_id": "CVE-2012-1516",
@@ -1263,7 +2265,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2012-1516",
-      "generated_at": "2026-03-31T15:30:13.133867+00:00"
+      "generated_at": "2026-04-09T07:11:37.925135+00:00"
     },
     {
       "cve_id": "CVE-2015-7926",
@@ -1275,7 +2277,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7926",
-      "generated_at": "2026-03-31T15:30:13.134120+00:00"
+      "generated_at": "2026-04-09T07:11:37.925636+00:00"
     },
     {
       "cve_id": "CVE-2016-2396",
@@ -1287,7 +2289,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-2396",
-      "generated_at": "2026-03-31T15:30:13.134388+00:00"
+      "generated_at": "2026-04-09T07:11:37.926000+00:00"
     },
     {
       "cve_id": "CVE-2015-7411",
@@ -1299,7 +2301,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7411",
-      "generated_at": "2026-03-31T15:30:13.134671+00:00"
+      "generated_at": "2026-04-09T07:11:37.926322+00:00"
     },
     {
       "cve_id": "CVE-2016-9832",
@@ -1311,7 +2313,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9832",
-      "generated_at": "2026-03-31T15:30:13.134907+00:00"
+      "generated_at": "2026-04-09T07:11:37.926668+00:00"
     },
     {
       "cve_id": "CVE-2016-8355",
@@ -1323,7 +2325,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8355",
-      "generated_at": "2026-03-31T15:30:13.135139+00:00"
+      "generated_at": "2026-04-09T07:11:37.927022+00:00"
     },
     {
       "cve_id": "CVE-2016-9269",
@@ -1335,7 +2337,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9269",
-      "generated_at": "2026-03-31T15:30:13.135558+00:00"
+      "generated_at": "2026-04-09T07:11:37.927403+00:00"
     },
     {
       "cve_id": "CVE-2017-6513",
@@ -1347,7 +2349,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-6513",
-      "generated_at": "2026-03-31T15:30:13.135830+00:00"
+      "generated_at": "2026-04-09T07:11:37.927652+00:00"
     },
     {
       "cve_id": "CVE-2016-6902",
@@ -1359,7 +2361,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6902",
-      "generated_at": "2026-03-31T15:30:13.136084+00:00"
+      "generated_at": "2026-04-09T07:11:37.927964+00:00"
     },
     {
       "cve_id": "CVE-2016-6903",
@@ -1371,7 +2373,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6903",
-      "generated_at": "2026-03-31T15:30:13.136388+00:00"
+      "generated_at": "2026-04-09T07:11:37.928266+00:00"
     },
     {
       "cve_id": "CVE-2017-3503",
@@ -1383,7 +2385,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3503",
-      "generated_at": "2026-03-31T15:30:13.136640+00:00"
+      "generated_at": "2026-04-09T07:11:37.928697+00:00"
     },
     {
       "cve_id": "CVE-2017-3553",
@@ -1395,7 +2397,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3553",
-      "generated_at": "2026-03-31T15:30:13.136913+00:00"
+      "generated_at": "2026-04-09T07:11:37.929224+00:00"
     },
     {
       "cve_id": "CVE-2017-8220",
@@ -1407,7 +2409,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8220",
-      "generated_at": "2026-03-31T15:30:13.137168+00:00"
+      "generated_at": "2026-04-09T07:11:37.929770+00:00"
     },
     {
       "cve_id": "CVE-2017-4901",
@@ -1419,7 +2421,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-4901",
-      "generated_at": "2026-03-31T15:30:13.137442+00:00"
+      "generated_at": "2026-04-09T07:11:37.930284+00:00"
     },
     {
       "cve_id": "CVE-2017-1253",
@@ -1431,7 +2433,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-1253",
-      "generated_at": "2026-03-31T15:30:13.137687+00:00"
+      "generated_at": "2026-04-09T07:11:37.930824+00:00"
     },
     {
       "cve_id": "CVE-2017-7175",
@@ -1443,1003 +2445,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7175",
-      "generated_at": "2026-03-31T15:30:13.137917+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-2349",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "A command injection vulnerability in the IDP feature of Juniper Networks Junos OS on SRX series devices potentially allows a user with login access to the device to execute shell commands and elevate privileges. Affected releases are Juniper Networks Junos OS 12.1X44 prior to 12.1X44-D60; 12.1X46 pr",
-      "published": "2017-07-17T13:18:24.610000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-2349",
-      "generated_at": "2026-03-31T15:30:13.138147+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-10202",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "Vulnerability in the OJVM component of Oracle Database Server. Supported versions that are affected are 11.2.0.4, 12.1.0.2 and 12.2.0.1. Easily exploitable vulnerability allows low privileged attacker having Create Session, Create Procedure privilege with network access via multiple protocols to com",
-      "published": "2017-08-08T15:29:05.960000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10202",
-      "generated_at": "2026-03-31T15:30:13.138458+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-12822",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "Remote enabling and disabling admin interface in Gemalto's HASP SRM, Sentinel HASP and Sentinel LDK products prior to Sentinel LDK RTE version 7.55 leads to new attack vectors.",
-      "published": "2017-10-04T01:29:02.277000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12822",
-      "generated_at": "2026-03-31T15:30:13.138699+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-13706",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "XML external entity (XXE) vulnerability in the import package functionality of the deployment module in Lansweeper before 6.0.100.67 allows remote authenticated users to obtain sensitive information, cause a denial of service, conduct server-side request forgery (SSRF) attacks, conduct internal port",
-      "published": "2017-10-10T13:29:00.343000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-13706",
-      "generated_at": "2026-03-31T15:30:13.138934+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-12251",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "A vulnerability in the web console of the Cisco Cloud Services Platform (CSP) 2100 could allow an authenticated, remote attacker to interact maliciously with the services or virtual machines (VMs) operating remotely on an affected CSP device. The vulnerability is due to weaknesses in the generation ",
-      "published": "2017-10-19T08:29:00.217000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12251",
-      "generated_at": "2026-03-31T15:30:13.139173+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-10352",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS - Web Services). The supported version that is affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.1.0, 12.2.1.2.0 and 12.2.1.3.0. Easily exploitable vulnerability allows unauthenticated attacker with networ",
-      "published": "2017-10-19T17:29:04.247000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10352",
-      "generated_at": "2026-03-31T15:30:13.139449+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-10396",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "Vulnerability in the Oracle Hospitality Cruise AffairWhere component of Oracle Hospitality Applications (subcomponent: AffairWhere). Supported versions that are affected are 2.2.5.0, 2.2.6.0 and 2.2.7.0. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure",
-      "published": "2017-10-19T17:29:05.640000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10396",
-      "generated_at": "2026-03-31T15:30:13.139687+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-10404",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "Vulnerability in the Oracle Hospitality Reporting and Analytics component of Oracle Hospitality Applications (subcomponent: iQuery). Supported versions that are affected are 8.5.1 and 9.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Or",
-      "published": "2017-10-19T17:29:05.920000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10404",
-      "generated_at": "2026-03-31T15:30:13.139918+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-10272",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "Vulnerability in the Oracle Tuxedo component of Oracle Fusion Middleware (subcomponent: Core). Supported versions that are affected are 11.1.1, 12.1.1, 12.1.3 and 12.2.2. Easily exploitable vulnerability allows low privileged attacker with network access via Jolt to compromise Oracle Tuxedo. While t",
-      "published": "2017-11-14T23:29:00.653000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10272",
-      "generated_at": "2026-03-31T15:30:13.140153+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-14804",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "The build package before 20171128 did not check directory names during extraction of build results that allowed untrusted builds to write outside of the target system,allowing escape out of buildroots.",
-      "published": "2018-03-01T20:29:00.413000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14804",
-      "generated_at": "2026-03-31T15:30:13.140446+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-5225",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "In browser editing in Atlassian Bitbucket Server from version 4.13.0 before 5.4.8 (the fixed version for 4.13.0 through 5.4.7), 5.5.0 before 5.5.8 (the fixed version for 5.5.x), 5.6.0 before 5.6.5 (the fixed version for 5.6.x), 5.7.0 before 5.7.3 (the fixed version for 5.7.x), and 5.8.0 before 5.8.2",
-      "published": "2018-03-22T13:29:00.810000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-5225",
-      "generated_at": "2026-03-31T15:30:13.140686+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-0238",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "A vulnerability in the role-based resource checking functionality of the Cisco Unified Computing System (UCS) Director could allow an authenticated, remote attacker to view unauthorized information for any virtual machine in the UCS Director end-user portal and perform any permitted operations on an",
-      "published": "2018-04-19T20:29:00.707000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-0238",
-      "generated_at": "2026-03-31T15:30:13.140916+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-11091",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An issue was discovered in MyBiz MyProcureNet 5.0.0. A malicious file can be uploaded to the webserver by an attacker. It is possible for an attacker to upload a script to issue operating system commands. This vulnerability occurs because an attacker is able to adjust the \"HiddenFieldControlCustomWh",
-      "published": "2018-05-14T23:29:00.610000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-11091",
-      "generated_at": "2026-03-31T15:30:13.141159+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-12892",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An issue was discovered in Xen 4.7 through 4.10.x. libxl fails to pass the readonly flag to qemu when setting up a SCSI disk, due to what was probably an erroneous merge conflict resolution. Malicious guest administrators or (in some situations) users may be able to write to supposedly read-only dis",
-      "published": "2018-07-02T17:29:00.537000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-12892",
-      "generated_at": "2026-03-31T15:30:13.141446+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-2637",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "A design flaw issue was found in the Red Hat OpenStack Platform director use of TripleO to enable libvirtd based live-migration. Libvirtd is deployed by default (by director) listening on 0.0.0.0 (all interfaces) with no-authentication or encryption. Anyone able to make a TCP connection to any compu",
-      "published": "2018-07-26T12:29:00.217000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-2637",
-      "generated_at": "2026-03-31T15:30:13.141683+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-14444",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation incorrectly handles the URL parameter during a firmware update request, leading to a buffer overflow on a global section. An attacker can send an HTTP GET request to trigg",
-      "published": "2018-08-02T19:29:00.233000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14444",
-      "generated_at": "2026-03-31T15:30:13.141912+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-14445",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation incorrectly handles the host parameter during a firmware update request, leading to a buffer overflow on a global section. An attacker can send an HTTP GET request to trig",
-      "published": "2018-08-02T19:29:00.280000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14445",
-      "generated_at": "2026-03-31T15:30:13.142147+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-14446",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable stack-based buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation unsafely extracts parameters from the query string, leading to a buffer overflow on the stack. An attacker can send an HTTP GET request to trigger this vulnera",
-      "published": "2018-08-02T19:29:00.327000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14446",
-      "generated_at": "2026-03-31T15:30:13.142444+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-16338",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01bad0 the value for the host key is copied using strcpy to the buffer at 0xa00016e0. This buffer is 32 bytes large, sending anything longer will cause a buffer ove",
-      "published": "2018-08-02T19:29:00.357000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16338",
-      "generated_at": "2026-03-31T15:30:13.142691+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-16339",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01bb1c the value for the uri key is copied using strcpy to the buffer at 0xa00016a0. This buffer is 64 bytes large, sending anything longer will cause a buffer over",
-      "published": "2018-08-02T19:29:00.403000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16339",
-      "generated_at": "2026-03-31T15:30:13.142924+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-16340",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c0e8 the value for the s_dport key is copied using strcpy to the buffer at 0xa000180c. This buffer is 6 bytes large, sending anything longer will cause a buffer o",
-      "published": "2018-08-02T19:29:00.450000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16340",
-      "generated_at": "2026-03-31T15:30:13.143158+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-16341",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c224 the value for the s_vol_play key is copied using strcpy to the buffer at 0xa0000418. This buffer is maximum 8 bytes large (this is the maximum size it could ",
-      "published": "2018-08-02T19:29:00.497000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16341",
-      "generated_at": "2026-03-31T15:30:13.143446+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-16342",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c254 the value for the s_vol_dim_delta key is copied using strcpy to the buffer at 0xa0000514. This buffer is 4 bytes large, sending anything longer will cause a ",
-      "published": "2018-08-02T19:29:00.543000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16342",
-      "generated_at": "2026-03-31T15:30:13.143694+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-16343",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c284 the value for the s_vol_brt_delta key is copied using strcpy to the buffer at 0xa0000510. This buffer is 4 bytes large, sending anything longer will cause a ",
-      "published": "2018-08-02T19:29:00.577000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16343",
-      "generated_at": "2026-03-31T15:30:13.143924+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-16344",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c2c8 the value for the s_url key is copied using strcpy to the buffer at 0xa0001a0c. This buffer is 16 bytes large, sending anything longer will cause a buffer ov",
-      "published": "2018-08-02T19:29:00.623000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16344",
-      "generated_at": "2026-03-31T15:30:13.144152+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-16345",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c318 the value for the s_port key is copied using strcpy to the buffer at 0xa00017f4. This buffer is 6 bytes large, sending anything longer will cause a buffer ov",
-      "published": "2018-08-02T19:29:00.653000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16345",
-      "generated_at": "2026-03-31T15:30:13.144444+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-16346",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c368 the value for the s_mac key is copied using strcpy to the buffer at 0xa000170c. This buffer is 25 bytes large, sending anything longer will cause a buffer ov",
-      "published": "2018-08-02T19:29:00.700000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16346",
-      "generated_at": "2026-03-31T15:30:13.144679+00:00"
-    },
-    {
-      "cve_id": "CVE-2017-16347",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01e7d4 the value for the s_vol key is copied using strcpy to the buffer at 0xa0001700. This buffer is maximum 12 bytes large (this is the maximum size it could be, ",
-      "published": "2018-08-02T19:29:00.747000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16347",
-      "generated_at": "2026-03-31T15:30:13.144914+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3110",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "A vulnerability was discovered in the Java VM component of Oracle Database Server. Supported versions that are affected are 11.2.0.4, 12.1.0.2, 12.2.0.1 and 18. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via Oracle Net to compr",
-      "published": "2018-08-10T22:29:00.220000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3110",
-      "generated_at": "2026-03-31T15:30:13.145145+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3863",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "On Samsung SmartThings Hub STH-ETH-250 devices with firmware version 0.20.17, the video-core process incorrectly extracts fields from a user-controlled JSON payload, leading to a buffer overflow on the stack. An attacker can send an HTTP request to trigger this vulnerability. A strcpy overflows the ",
-      "published": "2018-08-23T15:29:00.647000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3863",
-      "generated_at": "2026-03-31T15:30:13.145439+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3867",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable stack-based buffer overflow vulnerability exists in the samsungWifiScan callback notification of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250 devices with firmware version 0.20.17. The video-core process incorrectly handles the answer received from a smart camera, l",
-      "published": "2018-08-23T15:29:00.757000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3867",
-      "generated_at": "2026-03-31T15:30:13.145818+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3878",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "Multiple exploitable buffer overflow vulnerabilities exist in the credentials handler of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250 devices with firmware version 0.20.17. The video-core process incorrectly extracts fields from a user-controlled JSON payload, leading to a buffer ",
-      "published": "2018-08-23T15:29:00.867000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3878",
-      "generated_at": "2026-03-31T15:30:13.146066+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3902",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in the camera \"replace\" feature of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250 devices with firmware version 0.20.17. The video-core process incorrectly extracts the URL field from a user-controlled JSON payload, leading to a bu",
-      "published": "2018-08-23T15:29:01.100000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3902",
-      "generated_at": "2026-03-31T15:30:13.146356+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3903",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "On Samsung SmartThings Hub STH-ETH-250 devices with firmware version 0.20.17, the video-core process incorrectly extracts fields from a user-controlled JSON payload, leading to a buffer overflow on the stack. An attacker can send an HTTP request to trigger this vulnerability. The memcpy call overflo",
-      "published": "2018-08-23T15:29:01.210000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3903",
-      "generated_at": "2026-03-31T15:30:13.146744+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3905",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in the camera \"create\" feature of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250 devices with firmware version 0.20.17. The video-core process incorrectly extracts the \"state\" field from a user-controlled JSON payload, leading to a",
-      "published": "2018-08-23T15:29:01.333000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3905",
-      "generated_at": "2026-03-31T15:30:13.147183+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3917",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "On Samsung SmartThings Hub STH-ETH-250 devices with firmware version 0.20.17, the video-core process insecurely extracts the fields from the \"shard\" table of its SQLite database, leading to a buffer overflow on the stack. An attacker can send an HTTP request to trigger this vulnerability. The strcpy",
-      "published": "2018-08-23T15:29:01.507000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3917",
-      "generated_at": "2026-03-31T15:30:13.147660+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3919",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable stack-based buffer overflow vulnerability exists in the retrieval of database fields in video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250 devices with firmware version 0.20.17. The video-core process insecurely extracts the fields from the \"clips\" table of its SQLite dat",
-      "published": "2018-08-23T15:29:01.647000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3919",
-      "generated_at": "2026-03-31T15:30:13.148042+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3856",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable vulnerability exists in the smart cameras RTSP configuration of the Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The device incorrectly handles spaces in the URL field, leading to an arbitrary operating system command injection. An attacker can send a series of HTTP",
-      "published": "2018-08-23T22:29:00.243000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3856",
-      "generated_at": "2026-03-31T15:30:13.148414+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3866",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in the samsungWifiScan handler of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The video-core process incorrectly extracts fields from a user-controlled JSON payload, leading to a buffer overflow on th",
-      "published": "2018-08-23T22:29:00.370000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3866",
-      "generated_at": "2026-03-31T15:30:13.148682+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3872",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in the credentials handler of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The video-core process incorrectly extracts the videoHostUrl field from a user-controlled JSON payload, leading to a buffer ov",
-      "published": "2018-08-23T22:29:00.477000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3872",
-      "generated_at": "2026-03-31T15:30:13.148934+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3880",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable stack-based buffer overflow vulnerability exists in the database 'find-by-cameraId' functionality of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The video-core process incorrectly handles existing records inside its SQLite database, lead",
-      "published": "2018-08-23T22:29:00.573000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3880",
-      "generated_at": "2026-03-31T15:30:13.149178+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3904",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in the camera 'update' feature of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The video-core process incorrectly extracts fields from a user-controlled JSON payload, leading to a buffer overflow on th",
-      "published": "2018-08-27T15:29:01.027000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3904",
-      "generated_at": "2026-03-31T15:30:13.149455+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-16367",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "In OnlineJudge 2.0, the sandbox has an incorrect access control vulnerability that can write a file anywhere. A user can write a directory listing to /tmp, and can leak file data with a #include.",
-      "published": "2018-09-02T22:29:01.257000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-16367",
-      "generated_at": "2026-03-31T15:30:13.149704+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3875",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in the credentials handler of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250-Firmware version 0.20.17. The video-core process incorrectly extracts fields from a user-controlled JSON payload, leading to a buffer overflow on the stac",
-      "published": "2018-09-10T19:29:00.500000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3875",
-      "generated_at": "2026-03-31T15:30:13.149945+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3873",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in the credentials handler of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250-Firmware version 0.20.17. The strncpy overflows the destination buffer, which has a size of 128 bytes. An attacker can send an arbitrarily long \"secretKey",
-      "published": "2018-09-21T14:29:00.270000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3873",
-      "generated_at": "2026-03-31T15:30:13.150210+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3874",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in the credentials handler of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250-Firmware version 0.20.17. The strncpy overflows the destination buffer, which has a size of 32 bytes. An attacker can send an arbitrarily long \"accessKey\"",
-      "published": "2018-09-21T14:29:00.380000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3874",
-      "generated_at": "2026-03-31T15:30:13.150503+00:00"
-    },
-    {
-      "cve_id": "CVE-2018-3877",
-      "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "An exploitable buffer overflow vulnerability exists in the credentials handler of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250-Firmware version 0.20.17. The strncpy overflows the destination buffer, which has a size of 160 bytes. An attacker can send an arbitrarily long \"directory",
-      "published": "2018-09-21T14:29:00.600000",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3877",
-      "generated_at": "2026-03-31T15:30:13.150742+00:00"
-    },
-    {
-      "cve_id": "CVE-1999-0066",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "AnyForm CGI remote execution.",
-      "published": "1995-07-31T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0066",
-      "generated_at": "2026-03-31T15:30:13.150974+00:00"
-    },
-    {
-      "cve_id": "CVE-1999-0043",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Command execution via shell metachars in INN daemon (innd) 1.5 using \"newgroup\" and \"rmgroup\" control messages, and others.",
-      "published": "1996-12-04T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0043",
-      "generated_at": "2026-03-31T15:30:13.151211+00:00"
-    },
-    {
-      "cve_id": "CVE-1999-0006",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Buffer overflow in POP servers based on BSD/Qualcomm's qpopper allows remote attackers to gain root access using a long PASS command.",
-      "published": "1998-07-14T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0006",
-      "generated_at": "2026-03-31T15:30:13.151502+00:00"
-    },
-    {
-      "cve_id": "CVE-1999-0426",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "The default permissions of /dev/kmem in Linux versions before 2.0.36 allows IP spoofing.",
-      "published": "1999-03-01T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0426",
-      "generated_at": "2026-03-31T15:30:13.151747+00:00"
-    },
-    {
-      "cve_id": "CVE-1999-1324",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "VAXstations running Open VMS 5.3 through 5.5-2 with VMS DECwindows or MOTIF do not properly disable access to user accounts that exceed the break-in limit threshold for failed login attempts, which makes it easier for attackers to conduct brute force password guessing.",
-      "published": "1999-12-31T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1324",
-      "generated_at": "2026-03-31T15:30:13.151981+00:00"
-    },
-    {
-      "cve_id": "CVE-1999-1588",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Buffer overflow in nlps_server in Sun Solaris x86 2.4, 2.5, and 2.5.1 allows remote attackers to execute arbitrary code as root via a long string beginning with \"NLPS:002:002:\" to the listen (aka System V listener) port, TCP port 2766.",
-      "published": "1999-12-31T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-1999-1588",
-      "generated_at": "2026-03-31T15:30:13.152215+00:00"
-    },
-    {
-      "cve_id": "CVE-2000-1218",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "The default configuration for the domain name resolver for Microsoft Windows 98, NT 4.0, 2000, and XP sets the QueryIpMatching parameter to 0, which causes Windows to accept DNS updates from hosts that it did not query, which allows remote attackers to poison the DNS cache.",
-      "published": "2000-04-14T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2000-1218",
-      "generated_at": "2026-03-31T15:30:13.152517+00:00"
-    },
-    {
-      "cve_id": "CVE-2000-0944",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "CGI Script Center News Update 1.1 does not properly validate the original news administration password during a password change operation, which allows remote attackers to modify the password without knowing the original password.",
-      "published": "2000-12-19T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0944",
-      "generated_at": "2026-03-31T15:30:13.152754+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-1339",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Beck IPC GmbH IPC@CHIP telnet service does not delay or disconnect users from the service when bad passwords are entered, which makes it easier for remote attackers to conduct brute force password guessing attacks.",
-      "published": "2001-05-24T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-1339",
-      "generated_at": "2026-03-31T15:30:13.152984+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-0248",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Buffer overflow in FTP server in HPUX 11 allows remote attackers to execute arbitrary commands by creating a long pathname and calling the STAT command, which uses glob to generate long strings.",
-      "published": "2001-06-18T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-0248",
-      "generated_at": "2026-03-31T15:30:13.153214+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-0249",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Heap overflow in FTP daemon in Solaris 8 allows remote attackers to execute arbitrary commands by creating a long pathname and calling the LIST command, which uses glob to generate long strings.",
-      "published": "2001-06-18T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-0249",
-      "generated_at": "2026-03-31T15:30:13.153484+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-0395",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Lightwave ConsoleServer 3200 does not disconnect users after unsuccessful login attempts, which could allow remote attackers to conduct brute force password guessing.",
-      "published": "2001-07-02T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-0395",
-      "generated_at": "2026-03-31T15:30:13.153721+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-1291",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "The telnet server for 3Com hardware such as PS40 SuperStack II does not delay or disconnect remote attackers who provide an incorrect username or password, which makes it easier to break into the server via brute force password guessing.",
-      "published": "2001-07-12T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-1291",
-      "generated_at": "2026-03-31T15:30:13.153949+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-0609",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Format string vulnerability in Infodrom cfingerd 1.4.3 and earlier allows a remote attacker to gain additional privileges via a malformed ident reply that is passed to the syslog function.",
-      "published": "2001-08-02T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-0609",
-      "generated_at": "2026-03-31T15:30:13.154181+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-1155",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "TCP Wrappers (tcp_wrappers) in FreeBSD 4.1.1 through 4.3 with the PARANOID ACL option enabled does not properly check the result of a reverse DNS lookup, which could allow remote attackers to bypass intended access restrictions via DNS spoofing.",
-      "published": "2001-08-23T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-1155",
-      "generated_at": "2026-03-31T15:30:13.154467+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-0967",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Knox Arkeia server 4.2, and possibly other versions, uses a constant salt when encrypting passwords using the crypt() function, which makes it easier for an attacker to conduct brute force password guessing.",
-      "published": "2001-08-31T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-0967",
-      "generated_at": "2026-03-31T15:30:13.154702+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-1125",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Symantec LiveUpdate before 1.6 does not use cryptography to ensure the integrity of download files, which allows remote attackers to execute arbitrary code via DNS spoofing of the update.symantec.com site.",
-      "published": "2001-10-05T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-1125",
-      "generated_at": "2026-03-31T15:30:13.154931+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-0766",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Apache on MacOS X Client 10.0.3 with the HFS+ file system allows remote attackers to bypass access restrictions via a URL that contains some characters whose case is not matched by Apache's filters.",
-      "published": "2001-10-18T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-0766",
-      "generated_at": "2026-03-31T15:30:13.155160+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-1481",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Xitami 2.4 through 2.5 b4 stores the Administrator password in plaintext in the default.aut file, whose default permissions are world-readable, which allows remote attackers to gain privileges.",
-      "published": "2001-12-31T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-1481",
-      "generated_at": "2026-03-31T15:30:13.155428+00:00"
-    },
-    {
-      "cve_id": "CVE-2001-1496",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Off-by-one buffer overflow in Basic Authentication in Acme Labs thttpd 1.95 through 2.20 allows remote attackers to cause a denial of service and possibly execute arbitrary code.",
-      "published": "2001-12-31T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2001-1496",
-      "generated_at": "2026-03-31T15:30:13.155667+00:00"
-    },
-    {
-      "cve_id": "CVE-2002-0059",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "The decompression algorithm in zlib 1.1.3 and earlier, as used in many different utilities and packages, causes inflateEnd to release certain memory more than once (a \"double free\"), which may allow local and remote attackers to execute arbitrary code via a block of malformed compression data.",
-      "published": "2002-03-15T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0059",
-      "generated_at": "2026-03-31T15:30:13.155890+00:00"
-    },
-    {
-      "cve_id": "CVE-2002-0083",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Off-by-one error in the channel code of OpenSSH 2.0 through 3.0.2 allows local users or remote malicious servers to gain privileges.",
-      "published": "2002-03-15T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0083",
-      "generated_at": "2026-03-31T15:30:13.156192+00:00"
-    },
-    {
-      "cve_id": "CVE-2002-0639",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Integer overflow in sshd in OpenSSH 2.9.9 through 3.3 allows remote attackers to execute arbitrary code during challenge response authentication (ChallengeResponseAuthentication) when OpenSSH is using SKEY or BSD_AUTH authentication.",
-      "published": "2002-07-03T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0639",
-      "generated_at": "2026-03-31T15:30:13.156533+00:00"
-    },
-    {
-      "cve_id": "CVE-2002-0671",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Pingtel xpressa SIP-based voice-over-IP phone 1.2.5 through 1.2.7.4 downloads phone applications from a web site but can not verify the integrity of the applications, which could allow remote attackers to install Trojan horse applications via DNS spoofing.",
-      "published": "2002-07-23T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0671",
-      "generated_at": "2026-03-31T15:30:13.156813+00:00"
-    },
-    {
-      "cve_id": "CVE-2002-0391",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Integer overflow in xdr_array function in RPC servers for operating systems that use libc, glibc, or other code based on SunRPC including dietlibc, allows remote attackers to execute arbitrary code by passing a large number of arguments to xdr_array through RPC services such as rpc.cmsd and dmispd.",
-      "published": "2002-08-12T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0391",
-      "generated_at": "2026-03-31T15:30:13.157066+00:00"
-    },
-    {
-      "cve_id": "CVE-2002-1347",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Multiple buffer overflows in Cyrus SASL library 2.1.9 and earlier allow remote attackers to cause a denial of service and possibly execute arbitrary code via (1) long inputs during user name canonicalization, (2) characters that need to be escaped during LDAP authentication using saslauthd, or (3) a",
-      "published": "2002-12-18T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2002-1347",
-      "generated_at": "2026-03-31T15:30:13.157311+00:00"
-    },
-    {
-      "cve_id": "CVE-2002-1816",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Off-by-one buffer overflow in the sock_gets function in sockhelp.c for ATPhttpd 0.4b and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.",
-      "published": "2002-12-31T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2002-1816",
-      "generated_at": "2026-03-31T15:30:13.157606+00:00"
-    },
-    {
-      "cve_id": "CVE-2002-1820",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "register.php in Ultimate PHP Board (UPB) 1.0 and 1.0b uses an administrative account Admin with a capital \"A,\" but allows a remote attacker to impersonate the administrator by registering an account name of admin with a lower case \"a.\"",
-      "published": "2002-12-31T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2002-1820",
-      "generated_at": "2026-03-31T15:30:13.157848+00:00"
-    },
-    {
-      "cve_id": "CVE-2002-2119",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Novell eDirectory 8.6.2 and 8.7 use case insensitive passwords, which makes it easier for remote attackers to conduct brute force password guessing.",
-      "published": "2002-12-31T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2002-2119",
-      "generated_at": "2026-03-31T15:30:13.158084+00:00"
-    },
-    {
-      "cve_id": "CVE-2002-1484",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "DB4Web server, when configured to use verbose debug messages, allows remote attackers to use DB4Web as a proxy and attempt TCP connections to other systems (port scan) via a request for a URL that specifies the target IP address and port, which produces a connection status in the resulting error mes",
-      "published": "2003-04-22T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2002-1484",
-      "generated_at": "2026-03-31T15:30:13.158361+00:00"
-    },
-    {
-      "cve_id": "CVE-2003-0174",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "The LDAP name service (nsd) in IRIX 6.5.19 and earlier does not properly verify if the USERPASSWORD attribute has been provided by an LDAP server, which could allow attackers to log in without a password.",
-      "published": "2003-05-12T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2003-0174",
-      "generated_at": "2026-03-31T15:30:13.158645+00:00"
-    },
-    {
-      "cve_id": "CVE-2003-0356",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Multiple off-by-one vulnerabilities in Ethereal 0.9.11 and earlier allow remote attackers to cause a denial of service and possibly execute arbitrary code via the (1) AIM, (2) GIOP Gryphon, (3) OSPF, (4) PPTP, (5) Quake, (6) Quake2, (7) Quake3, (8) Rsync, (9) SMB, (10) SMPP, and (11) TSP dissectors,",
-      "published": "2003-06-09T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2003-0356",
-      "generated_at": "2026-03-31T15:30:13.158900+00:00"
-    },
-    {
-      "cve_id": "CVE-2003-0252",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Off-by-one error in the xlog function of mountd in the Linux NFS utils package (nfs-utils) before 1.0.4 allows remote attackers to cause a denial of service and possibly execute arbitrary code via certain RPC requests to mountd that do not contain newlines.",
-      "published": "2003-08-18T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2003-0252",
-      "generated_at": "2026-03-31T15:30:13.159148+00:00"
-    },
-    {
-      "cve_id": "CVE-2003-0466",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Off-by-one error in the fb_realpath() function, as derived from the realpath function in BSD, may allow attackers to execute arbitrary code, as demonstrated in wu-ftpd 2.5.0 through 2.6.2 via commands that cause pathnames of length MAXPATHLEN+1 to trigger a buffer overflow, including (1) STOR, (2) R",
-      "published": "2003-08-27T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2003-0466",
-      "generated_at": "2026-03-31T15:30:13.159381+00:00"
-    },
-    {
-      "cve_id": "CVE-2003-0791",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "The Script.prototype.freeze/thaw functionality in Mozilla 1.4 and earlier allows attackers to execute native methods by modifying the string used as input to the script.thaw JavaScript function, which is then deserialized and executed.",
-      "published": "2003-10-07T04:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2003-0791",
-      "generated_at": "2026-03-31T15:30:13.159679+00:00"
-    },
-    {
-      "cve_id": "CVE-2003-0899",
-      "severity": "CRITICAL",
-      "cvss_score": 9.8,
-      "is_kev": false,
-      "description": "Buffer overflow in defang in libhttpd.c for thttpd 2.21 to 2.23b1 allows remote attackers to execute arbitrary code via requests that contain '<' or '>' characters, which trigger the overflow when the characters are expanded to \"&lt;\" and \"&gt;\" sequences.",
-      "published": "2003-11-03T05:00:00",
-      "ioc_count": 0,
-      "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2003-0899",
-      "generated_at": "2026-03-31T15:30:13.159922+00:00"
+      "generated_at": "2026-04-09T07:11:37.931326+00:00"
     }
   ],
   "count": 200
