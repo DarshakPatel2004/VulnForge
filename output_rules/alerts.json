@@ -3,7 +3,7 @@
     "title": "VulnForge Alert Feed",
     "made_by": "Darshak Patel",
     "watermark": "[dp-watermark-2026]",
-    "generated_at": "2026-04-09T07:11:37.935833+00:00"
+    "generated_at": "2026-04-09T12:31:48.568071+00:00"
   },
   "alerts": [
     {
@@ -11,8 +11,8 @@
       "severity": "CRITICAL",
       "cvss_score": 10.0,
       "is_kev": true,
-      "description": "Log4Shell",
-      "published": "2021-12-10T00:00:00",
+      "description": "Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message p",
+      "published": "2021-12-10T10:15:09.143000",
       "ioc_count": 329404,
       "iocs": [
         {
@@ -57,7 +57,7 @@
         }
       ],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
-      "generated_at": "2026-04-09T07:11:36.801327+00:00"
+      "generated_at": "2026-04-09T12:31:47.688022+00:00"
     },
     {
       "cve_id": "CVE-2012-6069",
@@ -69,7 +69,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2012-6069",
-      "generated_at": "2026-04-09T07:11:37.841667+00:00"
+      "generated_at": "2026-04-09T12:31:48.506620+00:00"
     },
     {
       "cve_id": "CVE-2015-8104",
@@ -81,7 +81,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8104",
-      "generated_at": "2026-04-09T07:11:37.842607+00:00"
+      "generated_at": "2026-04-09T12:31:48.507654+00:00"
     },
     {
       "cve_id": "CVE-2015-7919",
@@ -93,7 +93,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7919",
-      "generated_at": "2026-04-09T07:11:37.843219+00:00"
+      "generated_at": "2026-04-09T12:31:48.508158+00:00"
     },
     {
       "cve_id": "CVE-2015-8267",
@@ -105,7 +105,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8267",
-      "generated_at": "2026-04-09T07:11:37.843870+00:00"
+      "generated_at": "2026-04-09T12:31:48.508619+00:00"
     },
     {
       "cve_id": "CVE-2015-7930",
@@ -117,7 +117,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7930",
-      "generated_at": "2026-04-09T07:11:37.844440+00:00"
+      "generated_at": "2026-04-09T12:31:48.509701+00:00"
     },
     {
       "cve_id": "CVE-2015-8459",
@@ -129,7 +129,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8459",
-      "generated_at": "2026-04-09T07:11:37.844983+00:00"
+      "generated_at": "2026-04-09T12:31:48.510152+00:00"
     },
     {
       "cve_id": "CVE-2015-7426",
@@ -141,7 +141,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7426",
-      "generated_at": "2026-04-09T07:11:37.845582+00:00"
+      "generated_at": "2026-04-09T12:31:48.510668+00:00"
     },
     {
       "cve_id": "CVE-2015-7541",
@@ -153,7 +153,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7541",
-      "generated_at": "2026-04-09T07:11:37.846165+00:00"
+      "generated_at": "2026-04-09T12:31:48.511024+00:00"
     },
     {
       "cve_id": "CVE-2015-8659",
@@ -165,7 +165,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8659",
-      "generated_at": "2026-04-09T07:11:37.846752+00:00"
+      "generated_at": "2026-04-09T12:31:48.511773+00:00"
     },
     {
       "cve_id": "CVE-2015-8396",
@@ -177,7 +177,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8396",
-      "generated_at": "2026-04-09T07:11:37.847276+00:00"
+      "generated_at": "2026-04-09T12:31:48.512263+00:00"
     },
     {
       "cve_id": "CVE-2016-1985",
@@ -189,7 +189,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1985",
-      "generated_at": "2026-04-09T07:11:37.847684+00:00"
+      "generated_at": "2026-04-09T12:31:48.512736+00:00"
     },
     {
       "cve_id": "CVE-2016-1931",
@@ -201,7 +201,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1931",
-      "generated_at": "2026-04-09T07:11:37.848119+00:00"
+      "generated_at": "2026-04-09T12:31:48.513429+00:00"
     },
     {
       "cve_id": "CVE-2015-8747",
@@ -213,7 +213,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8747",
-      "generated_at": "2026-04-09T07:11:37.848652+00:00"
+      "generated_at": "2026-04-09T12:31:48.513877+00:00"
     },
     {
       "cve_id": "CVE-2016-1505",
@@ -225,7 +225,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1505",
-      "generated_at": "2026-04-09T07:11:37.849077+00:00"
+      "generated_at": "2026-04-09T12:31:48.514289+00:00"
     },
     {
       "cve_id": "CVE-2015-7425",
@@ -237,7 +237,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7425",
-      "generated_at": "2026-04-09T07:11:37.849413+00:00"
+      "generated_at": "2026-04-09T12:31:48.514946+00:00"
     },
     {
       "cve_id": "CVE-2016-1343",
@@ -249,7 +249,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1343",
-      "generated_at": "2026-04-09T07:11:37.849743+00:00"
+      "generated_at": "2026-04-09T12:31:48.515456+00:00"
     },
     {
       "cve_id": "CVE-2016-1038",
@@ -261,7 +261,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1038",
-      "generated_at": "2026-04-09T07:11:37.850107+00:00"
+      "generated_at": "2026-04-09T12:31:48.516883+00:00"
     },
     {
       "cve_id": "CVE-2016-1041",
@@ -273,7 +273,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1041",
-      "generated_at": "2026-04-09T07:11:37.850679+00:00"
+      "generated_at": "2026-04-09T12:31:48.517401+00:00"
     },
     {
       "cve_id": "CVE-2016-1044",
@@ -285,7 +285,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1044",
-      "generated_at": "2026-04-09T07:11:37.851187+00:00"
+      "generated_at": "2026-04-09T12:31:48.517878+00:00"
     },
     {
       "cve_id": "CVE-2010-5326",
@@ -297,7 +297,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2010-5326",
-      "generated_at": "2026-04-09T07:11:37.851804+00:00"
+      "generated_at": "2026-04-09T12:31:48.518395+00:00"
     },
     {
       "cve_id": "CVE-2016-4787",
@@ -309,7 +309,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4787",
-      "generated_at": "2026-04-09T07:11:37.852377+00:00"
+      "generated_at": "2026-04-09T12:31:48.518913+00:00"
     },
     {
       "cve_id": "CVE-2016-5788",
@@ -321,7 +321,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-5788",
-      "generated_at": "2026-04-09T07:11:37.852952+00:00"
+      "generated_at": "2026-04-09T12:31:48.519334+00:00"
     },
     {
       "cve_id": "CVE-2016-7457",
@@ -333,7 +333,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-7457",
-      "generated_at": "2026-04-09T07:11:37.853532+00:00"
+      "generated_at": "2026-04-09T12:31:48.519642+00:00"
     },
     {
       "cve_id": "CVE-2017-3324",
@@ -345,7 +345,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3324",
-      "generated_at": "2026-04-09T07:11:37.854165+00:00"
+      "generated_at": "2026-04-09T12:31:48.519934+00:00"
     },
     {
       "cve_id": "CVE-2016-10043",
@@ -357,7 +357,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-10043",
-      "generated_at": "2026-04-09T07:11:37.855135+00:00"
+      "generated_at": "2026-04-09T12:31:48.520219+00:00"
     },
     {
       "cve_id": "CVE-2015-8974",
@@ -369,7 +369,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8974",
-      "generated_at": "2026-04-09T07:11:37.855917+00:00"
+      "generated_at": "2026-04-09T12:31:48.520503+00:00"
     },
     {
       "cve_id": "CVE-2017-3791",
@@ -381,7 +381,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3791",
-      "generated_at": "2026-04-09T07:11:37.856478+00:00"
+      "generated_at": "2026-04-09T12:31:48.520753+00:00"
     },
     {
       "cve_id": "CVE-2016-6082",
@@ -393,7 +393,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6082",
-      "generated_at": "2026-04-09T07:11:37.857101+00:00"
+      "generated_at": "2026-04-09T12:31:48.521047+00:00"
     },
     {
       "cve_id": "CVE-2016-8938",
@@ -405,7 +405,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8938",
-      "generated_at": "2026-04-09T07:11:37.857524+00:00"
+      "generated_at": "2026-04-09T12:31:48.521321+00:00"
     },
     {
       "cve_id": "CVE-2016-8352",
@@ -417,7 +417,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8352",
-      "generated_at": "2026-04-09T07:11:37.858075+00:00"
+      "generated_at": "2026-04-09T12:31:48.521624+00:00"
     },
     {
       "cve_id": "CVE-2016-8363",
@@ -429,7 +429,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8363",
-      "generated_at": "2026-04-09T07:11:37.858398+00:00"
+      "generated_at": "2026-04-09T12:31:48.521889+00:00"
     },
     {
       "cve_id": "CVE-2016-9343",
@@ -441,7 +441,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9343",
-      "generated_at": "2026-04-09T07:11:37.858727+00:00"
+      "generated_at": "2026-04-09T12:31:48.522229+00:00"
     },
     {
       "cve_id": "CVE-2017-5145",
@@ -453,7 +453,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5145",
-      "generated_at": "2026-04-09T07:11:37.859161+00:00"
+      "generated_at": "2026-04-09T12:31:48.522499+00:00"
     },
     {
       "cve_id": "CVE-2017-2785",
@@ -465,7 +465,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-2785",
-      "generated_at": "2026-04-09T07:11:37.859490+00:00"
+      "generated_at": "2026-04-09T12:31:48.522738+00:00"
     },
     {
       "cve_id": "CVE-2017-2788",
@@ -477,7 +477,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-2788",
-      "generated_at": "2026-04-09T07:11:37.859817+00:00"
+      "generated_at": "2026-04-09T12:31:48.523015+00:00"
     },
     {
       "cve_id": "CVE-2016-8027",
@@ -489,7 +489,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8027",
-      "generated_at": "2026-04-09T07:11:37.860372+00:00"
+      "generated_at": "2026-04-09T12:31:48.523474+00:00"
     },
     {
       "cve_id": "CVE-2015-8556",
@@ -501,7 +501,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8556",
-      "generated_at": "2026-04-09T07:11:37.860784+00:00"
+      "generated_at": "2026-04-09T12:31:48.523746+00:00"
     },
     {
       "cve_id": "CVE-2017-5226",
@@ -513,7 +513,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5226",
-      "generated_at": "2026-04-09T07:11:37.861272+00:00"
+      "generated_at": "2026-04-09T12:31:48.524034+00:00"
     },
     {
       "cve_id": "CVE-2017-7722",
@@ -525,7 +525,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7722",
-      "generated_at": "2026-04-09T07:11:37.861938+00:00"
+      "generated_at": "2026-04-09T12:31:48.524338+00:00"
     },
     {
       "cve_id": "CVE-2017-7964",
@@ -537,7 +537,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7964",
-      "generated_at": "2026-04-09T07:11:37.862530+00:00"
+      "generated_at": "2026-04-09T12:31:48.524640+00:00"
     },
     {
       "cve_id": "CVE-2017-2320",
@@ -549,7 +549,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-2320",
-      "generated_at": "2026-04-09T07:11:37.862847+00:00"
+      "generated_at": "2026-04-09T12:31:48.524899+00:00"
     },
     {
       "cve_id": "CVE-2017-3623",
@@ -561,7 +561,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3623",
-      "generated_at": "2026-04-09T07:11:37.863248+00:00"
+      "generated_at": "2026-04-09T12:31:48.525133+00:00"
     },
     {
       "cve_id": "CVE-2017-8110",
@@ -573,7 +573,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8110",
-      "generated_at": "2026-04-09T07:11:37.863707+00:00"
+      "generated_at": "2026-04-09T12:31:48.525377+00:00"
     },
     {
       "cve_id": "CVE-2017-8794",
@@ -585,7 +585,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8794",
-      "generated_at": "2026-04-09T07:11:37.864542+00:00"
+      "generated_at": "2026-04-09T12:31:48.525608+00:00"
     },
     {
       "cve_id": "CVE-2017-7213",
@@ -597,7 +597,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7213",
-      "generated_at": "2026-04-09T07:11:37.864950+00:00"
+      "generated_at": "2026-04-09T12:31:48.525838+00:00"
     },
     {
       "cve_id": "CVE-2015-2692",
@@ -609,7 +609,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-2692",
-      "generated_at": "2026-04-09T07:11:37.865317+00:00"
+      "generated_at": "2026-04-09T12:31:48.526118+00:00"
     },
     {
       "cve_id": "CVE-2017-7876",
@@ -621,7 +621,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7876",
-      "generated_at": "2026-04-09T07:11:37.865685+00:00"
+      "generated_at": "2026-04-09T12:31:48.526441+00:00"
     },
     {
       "cve_id": "CVE-2017-3088",
@@ -633,7 +633,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3088",
-      "generated_at": "2026-04-09T07:11:37.866193+00:00"
+      "generated_at": "2026-04-09T12:31:48.526753+00:00"
     },
     {
       "cve_id": "CVE-2017-6326",
@@ -645,7 +645,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-6326",
-      "generated_at": "2026-04-09T07:11:37.866709+00:00"
+      "generated_at": "2026-04-09T12:31:48.527012+00:00"
     },
     {
       "cve_id": "CVE-2017-10912",
@@ -657,7 +657,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10912",
-      "generated_at": "2026-04-09T07:11:37.867090+00:00"
+      "generated_at": "2026-04-09T12:31:48.527279+00:00"
     },
     {
       "cve_id": "CVE-2017-10918",
@@ -669,7 +669,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10918",
-      "generated_at": "2026-04-09T07:11:37.867568+00:00"
+      "generated_at": "2026-04-09T12:31:48.527529+00:00"
     },
     {
       "cve_id": "CVE-2017-10920",
@@ -681,7 +681,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10920",
-      "generated_at": "2026-04-09T07:11:37.868023+00:00"
+      "generated_at": "2026-04-09T12:31:48.527762+00:00"
     },
     {
       "cve_id": "CVE-2017-10921",
@@ -693,7 +693,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10921",
-      "generated_at": "2026-04-09T07:11:37.868656+00:00"
+      "generated_at": "2026-04-09T12:31:48.527994+00:00"
     },
     {
       "cve_id": "CVE-2017-2343",
@@ -705,7 +705,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-2343",
-      "generated_at": "2026-04-09T07:11:37.869344+00:00"
+      "generated_at": "2026-04-09T12:31:48.528227+00:00"
     },
     {
       "cve_id": "CVE-2017-7664",
@@ -717,7 +717,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7664",
-      "generated_at": "2026-04-09T07:11:37.869982+00:00"
+      "generated_at": "2026-04-09T12:31:48.528490+00:00"
     },
     {
       "cve_id": "CVE-2017-7928",
@@ -729,7 +729,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7928",
-      "generated_at": "2026-04-09T07:11:37.870586+00:00"
+      "generated_at": "2026-04-09T12:31:48.528727+00:00"
     },
     {
       "cve_id": "CVE-2017-10137",
@@ -741,7 +741,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10137",
-      "generated_at": "2026-04-09T07:11:37.870998+00:00"
+      "generated_at": "2026-04-09T12:31:48.528969+00:00"
     },
     {
       "cve_id": "CVE-2017-12905",
@@ -753,7 +753,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12905",
-      "generated_at": "2026-04-09T07:11:37.871310+00:00"
+      "generated_at": "2026-04-09T12:31:48.529261+00:00"
     },
     {
       "cve_id": "CVE-2017-13995",
@@ -765,7 +765,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-13995",
-      "generated_at": "2026-04-09T07:11:37.871663+00:00"
+      "generated_at": "2026-04-09T12:31:48.529494+00:00"
     },
     {
       "cve_id": "CVE-2017-10402",
@@ -777,7 +777,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10402",
-      "generated_at": "2026-04-09T07:11:37.872052+00:00"
+      "generated_at": "2026-04-09T12:31:48.529737+00:00"
     },
     {
       "cve_id": "CVE-2017-10405",
@@ -789,7 +789,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10405",
-      "generated_at": "2026-04-09T07:11:37.872595+00:00"
+      "generated_at": "2026-04-09T12:31:48.530017+00:00"
     },
     {
       "cve_id": "CVE-2017-10151",
@@ -801,7 +801,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10151",
-      "generated_at": "2026-04-09T07:11:37.873045+00:00"
+      "generated_at": "2026-04-09T12:31:48.530255+00:00"
     },
     {
       "cve_id": "CVE-2017-10269",
@@ -813,7 +813,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10269",
-      "generated_at": "2026-04-09T07:11:37.873375+00:00"
+      "generated_at": "2026-04-09T12:31:48.530516+00:00"
     },
     {
       "cve_id": "CVE-2017-16845",
@@ -825,7 +825,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16845",
-      "generated_at": "2026-04-09T07:11:37.873673+00:00"
+      "generated_at": "2026-04-09T12:31:48.530768+00:00"
     },
     {
       "cve_id": "CVE-2017-14378",
@@ -837,7 +837,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14378",
-      "generated_at": "2026-04-09T07:11:37.874003+00:00"
+      "generated_at": "2026-04-09T12:31:48.531071+00:00"
     },
     {
       "cve_id": "CVE-2017-11291",
@@ -849,7 +849,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-11291",
-      "generated_at": "2026-04-09T07:11:37.874298+00:00"
+      "generated_at": "2026-04-09T12:31:48.531339+00:00"
     },
     {
       "cve_id": "CVE-2017-16740",
@@ -861,7 +861,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16740",
-      "generated_at": "2026-04-09T07:11:37.874621+00:00"
+      "generated_at": "2026-04-09T12:31:48.531584+00:00"
     },
     {
       "cve_id": "CVE-2018-2611",
@@ -873,7 +873,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-2611",
-      "generated_at": "2026-04-09T07:11:37.875065+00:00"
+      "generated_at": "2026-04-09T12:31:48.531999+00:00"
     },
     {
       "cve_id": "CVE-2018-0101",
@@ -885,7 +885,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-0101",
-      "generated_at": "2026-04-09T07:11:37.875448+00:00"
+      "generated_at": "2026-04-09T12:31:48.532403+00:00"
     },
     {
       "cve_id": "CVE-2017-12542",
@@ -897,7 +897,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12542",
-      "generated_at": "2026-04-09T07:11:37.875903+00:00"
+      "generated_at": "2026-04-09T12:31:48.532702+00:00"
     },
     {
       "cve_id": "CVE-2018-4872",
@@ -909,7 +909,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-4872",
-      "generated_at": "2026-04-09T07:11:37.876393+00:00"
+      "generated_at": "2026-04-09T12:31:48.532944+00:00"
     },
     {
       "cve_id": "CVE-2018-1000124",
@@ -921,7 +921,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000124",
-      "generated_at": "2026-04-09T07:11:37.876786+00:00"
+      "generated_at": "2026-04-09T12:31:48.533224+00:00"
     },
     {
       "cve_id": "CVE-2017-12815",
@@ -933,7 +933,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12815",
-      "generated_at": "2026-04-09T07:11:37.877152+00:00"
+      "generated_at": "2026-04-09T12:31:48.533466+00:00"
     },
     {
       "cve_id": "CVE-2016-0898",
@@ -945,7 +945,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-0898",
-      "generated_at": "2026-04-09T07:11:37.877541+00:00"
+      "generated_at": "2026-04-09T12:31:48.533702+00:00"
     },
     {
       "cve_id": "CVE-2018-4091",
@@ -957,7 +957,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-4091",
-      "generated_at": "2026-04-09T07:11:37.878042+00:00"
+      "generated_at": "2026-04-09T12:31:48.533946+00:00"
     },
     {
       "cve_id": "CVE-2017-14469",
@@ -969,7 +969,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14469",
-      "generated_at": "2026-04-09T07:11:37.878464+00:00"
+      "generated_at": "2026-04-09T12:31:48.534175+00:00"
     },
     {
       "cve_id": "CVE-2017-14470",
@@ -981,7 +981,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14470",
-      "generated_at": "2026-04-09T07:11:37.878803+00:00"
+      "generated_at": "2026-04-09T12:31:48.534449+00:00"
     },
     {
       "cve_id": "CVE-2017-14471",
@@ -993,7 +993,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14471",
-      "generated_at": "2026-04-09T07:11:37.879268+00:00"
+      "generated_at": "2026-04-09T12:31:48.534697+00:00"
     },
     {
       "cve_id": "CVE-2017-14472",
@@ -1005,7 +1005,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14472",
-      "generated_at": "2026-04-09T07:11:37.879823+00:00"
+      "generated_at": "2026-04-09T12:31:48.534927+00:00"
     },
     {
       "cve_id": "CVE-2017-14473",
@@ -1017,7 +1017,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14473",
-      "generated_at": "2026-04-09T07:11:37.880267+00:00"
+      "generated_at": "2026-04-09T12:31:48.535156+00:00"
     },
     {
       "cve_id": "CVE-2017-14459",
@@ -1029,7 +1029,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14459",
-      "generated_at": "2026-04-09T07:11:37.880810+00:00"
+      "generated_at": "2026-04-09T12:31:48.535385+00:00"
     },
     {
       "cve_id": "CVE-2017-12087",
@@ -1041,7 +1041,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12087",
-      "generated_at": "2026-04-09T07:11:37.881364+00:00"
+      "generated_at": "2026-04-09T12:31:48.535660+00:00"
     },
     {
       "cve_id": "CVE-2018-10718",
@@ -1053,7 +1053,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-10718",
-      "generated_at": "2026-04-09T07:11:37.882187+00:00"
+      "generated_at": "2026-04-09T12:31:48.535925+00:00"
     },
     {
       "cve_id": "CVE-2016-9335",
@@ -1065,7 +1065,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9335",
-      "generated_at": "2026-04-09T07:11:37.882731+00:00"
+      "generated_at": "2026-04-09T12:31:48.536162+00:00"
     },
     {
       "cve_id": "CVE-2018-0222",
@@ -1077,7 +1077,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-0222",
-      "generated_at": "2026-04-09T07:11:37.883064+00:00"
+      "generated_at": "2026-04-09T12:31:48.536469+00:00"
     },
     {
       "cve_id": "CVE-2018-0268",
@@ -1089,7 +1089,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-0268",
-      "generated_at": "2026-04-09T07:11:37.883708+00:00"
+      "generated_at": "2026-04-09T12:31:48.536721+00:00"
     },
     {
       "cve_id": "CVE-2017-16088",
@@ -1101,7 +1101,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16088",
-      "generated_at": "2026-04-09T07:11:37.884241+00:00"
+      "generated_at": "2026-04-09T12:31:48.536952+00:00"
     },
     {
       "cve_id": "CVE-2018-4229",
@@ -1113,7 +1113,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-4229",
-      "generated_at": "2026-04-09T07:11:37.884660+00:00"
+      "generated_at": "2026-04-09T12:31:48.537181+00:00"
     },
     {
       "cve_id": "CVE-2018-6968",
@@ -1125,7 +1125,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-6968",
-      "generated_at": "2026-04-09T07:11:37.885035+00:00"
+      "generated_at": "2026-04-09T12:31:48.537433+00:00"
     },
     {
       "cve_id": "CVE-2018-6667",
@@ -1137,7 +1137,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-6667",
-      "generated_at": "2026-04-09T07:11:37.885559+00:00"
+      "generated_at": "2026-04-09T12:31:48.537712+00:00"
     },
     {
       "cve_id": "CVE-2018-12464",
@@ -1149,7 +1149,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-12464",
-      "generated_at": "2026-04-09T07:11:37.886120+00:00"
+      "generated_at": "2026-04-09T12:31:48.537979+00:00"
     },
     {
       "cve_id": "CVE-2018-3774",
@@ -1161,7 +1161,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3774",
-      "generated_at": "2026-04-09T07:11:37.886812+00:00"
+      "generated_at": "2026-04-09T12:31:48.538218+00:00"
     },
     {
       "cve_id": "CVE-2018-10511",
@@ -1173,7 +1173,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-10511",
-      "generated_at": "2026-04-09T07:11:37.887143+00:00"
+      "generated_at": "2026-04-09T12:31:48.538480+00:00"
     },
     {
       "cve_id": "CVE-2018-1000644",
@@ -1185,7 +1185,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000644",
-      "generated_at": "2026-04-09T07:11:37.887613+00:00"
+      "generated_at": "2026-04-09T12:31:48.538714+00:00"
     },
     {
       "cve_id": "CVE-2018-1000651",
@@ -1197,7 +1197,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000651",
-      "generated_at": "2026-04-09T07:11:37.888239+00:00"
+      "generated_at": "2026-04-09T12:31:48.538945+00:00"
     },
     {
       "cve_id": "CVE-2018-1000652",
@@ -1209,7 +1209,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000652",
-      "generated_at": "2026-04-09T07:11:37.888956+00:00"
+      "generated_at": "2026-04-09T12:31:48.539320+00:00"
     },
     {
       "cve_id": "CVE-2018-6692",
@@ -1221,7 +1221,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-6692",
-      "generated_at": "2026-04-09T07:11:37.889384+00:00"
+      "generated_at": "2026-04-09T12:31:48.539582+00:00"
     },
     {
       "cve_id": "CVE-2018-3907",
@@ -1233,7 +1233,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3907",
-      "generated_at": "2026-04-09T07:11:37.889722+00:00"
+      "generated_at": "2026-04-09T12:31:48.539819+00:00"
     },
     {
       "cve_id": "CVE-2018-1722",
@@ -1245,7 +1245,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1722",
-      "generated_at": "2026-04-09T07:11:37.890248+00:00"
+      "generated_at": "2026-04-09T12:31:48.540070+00:00"
     },
     {
       "cve_id": "CVE-2025-60206",
@@ -1257,7 +1257,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60206",
-      "generated_at": "2026-04-09T07:11:37.890677+00:00"
+      "generated_at": "2026-04-09T12:31:48.540412+00:00"
     },
     {
       "cve_id": "CVE-2025-60235",
@@ -1269,7 +1269,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60235",
-      "generated_at": "2026-04-09T07:11:37.891065+00:00"
+      "generated_at": "2026-04-09T12:31:48.540660+00:00"
     },
     {
       "cve_id": "CVE-2018-2913",
@@ -1281,7 +1281,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-2913",
-      "generated_at": "2026-04-09T07:11:37.891423+00:00"
+      "generated_at": "2026-04-09T12:31:48.540904+00:00"
     },
     {
       "cve_id": "CVE-2018-18748",
@@ -1293,7 +1293,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18748",
-      "generated_at": "2026-04-09T07:11:37.891824+00:00"
+      "generated_at": "2026-04-09T12:31:48.541135+00:00"
     },
     {
       "cve_id": "CVE-2018-16462",
@@ -1305,7 +1305,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-16462",
-      "generated_at": "2026-04-09T07:11:37.892222+00:00"
+      "generated_at": "2026-04-09T12:31:48.541363+00:00"
     },
     {
       "cve_id": "CVE-2018-19047",
@@ -1317,7 +1317,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19047",
-      "generated_at": "2026-04-09T07:11:37.892605+00:00"
+      "generated_at": "2026-04-09T12:31:48.541599+00:00"
     },
     {
       "cve_id": "CVE-2018-19417",
@@ -1329,7 +1329,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19417",
-      "generated_at": "2026-04-09T07:11:37.892977+00:00"
+      "generated_at": "2026-04-09T12:31:48.541841+00:00"
     },
     {
       "cve_id": "CVE-2018-17160",
@@ -1341,7 +1341,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-17160",
-      "generated_at": "2026-04-09T07:11:37.893299+00:00"
+      "generated_at": "2026-04-09T12:31:48.542073+00:00"
     },
     {
       "cve_id": "CVE-2018-18843",
@@ -1353,7 +1353,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18843",
-      "generated_at": "2026-04-09T07:11:37.893925+00:00"
+      "generated_at": "2026-04-09T12:31:48.542307+00:00"
     },
     {
       "cve_id": "CVE-2018-13816",
@@ -1365,7 +1365,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-13816",
-      "generated_at": "2026-04-09T07:11:37.894565+00:00"
+      "generated_at": "2026-04-09T12:31:48.542586+00:00"
     },
     {
       "cve_id": "CVE-2018-1000820",
@@ -1377,7 +1377,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000820",
-      "generated_at": "2026-04-09T07:11:37.895009+00:00"
+      "generated_at": "2026-04-09T12:31:48.542884+00:00"
     },
     {
       "cve_id": "CVE-2018-1000821",
@@ -1389,7 +1389,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000821",
-      "generated_at": "2026-04-09T07:11:37.895375+00:00"
+      "generated_at": "2026-04-09T12:31:48.543137+00:00"
     },
     {
       "cve_id": "CVE-2018-1000822",
@@ -1401,7 +1401,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000822",
-      "generated_at": "2026-04-09T07:11:37.895732+00:00"
+      "generated_at": "2026-04-09T12:31:48.543368+00:00"
     },
     {
       "cve_id": "CVE-2018-1000823",
@@ -1413,7 +1413,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000823",
-      "generated_at": "2026-04-09T07:11:37.896216+00:00"
+      "generated_at": "2026-04-09T12:31:48.543596+00:00"
     },
     {
       "cve_id": "CVE-2018-1000825",
@@ -1425,7 +1425,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000825",
-      "generated_at": "2026-04-09T07:11:37.896549+00:00"
+      "generated_at": "2026-04-09T12:31:48.543832+00:00"
     },
     {
       "cve_id": "CVE-2018-1000830",
@@ -1437,7 +1437,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000830",
-      "generated_at": "2026-04-09T07:11:37.896988+00:00"
+      "generated_at": "2026-04-09T12:31:48.544064+00:00"
     },
     {
       "cve_id": "CVE-2018-1000831",
@@ -1449,7 +1449,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000831",
-      "generated_at": "2026-04-09T07:11:37.897692+00:00"
+      "generated_at": "2026-04-09T12:31:48.544290+00:00"
     },
     {
       "cve_id": "CVE-2018-1000835",
@@ -1461,7 +1461,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000835",
-      "generated_at": "2026-04-09T07:11:37.898250+00:00"
+      "generated_at": "2026-04-09T12:31:48.544540+00:00"
     },
     {
       "cve_id": "CVE-2018-1000837",
@@ -1473,7 +1473,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000837",
-      "generated_at": "2026-04-09T07:11:37.898609+00:00"
+      "generated_at": "2026-04-09T12:31:48.544873+00:00"
     },
     {
       "cve_id": "CVE-2018-1000838",
@@ -1485,7 +1485,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000838",
-      "generated_at": "2026-04-09T07:11:37.898901+00:00"
+      "generated_at": "2026-04-09T12:31:48.545120+00:00"
     },
     {
       "cve_id": "CVE-2018-14721",
@@ -1497,7 +1497,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-14721",
-      "generated_at": "2026-04-09T07:11:37.899235+00:00"
+      "generated_at": "2026-04-09T12:31:48.545384+00:00"
     },
     {
       "cve_id": "CVE-2019-3905",
@@ -1509,7 +1509,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-3905",
-      "generated_at": "2026-04-09T07:11:37.899848+00:00"
+      "generated_at": "2026-04-09T12:31:48.545659+00:00"
     },
     {
       "cve_id": "CVE-2019-0020",
@@ -1521,7 +1521,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0020",
-      "generated_at": "2026-04-09T07:11:37.900190+00:00"
+      "generated_at": "2026-04-09T12:31:48.545897+00:00"
     },
     {
       "cve_id": "CVE-2019-0022",
@@ -1533,7 +1533,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0022",
-      "generated_at": "2026-04-09T07:11:37.900607+00:00"
+      "generated_at": "2026-04-09T12:31:48.546124+00:00"
     },
     {
       "cve_id": "CVE-2015-9280",
@@ -1545,7 +1545,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-9280",
-      "generated_at": "2026-04-09T07:11:37.901196+00:00"
+      "generated_at": "2026-04-09T12:31:48.546351+00:00"
     },
     {
       "cve_id": "CVE-2018-5560",
@@ -1557,7 +1557,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-5560",
-      "generated_at": "2026-04-09T07:11:37.901733+00:00"
+      "generated_at": "2026-04-09T12:31:48.546612+00:00"
     },
     {
       "cve_id": "CVE-2018-18505",
@@ -1569,7 +1569,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18505",
-      "generated_at": "2026-04-09T07:11:37.902188+00:00"
+      "generated_at": "2026-04-09T12:31:48.546851+00:00"
     },
     {
       "cve_id": "CVE-2018-3991",
@@ -1581,7 +1581,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3991",
-      "generated_at": "2026-04-09T07:11:37.902633+00:00"
+      "generated_at": "2026-04-09T12:31:48.547083+00:00"
     },
     {
       "cve_id": "CVE-2019-6235",
@@ -1593,7 +1593,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-6235",
-      "generated_at": "2026-04-09T07:11:37.903238+00:00"
+      "generated_at": "2026-04-09T12:31:48.547310+00:00"
     },
     {
       "cve_id": "CVE-2018-18815",
@@ -1605,19 +1605,19 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18815",
-      "generated_at": "2026-04-09T07:11:37.903637+00:00"
+      "generated_at": "2026-04-09T12:31:48.547561+00:00"
     },
     {
       "cve_id": "CVE-2019-7609",
       "severity": "CRITICAL",
       "cvss_score": 10.0,
-      "is_kev": false,
+      "is_kev": true,
       "description": "Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw in the Timelion visualizer. An attacker with access to the Timelion application could send a request that will attempt to execute javascript code. This could possibly lead to an attacker executing arbitrary commands wit",
       "published": "2019-03-25T19:29:02.147000",
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7609",
-      "generated_at": "2026-04-09T07:11:37.904033+00:00"
+      "generated_at": "2026-04-09T12:31:48.548046+00:00"
     },
     {
       "cve_id": "CVE-2019-10686",
@@ -1629,7 +1629,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10686",
-      "generated_at": "2026-04-09T07:11:37.904561+00:00"
+      "generated_at": "2026-04-09T12:31:48.548475+00:00"
     },
     {
       "cve_id": "CVE-2018-4310",
@@ -1641,7 +1641,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-4310",
-      "generated_at": "2026-04-09T07:11:37.904923+00:00"
+      "generated_at": "2026-04-09T12:31:48.548753+00:00"
     },
     {
       "cve_id": "CVE-2019-4202",
@@ -1653,7 +1653,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-4202",
-      "generated_at": "2026-04-09T07:11:37.905266+00:00"
+      "generated_at": "2026-04-09T12:31:48.549003+00:00"
     },
     {
       "cve_id": "CVE-2019-9174",
@@ -1665,19 +1665,19 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-9174",
-      "generated_at": "2026-04-09T07:11:37.905713+00:00"
+      "generated_at": "2026-04-09T12:31:48.549251+00:00"
     },
     {
       "cve_id": "CVE-2019-11510",
       "severity": "CRITICAL",
       "cvss_score": 10.0,
-      "is_kev": false,
+      "is_kev": true,
       "description": "In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7.1, and 9.0 before 9.0R3.4, an unauthenticated remote attacker can send a specially crafted URI to perform an arbitrary file reading vulnerability .",
       "published": "2019-05-08T17:29:00.630000",
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11510",
-      "generated_at": "2026-04-09T07:11:37.906230+00:00"
+      "generated_at": "2026-04-09T12:31:48.549488+00:00"
     },
     {
       "cve_id": "CVE-2019-1867",
@@ -1689,7 +1689,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1867",
-      "generated_at": "2026-04-09T07:11:37.906715+00:00"
+      "generated_at": "2026-04-09T12:31:48.549722+00:00"
     },
     {
       "cve_id": "CVE-2019-9548",
@@ -1701,7 +1701,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-9548",
-      "generated_at": "2026-04-09T07:11:37.907019+00:00"
+      "generated_at": "2026-04-09T12:31:48.549957+00:00"
     },
     {
       "cve_id": "CVE-2019-12153",
@@ -1713,7 +1713,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-12153",
-      "generated_at": "2026-04-09T07:11:37.907273+00:00"
+      "generated_at": "2026-04-09T12:31:48.550201+00:00"
     },
     {
       "cve_id": "CVE-2019-10959",
@@ -1725,7 +1725,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10959",
-      "generated_at": "2026-04-09T07:11:37.907570+00:00"
+      "generated_at": "2026-04-09T12:31:48.550531+00:00"
     },
     {
       "cve_id": "CVE-2019-7268",
@@ -1737,7 +1737,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7268",
-      "generated_at": "2026-04-09T07:11:37.907777+00:00"
+      "generated_at": "2026-04-09T12:31:48.550773+00:00"
     },
     {
       "cve_id": "CVE-2019-7257",
@@ -1749,7 +1749,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7257",
-      "generated_at": "2026-04-09T07:11:37.908015+00:00"
+      "generated_at": "2026-04-09T12:31:48.551004+00:00"
     },
     {
       "cve_id": "CVE-2019-7003",
@@ -1761,19 +1761,19 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7003",
-      "generated_at": "2026-04-09T07:11:37.908373+00:00"
+      "generated_at": "2026-04-09T12:31:48.551252+00:00"
     },
     {
       "cve_id": "CVE-2019-11708",
       "severity": "CRITICAL",
       "cvss_score": 10.0,
-      "is_kev": false,
+      "is_kev": true,
       "description": "Insufficient vetting of parameters passed with the Prompt:Open IPC message between child and parent processes can result in the non-sandboxed parent process opening web content chosen by a compromised child process. When combined with additional vulnerabilities this could result in executing arbitra",
       "published": "2019-07-23T14:15:15.327000",
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11708",
-      "generated_at": "2026-04-09T07:11:37.908680+00:00"
+      "generated_at": "2026-04-09T12:31:48.551540+00:00"
     },
     {
       "cve_id": "CVE-2019-5684",
@@ -1785,7 +1785,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5684",
-      "generated_at": "2026-04-09T07:11:37.908887+00:00"
+      "generated_at": "2026-04-09T12:31:48.551779+00:00"
     },
     {
       "cve_id": "CVE-2016-10926",
@@ -1797,7 +1797,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-10926",
-      "generated_at": "2026-04-09T07:11:37.909078+00:00"
+      "generated_at": "2026-04-09T12:31:48.552011+00:00"
     },
     {
       "cve_id": "CVE-2016-10927",
@@ -1809,7 +1809,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-10927",
-      "generated_at": "2026-04-09T07:11:37.909380+00:00"
+      "generated_at": "2026-04-09T12:31:48.552240+00:00"
     },
     {
       "cve_id": "CVE-2019-13020",
@@ -1821,7 +1821,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-13020",
-      "generated_at": "2026-04-09T07:11:37.909991+00:00"
+      "generated_at": "2026-04-09T12:31:48.552498+00:00"
     },
     {
       "cve_id": "CVE-2019-12643",
@@ -1833,7 +1833,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-12643",
-      "generated_at": "2026-04-09T07:11:37.910404+00:00"
+      "generated_at": "2026-04-09T12:31:48.552733+00:00"
     },
     {
       "cve_id": "CVE-2019-11061",
@@ -1845,7 +1845,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11061",
-      "generated_at": "2026-04-09T07:11:37.910842+00:00"
+      "generated_at": "2026-04-09T12:31:48.552969+00:00"
     },
     {
       "cve_id": "CVE-2019-11063",
@@ -1857,7 +1857,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11063",
-      "generated_at": "2026-04-09T07:11:37.911214+00:00"
+      "generated_at": "2026-04-09T12:31:48.553210+00:00"
     },
     {
       "cve_id": "CVE-2019-5485",
@@ -1869,7 +1869,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5485",
-      "generated_at": "2026-04-09T07:11:37.911588+00:00"
+      "generated_at": "2026-04-09T12:31:48.553514+00:00"
     },
     {
       "cve_id": "CVE-2019-11210",
@@ -1881,7 +1881,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11210",
-      "generated_at": "2026-04-09T07:11:37.911896+00:00"
+      "generated_at": "2026-04-09T12:31:48.553755+00:00"
     },
     {
       "cve_id": "CVE-2019-16649",
@@ -1893,7 +1893,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-16649",
-      "generated_at": "2026-04-09T07:11:37.912130+00:00"
+      "generated_at": "2026-04-09T12:31:48.553987+00:00"
     },
     {
       "cve_id": "CVE-2019-16650",
@@ -1905,7 +1905,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-16650",
-      "generated_at": "2026-04-09T07:11:37.912366+00:00"
+      "generated_at": "2026-04-09T12:31:48.554216+00:00"
     },
     {
       "cve_id": "CVE-2019-16932",
@@ -1917,7 +1917,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-16932",
-      "generated_at": "2026-04-09T07:11:37.912750+00:00"
+      "generated_at": "2026-04-09T12:31:48.554461+00:00"
     },
     {
       "cve_id": "CVE-2019-1372",
@@ -1929,7 +1929,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1372",
-      "generated_at": "2026-04-09T07:11:37.913436+00:00"
+      "generated_at": "2026-04-09T12:31:48.554695+00:00"
     },
     {
       "cve_id": "CVE-2019-13411",
@@ -1941,7 +1941,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-13411",
-      "generated_at": "2026-04-09T07:11:37.913908+00:00"
+      "generated_at": "2026-04-09T12:31:48.554925+00:00"
     },
     {
       "cve_id": "CVE-2019-15066",
@@ -1953,7 +1953,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-15066",
-      "generated_at": "2026-04-09T07:11:37.914206+00:00"
+      "generated_at": "2026-04-09T12:31:48.555162+00:00"
     },
     {
       "cve_id": "CVE-2019-5049",
@@ -1965,7 +1965,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5049",
-      "generated_at": "2026-04-09T07:11:37.914461+00:00"
+      "generated_at": "2026-04-09T12:31:48.555395+00:00"
     },
     {
       "cve_id": "CVE-2019-5151",
@@ -1977,7 +1977,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5151",
-      "generated_at": "2026-04-09T07:11:37.914714+00:00"
+      "generated_at": "2026-04-09T12:31:48.555625+00:00"
     },
     {
       "cve_id": "CVE-2018-4031",
@@ -1989,7 +1989,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-4031",
-      "generated_at": "2026-04-09T07:11:37.914976+00:00"
+      "generated_at": "2026-04-09T12:31:48.555869+00:00"
     },
     {
       "cve_id": "CVE-2019-5617",
@@ -2001,7 +2001,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5617",
-      "generated_at": "2026-04-09T07:11:37.915372+00:00"
+      "generated_at": "2026-04-09T12:31:48.556100+00:00"
     },
     {
       "cve_id": "CVE-2019-5644",
@@ -2013,7 +2013,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5644",
-      "generated_at": "2026-04-09T07:11:37.916050+00:00"
+      "generated_at": "2026-04-09T12:31:48.556332+00:00"
     },
     {
       "cve_id": "CVE-2019-14678",
@@ -2025,7 +2025,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-14678",
-      "generated_at": "2026-04-09T07:11:37.916455+00:00"
+      "generated_at": "2026-04-09T12:31:48.556584+00:00"
     },
     {
       "cve_id": "CVE-2019-18580",
@@ -2037,7 +2037,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-18580",
-      "generated_at": "2026-04-09T07:11:37.916999+00:00"
+      "generated_at": "2026-04-09T12:31:48.556839+00:00"
     },
     {
       "cve_id": "CVE-2019-18253",
@@ -2049,7 +2049,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-18253",
-      "generated_at": "2026-04-09T07:11:37.917464+00:00"
+      "generated_at": "2026-04-09T12:31:48.557168+00:00"
     },
     {
       "cve_id": "CVE-2013-3542",
@@ -2061,7 +2061,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2013-3542",
-      "generated_at": "2026-04-09T07:11:37.917838+00:00"
+      "generated_at": "2026-04-09T12:31:48.557476+00:00"
     },
     {
       "cve_id": "CVE-2019-7290",
@@ -2073,7 +2073,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7290",
-      "generated_at": "2026-04-09T07:11:37.918147+00:00"
+      "generated_at": "2026-04-09T12:31:48.557741+00:00"
     },
     {
       "cve_id": "CVE-2019-8779",
@@ -2085,7 +2085,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-8779",
-      "generated_at": "2026-04-09T07:11:37.918542+00:00"
+      "generated_at": "2026-04-09T12:31:48.558000+00:00"
     },
     {
       "cve_id": "CVE-2019-17440",
@@ -2097,7 +2097,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2019-17440",
-      "generated_at": "2026-04-09T07:11:37.918875+00:00"
+      "generated_at": "2026-04-09T12:31:48.558234+00:00"
     },
     {
       "cve_id": "CVE-2020-6961",
@@ -2109,7 +2109,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6961",
-      "generated_at": "2026-04-09T07:11:37.919151+00:00"
+      "generated_at": "2026-04-09T12:31:48.558515+00:00"
     },
     {
       "cve_id": "CVE-2020-6962",
@@ -2121,7 +2121,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6962",
-      "generated_at": "2026-04-09T07:11:37.919500+00:00"
+      "generated_at": "2026-04-09T12:31:48.558786+00:00"
     },
     {
       "cve_id": "CVE-2020-6963",
@@ -2133,7 +2133,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6963",
-      "generated_at": "2026-04-09T07:11:37.919866+00:00"
+      "generated_at": "2026-04-09T12:31:48.559030+00:00"
     },
     {
       "cve_id": "CVE-2020-6966",
@@ -2145,7 +2145,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6966",
-      "generated_at": "2026-04-09T07:11:37.920456+00:00"
+      "generated_at": "2026-04-09T12:31:48.559259+00:00"
     },
     {
       "cve_id": "CVE-2020-6769",
@@ -2157,7 +2157,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6769",
-      "generated_at": "2026-04-09T07:11:37.920905+00:00"
+      "generated_at": "2026-04-09T12:31:48.559535+00:00"
     },
     {
       "cve_id": "CVE-2020-6770",
@@ -2169,7 +2169,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6770",
-      "generated_at": "2026-04-09T07:11:37.921348+00:00"
+      "generated_at": "2026-04-09T12:31:48.559782+00:00"
     },
     {
       "cve_id": "CVE-2015-0565",
@@ -2181,19 +2181,19 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-0565",
-      "generated_at": "2026-04-09T07:11:37.921823+00:00"
+      "generated_at": "2026-04-09T12:31:48.560054+00:00"
     },
     {
       "cve_id": "CVE-2020-0796",
       "severity": "CRITICAL",
       "cvss_score": 10.0,
-      "is_kev": false,
+      "is_kev": true,
       "description": "A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.",
       "published": "2020-03-12T16:15:15.627000",
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-0796",
-      "generated_at": "2026-04-09T07:11:37.922377+00:00"
+      "generated_at": "2026-04-09T12:31:48.560292+00:00"
     },
     {
       "cve_id": "CVE-2020-1953",
@@ -2205,7 +2205,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1953",
-      "generated_at": "2026-04-09T07:11:37.922825+00:00"
+      "generated_at": "2026-04-09T12:31:48.560545+00:00"
     },
     {
       "cve_id": "CVE-2020-3936",
@@ -2217,7 +2217,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-3936",
-      "generated_at": "2026-04-09T07:11:37.923171+00:00"
+      "generated_at": "2026-04-09T12:31:48.560776+00:00"
     },
     {
       "cve_id": "CVE-2020-1614",
@@ -2229,7 +2229,7 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1614",
-      "generated_at": "2026-04-09T07:11:37.923557+00:00"
+      "generated_at": "2026-04-09T12:31:48.561006+00:00"
     },
     {
       "cve_id": "CVE-2020-12079",
@@ -2241,211 +2241,211 @@
       "ioc_count": 0,
       "iocs": [],
       "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-12079",
-      "generated_at": "2026-04-09T07:11:37.924267+00:00"
+      "generated_at": "2026-04-09T12:31:48.561236+00:00"
     },
     {
-      "cve_id": "CVE-2009-3616",
+      "cve_id": "CVE-2020-12388",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "Multiple use-after-free vulnerabilities in vnc.c in the VNC server in QEMU 0.10.6 and earlier might allow guest OS users to execute arbitrary code on the host OS by establishing a connection from a VNC client and then (1) disconnecting during data transfer, (2) sending a message using incorrect inte",
-      "published": "2009-10-23T18:30:00.390000",
+      "description": "The Firefox content processes did not sufficiently lockdown access control which could result in a sandbox escape. *Note: this issue only affects Firefox on Windows operating systems.*. This vulnerability affects Firefox ESR < 68.8 and Firefox < 76.",
+      "published": "2020-05-26T18:15:11.077000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2009-3616",
-      "generated_at": "2026-04-09T07:11:37.924770+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-12388",
+      "generated_at": "2026-04-09T12:31:48.561468+00:00"
     },
     {
-      "cve_id": "CVE-2012-1516",
+      "cve_id": "CVE-2020-12389",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "The VMX process in VMware ESXi 3.5 through 4.1 and ESX 3.5 through 4.1 does not properly handle RPC commands, which allows guest OS users to cause a denial of service (memory overwrite and process crash) or possibly execute arbitrary code on the host OS via vectors involving data pointers.",
-      "published": "2012-05-04T16:55:01.420000",
+      "description": "The Firefox content processes did not sufficiently lockdown access control which could result in a sandbox escape. *Note: this issue only affects Firefox on Windows operating systems.*. This vulnerability affects Firefox ESR < 68.8 and Firefox < 76.",
+      "published": "2020-05-26T18:15:11.153000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2012-1516",
-      "generated_at": "2026-04-09T07:11:37.925135+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-12389",
+      "generated_at": "2026-04-09T12:31:48.561695+00:00"
     },
     {
-      "cve_id": "CVE-2015-7926",
+      "cve_id": "CVE-2020-12493",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "eWON devices with firmware before 10.1s0 omit RBAC for I/O server information and status requests, which allows remote attackers to obtain sensitive information via an unspecified URL.",
-      "published": "2015-12-23T11:59:02.050000",
+      "description": "An open port used for debugging in SWARCOs CPU LS4000 Series with versions starting with G4... grants root access to the device without access control via network. A malicious user could use this vulnerability to get access to the device and disturb operations with connected devices.",
+      "published": "2020-05-29T18:15:11.127000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7926",
-      "generated_at": "2026-04-09T07:11:37.925636+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-12493",
+      "generated_at": "2026-04-09T12:31:48.561921+00:00"
     },
     {
-      "cve_id": "CVE-2016-2396",
+      "cve_id": "CVE-2020-11844",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "The GMS ViewPoint (GMSVP) web application in Dell SonicWALL GMS, Analyzer, and UMA EM5000 7.2, 8.0, and 8.1 before Hotfix 168056 allows remote authenticated users to execute arbitrary commands via vectors related to configuration input.",
-      "published": "2016-02-17T15:59:06.737000",
+      "description": "Incorrect Authorization vulnerability in Micro Focus Container Deployment Foundation component affects products: - Hybrid Cloud Management. Versions 2018.05 to 2019.11. - ArcSight Investigate. versions 2.4.0, 3.0.0 and 3.1.0. - ArcSight Transformation Hub. versions 3.0.0, 3.1.0, 3.2.0. - ArcSight In",
+      "published": "2020-05-29T22:15:10.473000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-2396",
-      "generated_at": "2026-04-09T07:11:37.926000+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11844",
+      "generated_at": "2026-04-09T12:31:48.562147+00:00"
     },
     {
-      "cve_id": "CVE-2015-7411",
+      "cve_id": "CVE-2020-8967",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "The portal client in IBM Tivoli Monitoring (ITM) 6.2.2 through FP9, 6.2.3 through FP5, and 6.3.0 through FP6 allows remote authenticated users to gain privileges via unspecified vectors.",
-      "published": "2016-03-12T02:59:01.517000",
+      "description": "There is an improper Neutralization of Special Elements used in an SQL Command (SQL Injection) vulnerability in php files of GESIO ERP. GESIO ERP all versions prior to 11.2 allows malicious users to retrieve all database information.",
+      "published": "2020-06-01T14:15:10.647000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7411",
-      "generated_at": "2026-04-09T07:11:37.926322+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-8967",
+      "generated_at": "2026-04-09T12:31:48.562376+00:00"
     },
     {
-      "cve_id": "CVE-2016-9832",
+      "cve_id": "CVE-2020-9411",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "PricewaterhouseCoopers (PwC) ACE-ABAP 8.10.304 for SAP Security allows remote authenticated users to conduct ABAP injection attacks and execute arbitrary code via (1) SAPGUI or (2) Internet Communication Framework (ICF) over HTTP or HTTPS, as demonstrated by WEBGUI or Report.",
-      "published": "2016-12-10T02:59:24.340000",
+      "description": "The file transfer component of TIBCO Software Inc.'s TIBCO Managed File Transfer Platform Server for IBM i contains a vulnerability that theoretically allows an attacker to perform unauthorized network file transfers to and from the file system accessible to the affected component. This vulnerabilit",
+      "published": "2020-06-09T17:15:10.973000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9832",
-      "generated_at": "2026-04-09T07:11:37.926668+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9411",
+      "generated_at": "2026-04-09T12:31:48.562623+00:00"
     },
     {
-      "cve_id": "CVE-2016-8355",
+      "cve_id": "CVE-2020-9412",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "An issue was discovered in Smiths-Medical CADD-Solis Medication Safety Software, Version 1.0; 2.0; 3.0; and 3.1. CADD-Solis Medication Safety Software grants an authenticated user elevated privileges on the SQL database, which would allow an authenticated user to modify drug libraries, add and delet",
-      "published": "2017-02-13T22:59:00.133000",
+      "description": "The file transfer component of TIBCO Software Inc.'s TIBCO Managed File Transfer Platform Server for IBM i contains a vulnerability that theoretically allows execution of arbitrary commands at the privilege level of the affected system following a failed file transfer. Affected releases are TIBCO So",
+      "published": "2020-06-09T17:15:11.080000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8355",
-      "generated_at": "2026-04-09T07:11:37.927022+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9412",
+      "generated_at": "2026-04-09T12:31:48.562854+00:00"
     },
     {
-      "cve_id": "CVE-2016-9269",
+      "cve_id": "CVE-2020-11896",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "Remote Command Execution in com.trend.iwss.gui.servlet.ManagePatches in Trend Micro Interscan Web Security Virtual Appliance (IWSVA) version 6.5-SP2_Build_Linux_1707 and earlier allows authenticated, remote users with least privileges to run arbitrary commands on the system as root via Patch Update ",
-      "published": "2017-02-21T07:59:00.217000",
+      "description": "The Treck TCP/IP stack before 6.0.1.66 allows Remote Code Execution, related to IPv4 tunneling.",
+      "published": "2020-06-17T11:15:09.990000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9269",
-      "generated_at": "2026-04-09T07:11:37.927403+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11896",
+      "generated_at": "2026-04-09T12:31:48.563302+00:00"
     },
     {
-      "cve_id": "CVE-2017-6513",
+      "cve_id": "CVE-2020-11897",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "The WHMCS Reseller Module V2 2.0.2 in Softaculous Virtualizor before 2.9.1.0 does not verify the user correctly, which allows remote authenticated users to control other virtual machines managed by Virtualizor by accessing a modified URL.",
-      "published": "2017-03-11T06:59:00.243000",
+      "description": "The Treck TCP/IP stack before 5.0.1.35 has an Out-of-Bounds Write via multiple malformed IPv6 packets.",
+      "published": "2020-06-17T11:15:10.087000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-6513",
-      "generated_at": "2026-04-09T07:11:37.927652+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11897",
+      "generated_at": "2026-04-09T12:31:48.563655+00:00"
     },
     {
-      "cve_id": "CVE-2016-6902",
+      "cve_id": "CVE-2018-21268",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "lshell 0.9.16 allows remote authenticated users to break out of a limited shell and execute arbitrary commands.",
-      "published": "2017-04-24T19:59:00.330000",
+      "description": "The traceroute (aka node-traceroute) package through 1.0.0 for Node.js allows remote command injection via the host parameter. This occurs because the Child.exec() method, which is considered to be not entirely safe, is used. In particular, an OS command can be placed after a newline character.",
+      "published": "2020-06-25T17:15:11.567000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6902",
-      "generated_at": "2026-04-09T07:11:37.927964+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2018-21268",
+      "generated_at": "2026-04-09T12:31:48.563942+00:00"
     },
     {
-      "cve_id": "CVE-2016-6903",
+      "cve_id": "CVE-2020-2021",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "lshell 0.9.16 allows remote authenticated users to break out of a limited shell and execute arbitrary commands.",
-      "published": "2017-04-24T19:59:00.377000",
+      "cvss_score": 10.0,
+      "is_kev": true,
+      "description": "When Security Assertion Markup Language (SAML) authentication is enabled and the 'Validate Identity Provider Certificate' option is disabled (unchecked), improper verification of signatures in PAN-OS SAML authentication enables an unauthenticated network-based attacker to access protected resources.",
+      "published": "2020-06-29T15:15:12.733000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6903",
-      "generated_at": "2026-04-09T07:11:37.928266+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-2021",
+      "generated_at": "2026-04-09T12:31:48.564202+00:00"
     },
     {
-      "cve_id": "CVE-2017-3503",
+      "cve_id": "CVE-2020-6287",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "Vulnerability in the Primavera P6 Enterprise Project Portfolio Management component of Oracle Primavera Products Suite (subcomponent: Web Access (Apache Commons BeanUtils)). Supported versions that are affected are 8.3, 8.4, 15.1, 15.2, 16.1 and 16.2. Easily \"exploitable\" vulnerability allows low pr",
-      "published": "2017-04-24T19:59:02.910000",
+      "cvss_score": 10.0,
+      "is_kev": true,
+      "description": "SAP NetWeaver AS JAVA (LM Configuration Wizard), versions - 7.30, 7.31, 7.40, 7.50, does not perform an authentication check which allows an attacker without prior authentication to execute configuration tasks to perform critical actions against the SAP Java system, including the ability to create a",
+      "published": "2020-07-14T13:15:13",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3503",
-      "generated_at": "2026-04-09T07:11:37.928697+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-6287",
+      "generated_at": "2026-04-09T12:31:48.564440+00:00"
     },
     {
-      "cve_id": "CVE-2017-3553",
+      "cve_id": "CVE-2020-13753",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "Vulnerability in the Oracle Identity Manager component of Oracle Fusion Middleware (subcomponent: Rules Engine). The supported version that is affected is 11.1.2.3.0. Easily \"exploitable\" vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Identity Manager.",
-      "published": "2017-04-24T19:59:04.550000",
+      "description": "The bubblewrap sandbox of WebKitGTK and WPE WebKit, prior to 2.28.3, failed to properly block access to CLONE_NEWUSER and the TIOCSTI ioctl. CLONE_NEWUSER could potentially be used to confuse xdg-desktop-portal, which allows access outside the sandbox. TIOCSTI can be used to directly execute command",
+      "published": "2020-07-14T14:15:17.603000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-3553",
-      "generated_at": "2026-04-09T07:11:37.929224+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-13753",
+      "generated_at": "2026-04-09T12:31:48.564722+00:00"
     },
     {
-      "cve_id": "CVE-2017-8220",
+      "cve_id": "CVE-2020-1350",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
-      "is_kev": false,
-      "description": "TP-Link C2 and C20i devices through firmware 0.9.1 4.2 v0032.0 Build 160706 Rel.37961n allow remote code execution with a single HTTP request by placing shell commands in a \"host=\" line within HTTP POST data.",
-      "published": "2017-04-25T20:59:00.257000",
+      "cvss_score": 10.0,
+      "is_kev": true,
+      "description": "A remote code execution vulnerability exists in Windows Domain Name System servers when they fail to properly handle requests, aka 'Windows DNS Server Remote Code Execution Vulnerability'.",
+      "published": "2020-07-14T23:15:13.087000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8220",
-      "generated_at": "2026-04-09T07:11:37.929770+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1350",
+      "generated_at": "2026-04-09T12:31:48.564994+00:00"
     },
     {
-      "cve_id": "CVE-2017-4901",
+      "cve_id": "CVE-2020-14606",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "The drag-and-drop (DnD) function in VMware Workstation 12.x before version 12.5.4 and Fusion 8.x before version 8.5.5 has an out-of-bounds memory access vulnerability. This may allow a guest to execute code on the operating system that runs Workstation or Fusion.",
-      "published": "2017-06-08T13:29:00.187000",
+      "description": "Vulnerability in the Oracle SD-WAN Edge product of Oracle Communications Applications (component: User Interface). Supported versions that are affected are 8.2 and 9.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SD-WAN Edge. Whi",
+      "published": "2020-07-15T18:15:26.177000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-4901",
-      "generated_at": "2026-04-09T07:11:37.930284+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-14606",
+      "generated_at": "2026-04-09T12:31:48.565304+00:00"
     },
     {
-      "cve_id": "CVE-2017-1253",
+      "cve_id": "CVE-2020-14701",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "IBM Security Guardium 10.0 could allow a remote authenticated attacker to execute arbitrary commands on the system. By sending a specially-crafted request, an attacker could exploit this vulnerability to execute arbitrary commands on the system. IBM X-Force ID: 124633.",
-      "published": "2017-07-05T18:29:00.467000",
+      "description": "Vulnerability in the Oracle SD-WAN Aware product of Oracle Communications Applications (component: User Interface). The supported version that is affected is 8.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SD-WAN Aware. While th",
+      "published": "2020-07-15T18:15:34.300000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-1253",
-      "generated_at": "2026-04-09T07:11:37.930824+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-14701",
+      "generated_at": "2026-04-09T12:31:48.565557+00:00"
     },
     {
-      "cve_id": "CVE-2017-7175",
+      "cve_id": "CVE-2020-7356",
       "severity": "CRITICAL",
-      "cvss_score": 9.9,
+      "cvss_score": 10.0,
       "is_kev": false,
-      "description": "NfSen before 1.3.8 allows remote attackers to execute arbitrary OS commands via shell metacharacters in the customfmt parameter (aka the \"Custom output format\" field).",
-      "published": "2017-07-10T19:29:00.173000",
+      "description": "CAYIN xPost suffers from an unauthenticated SQL Injection vulnerability. Input passed via the GET parameter 'wayfinder_seqid' in wayfinder_meeting_input.jsp is not properly sanitized before being returned to the user or used in SQL queries. This can be exploited to manipulate SQL queries by injectin",
+      "published": "2020-08-06T16:15:13.577000",
       "ioc_count": 0,
       "iocs": [],
-      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7175",
-      "generated_at": "2026-04-09T07:11:37.931326+00:00"
+      "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-7356",
+      "generated_at": "2026-04-09T12:31:48.565805+00:00"
     }
   ],
   "count": 200
